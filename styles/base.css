@@ -15,7 +15,7 @@ header {
     
 header img {
     max-width: 100px; 
-    box-shadow: 1px 1px#93a8a7;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
     align-self: flex-start;
     margin-right: 10px;
 }
