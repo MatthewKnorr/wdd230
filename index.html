@@ -1,33 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Class project WDD 230, Matthew Knorr, intial page for week one">
+    <meta name="description" content="WDD 230 - Web Frontend Development ~ Course assignment portal">
     <meta name="author" content="Matthew Knorr">
     <title>Matthew Knorr - WDD 230 - Web Frontend Development</title>
 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+
 </head>
+
 <body>
-    <h1>Welcome To The Swamp</h1>
-        <h2></h2>
-        <h3></h3>
-        <h3></h3>
-        <section></section>
-        <section></section>
-        <img src="" alt="">
     <header>
-
+        <img src="/images/mainprofilepicture.JPG" alt="Personal Profile Picture">
+        <h1>Matthew Knorr</h1>
     </header>
-    <nav>
-    
-    </nav>  
-    <main>
 
+    <nav>
+        <a href="#">Home</a>
+        <a href="chamber/siteplan.html">Siteplan</a>
+        <a href="chamber/">Chamber</a>
+        <a href="https://www.byui.edu/">BYU-Idaho</a>
+        <a
+            href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/36?lang=eng#study_summary1">Scripture</a>
+    </nav>
+
+    <main>
+        <h2>WDD 230: Web Frontend Development</h2>
+        <section class="card">
+            <h3>Learning Activities</h3>
+            <ol>
+                <li><a href="#">Holy Grail | HTML~CSS</a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"> </a></li>
+                <li><a href="#"> </a></li>
+                <li><a href="#"> </a></li>
+                <li><a href="#"> </a></li>
+                <li><a href="#"> </a></li>
+                <li><a href="#"> </a></li>
+                <li><a href="#"> </a></li>
+                <li><a href="#"> </a></li>
+
+            </ol>
+        </section>
+        <section class="card">
+            <h3>Information</h3>
+            <p>Rexburg, Idaho</p>
+            <p>Tempature - Weather</p>
+            <p>Page Visits: </p>
+        </section>
     </main>
+
     <footer>
-        
+        <p>&#169; <span id="currentYear"></span><br> Matthew Knorr <br> <span id="country">United States of America</span>
+        </p>
+        <p id="lastModified"></p>
     </footer>
+
+
+    <script src="/scripts/getdates.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,119 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #1d4d72; 
+    color: white; 
+    text-align: center;
+    padding: 20px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+    
+header img {
+    max-width: 100px; 
+    box-shadow: 1px 1px#93a8a7;
+    align-self: flex-start;
+    margin-right: 10px;
+}
+
+header h1 {
+    margin: 0; 
+    font-size: 35px;
+    margin-right: 10%;
+}
+
+
+nav {
+    text-align: center;
+    background-color: black;
+}
+
+nav a {
+    display: block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease; 
+    font-size: 23px;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #1d4d72; 
+}
+
+main h2 {
+    text-align: center; 
+    margin:0;
+    font-weight: 400;
+    position: relative;
+}
+
+main h2::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95%; 
+    height: 1px;
+    background-color: black; 
+}
+
+.card {
+    background-color: white; 
+    text-align: center; 
+    border: 1px solid black;
+    border-radius: 10px; 
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2); 
+    margin: 20px auto; 
+    max-width: 93%; 
+    
+}
+
+.card h3 {
+    background-color: #1d4d72; 
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 9px; 
+    border-top-right-radius: 9px; 
+    margin-top: 0; 
+}
+
+.card ol {
+    text-align: left; 
+    padding-left: 20px; 
+    list-style-position: inside; 
+}
+
+.card li {
+    margin: 10px 0; 
+}
+
+
+
+footer {
+    font-size: 20px;
+    text-align: center; 
+    padding: 20px 0;
+    background-color: #1d4d72; 
+    color: white;
+}
+
+footer p:first-child {
+    margin: 0;
+}
+
+footer #country {
+    font-weight: bold; 
+}
+
+footer #lastModified {
+    margin-top: 5px; 
+    color:#d2ec0b ;
+}
