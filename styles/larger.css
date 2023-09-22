@@ -21,6 +21,14 @@
     .card {
         max-width: 100%; /* Make cards take full width */
     }
+
+    .card-one {
+        width: 80%;
+        
+    }
+    .card-two {
+        width: 80%;
+    }
 }
 
 /* Tablet */
@@ -35,7 +43,7 @@
         font-size: 23px;
         padding: 10px;
     }
-    .card-container {
+.card-container {
         flex-direction: row; /* Display cards side by side */
     }
 

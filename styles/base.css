@@ -46,13 +46,11 @@ nav a:hover {
 }
 
 main h2 {
-    text-align: left; 
+    text-align: center; 
     margin:0;
     font-weight: 400;
     position: relative;
-    padding-left:  50px;
 }
-
 
 main h2::before {
     content: '';
@@ -76,13 +74,19 @@ main h2::before {
     text-align: center;
     border: 1px solid black;
     border-radius: 10px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-    flex: 1; /* Distribute available space equally between the two sections */
-    margin: 20px;
-    max-width: calc(50% - 40px); /* Set the maximum width for each section */
-    box-sizing: border-box; /* Include padding and border in the width calculation */
+    box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.5);
+    margin: 25px auto;
+    max-width: calc(50% - 40px); 
 }
 
+.card-one {
+    width: 60%;
+    
+}
+.card-two {
+    width: 30%;
+    align-items: center;
+}
 
 
 .card h3 {
@@ -129,6 +133,7 @@ footer #lastModified {
     margin-top: 5px; 
     color: #d2ec0b;
 }
+
 
 
 /* Import the media queries from the separate file */
