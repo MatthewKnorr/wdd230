@@ -1,4 +1,4 @@
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     margin: 0 auto;
 }
@@ -12,7 +12,7 @@ header {
     justify-content: center;
     align-items: center; 
 }
-    
+
 header img {
     max-width: 100px; 
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
@@ -25,7 +25,6 @@ header h1 {
     font-size: 35px;
     margin-right: 10%;
 }
-
 
 nav {
     text-align: center;
@@ -47,15 +46,17 @@ nav a:hover {
 }
 
 main h2 {
-    text-align: center; 
+    text-align: left; 
     margin:0;
     font-weight: 400;
     position: relative;
+    padding-left:  50px;
 }
+
 
 main h2::before {
     content: '';
-    display: block;
+    display: block;                                           
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -65,16 +66,24 @@ main h2::before {
     background-color: black; 
 }
 
-.card {
-    background-color: white; 
-    text-align: center; 
-    border: 1px solid black;
-    border-radius: 10px; 
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2); 
-    margin: 20px auto; 
-    max-width: 93%; 
-    
+.card-container {
+    display: flex; /* Use flexbox to arrange the sections side by side */
+    justify-content: space-between; /* Add space between the sections */
 }
+
+.card {
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    flex: 1; /* Distribute available space equally between the two sections */
+    margin: 20px;
+    max-width: calc(50% - 40px); /* Set the maximum width for each section */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+
 
 .card h3 {
     background-color: #1d4d72; 
@@ -118,5 +127,68 @@ footer #country {
 
 footer #lastModified {
     margin-top: 5px; 
-    color:#d2ec0b ;
+    color: #d2ec0b;
 }
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+    nav {
+        display: block;
+        text-align: center;
+    }
+    nav a {
+        display: block;
+        font-size: 20px;
+        padding: 8px;
+    }
+
+    main h2 {
+        padding-left:  0;
+        text-align: center;
+    }
+    .card-container {
+        flex-direction: column; /* Stack cards on top of each other */
+    }
+
+    .card {
+        max-width: 100%; /* Make cards take full width */
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav a {
+        display: block;
+        font-size: 23px;
+        padding: 10px;
+    }
+    .card-container {
+        flex-direction: row; /* Display cards side by side */
+    }
+
+    .card {
+        max-width: calc(50% - 40px); /* Set the maximum width for each card */
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav a {
+        display: inline-block;
+        font-size: 23px;
+        padding: 10px;
+    }
+}
+
+/* Import the media queries from the separate file */
+/* @import url('media-queries.css'); */
