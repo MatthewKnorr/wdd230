@@ -108,7 +108,7 @@ footer #lastModified {
         flex: 0 0 calc(100% - 20px); /* Adjust card width for the third card */
     }
     footer, header{
-        width: 100%;
+        widt    : 100%;
         height: 100%;
     }
 }
