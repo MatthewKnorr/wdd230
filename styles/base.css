@@ -205,7 +205,54 @@ footer #lastModified {
     .hamburger {
         display: block;
     }
+
+    
 }
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    nav a {
+      display: block;
+      font-size: 23px;
+      padding: 10px;
+    }
+    .card-container {
+      flex-direction: row; /* Display cards side by side */
+    }
+  
+    .card {
+      max-width: calc(50% - 40px); /* Set the maximum width for each card */
+    }
+    
+  }
+  
+  /* Desktop */
+  @media screen and (min-width: 1024px) {
+    nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    nav a {
+      display: inline-block;
+      font-size: 23px;
+      padding: 10px;
+    }
+  
+    .hamburger {
+      display: none; /* Hide the hamburger menu in desktop view */
+    }
+  
+    nav a {
+      font-size: 23px;
+      padding: 10px;
+    }
+  }
+  
 
 
 /* Additional CSS for the close button */
