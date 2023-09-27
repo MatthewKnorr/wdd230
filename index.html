@@ -13,7 +13,7 @@
     <title>Matthew Knorr - WDD 230 - Web Frontend Development</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    
+
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
@@ -21,12 +21,26 @@
     <link rel="icon" href="/images/favicon.ico">
 
 </head>
-
 <body>
     <header>
         <img src="../wdd230/images/profile.JPG" alt="Personal Profile Picture">
         <h1>Matthew Knorr</h1>
+
+        <!-- Add the hamburger menu button -->
+        <div id="hamburger-menu" class="hamburger">&#8801;</div>
     </header>
+
+    <!-- Mobile menu -->
+    <div id="mobile-menu" class="mobile-menu">
+        <!-- Close button -->
+        <div id="close-button" class="close-button">&#10006;</div>
+        <!-- Mobile menu items -->
+        <a href="#">Home</a>
+        <a href="chamber/siteplan.html">Siteplan</a>
+        <a href="chamber/">Chamber</a>
+        <a href="https://www.byui.edu/">BYU-Idaho</a>
+        <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/36?lang=eng#study_summary1">Scripture</a>
+    </div>
 
     <nav>
         <a href="#">Home</a>
@@ -48,8 +62,6 @@
                     <li><a href="https://codepen.io/MatthewKnorr/pen/XWoEBqp">Pseudo-Element CodePen |</a></li>
                     <li><a href="https://codepen.io/MatthewKnorr/pen/PoXRdWw">Responsive "Hamburger" Menu </a></li>
                     <li><a href="#"> </a></li>
-
- 
                     <li><a href="#"> </a></li>
                     <li><a href="#"> </a></li>
                     <li><a href="#"> </a></li>
@@ -59,20 +71,20 @@
             <section class="card  card-two">
                 <h3>Information</h3>
                 <p>Rexburg, Idaho</p>
-                <p>Tempature - Weather</p>
+                <p>Temperature - Weather</p>
                 <p>Page Visits: </p>
             </section>
         </div>
     </main>
 
     <footer>
-        <p>&#169; <span id="currentYear"></span><br> Matthew Knorr <br> <span id="country">United States of America</span>
+        <p>&#169; <span id="currentYear"></span><br> Matthew Knorr <br> <span id="country">United States of
+                America</span>
         </p>
         <p id="lastModified"></p>
     </footer>
 
-
-    <script src="../wdd230/scripts/getdates.js"></script>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
 </body>
-
 </html>

@@ -4,24 +4,25 @@ body {
 }
 
 header {
-    background-color: #1d4d72; 
-    color: white; 
+    background-color: #1d4d72;
+    color: white;
     text-align: center;
-    padding: 20px; 
-    display: flex; 
+    padding: 20px;
+    display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
+    position: relative;
 }
 
 header img {
-    max-width: 100px; 
+    max-width: 100px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
     align-self: flex-start;
     margin-right: 10px;
 }
 
 header h1 {
-    margin: 0; 
+    margin: 0;
     font-size: 35px;
     margin-right: 10%;
 }
@@ -36,37 +37,69 @@ nav a {
     background-color: black;
     color: white;
     text-decoration: none;
-    transition: background-color 0.3s ease; 
+    transition: background-color 0.3s ease;
     font-size: 23px;
     padding: 10px;
 }
 
 nav a:hover {
-    background-color: #1d4d72; 
+    background-color: #1d4d72;
 }
 
 main h2 {
-    text-align: center; 
-    margin:0;
+    text-align: center;
+    margin: 0;
     font-weight: 400;
     position: relative;
 }
 
+.mobile-menu {
+    display: none; /* Initially hide the mobile menu */
+    background-color: black;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.mobile-menu a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.mobile-menu.show-menu {
+    display: block; /* Show the menu when the 'show-menu' class is present */
+}
+
+.hamburger {
+    cursor: pointer;
+    font-size: 25px;
+    padding: 15px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: none;
+}
+
 main h2::before {
     content: '';
-    display: block;                                           
+    display: block;
     position: absolute;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 95%; 
+    width: 95%;
     height: 1px;
-    background-color: black; 
+    background-color: black;
 }
 
 .card-container {
-    display: flex; /* Use flexbox to arrange the sections side by side */
-    justify-content: space-between; /* Add space between the sections */
+    display: flex;
+    justify-content: space-between;
 }
 
 .card {
@@ -76,48 +109,47 @@ main h2::before {
     border-radius: 10px;
     box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.5);
     margin: 25px auto;
-    max-width: calc(50% - 40px); 
+    max-width: calc(50% - 40px);
 }
 
 .card-one {
     width: 60%;
-    
 }
+
 .card-two {
     width: 30%;
     align-items: center;
 }
 
-
 .card h3 {
-    background-color: #1d4d72; 
+    background-color: #1d4d72;
     color: white;
     padding: 10px;
-    border-top-left-radius: 9px; 
-    border-top-right-radius: 9px; 
-    margin-top: 0; 
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    margin-top: 0;
 }
 
 .card ol {
-    text-align: left; 
-    padding-left: 20px; 
-    list-style-position: inside; 
+    text-align: left;
+    padding-left: 20px;
+    list-style-position: inside;
 }
 
 .card li {
-    margin: 10px 0; 
+    margin: 10px 0;
 }
 
-.card li a{
+.card li a {
     color: black;
     text-decoration: none;
 }
 
 footer {
     font-size: 20px;
-    text-align: center; 
+    text-align: center;
     padding: 20px 0;
-    background-color: #1d4d72; 
+    background-color: #1d4d72;
     color: white;
 }
 
@@ -126,15 +158,66 @@ footer p:first-child {
 }
 
 footer #country {
-    font-weight: bold; 
+    font-weight: bold;
 }
 
 footer #lastModified {
-    margin-top: 5px; 
+    margin-top: 5px;
     color: #d2ec0b;
 }
 
+@media screen and (max-width: 767px) {
+    nav {
+        display: none; /* Hide the full navigation in mobile view */
+    }
 
+    main h2 {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .card-container {
+        flex-direction: column;
+    }
+
+    .card {
+        max-width: 100%;
+    }
+
+    .card-one {
+        width: 80%;
+    }
+
+    .card-two {
+        width: 80%;
+    }
+
+    .mobile-menu {
+        display: block; /* Display mobile menu in mobile view */
+        /* position: static; */
+        top: auto;
+    }
+
+    header h1 {
+        margin-right: 0;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
+
+
+/* Additional CSS for the close button */
+.close-button {
+    cursor: pointer;
+    font-size: 25px;
+    padding: 15px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: none;
+}   
 
 /* Import the media queries from the separate file */
-@import url('larger.css');
+/* @import url('larger.css'); */

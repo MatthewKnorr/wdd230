@@ -1,67 +1,86 @@
 /* Mobile */
 @media screen and (max-width: 767px) {
     nav {
-        display: block;
-        text-align: center;
-    }
-    nav a {
-        display: block;
-        font-size: 20px;
-        padding: 8px;
+        display: none; /* Hide the full navigation in mobile view */
     }
 
     main h2 {
-        padding-left:  0;
+        padding-left: 0;
         text-align: center;
     }
+
     .card-container {
-        flex-direction: column; /* Stack cards on top of each other */
+        flex-direction: column;
     }
 
     .card {
-        max-width: 100%; /* Make cards take full width */
+        max-width: 100%;
     }
 
     .card-one {
         width: 80%;
-        
     }
+
     .card-two {
         width: 80%;
+    }
+
+    .mobile-menu {
+        display: block; /* Display mobile menu in mobile view */
+        /* position: static; */
+        top: auto;
+    }
+
+    header h1 {
+        margin-right: 0;
+    }
+
+    .hamburger {
+        display: block;
     }
 }
 
 /* Tablet */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    nav {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    nav a {
-        display: block;
-        font-size: 23px;
-        padding: 10px;
-    }
-.card-container {
-        flex-direction: row; /* Display cards side by side */
-    }
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav a {
+    display: block;
+    font-size: 23px;
+    padding: 10px;
+  }
+  .card-container {
+    flex-direction: row; /* Display cards side by side */
+  }
 
-    .card {
-        max-width: calc(50% - 40px); /* Set the maximum width for each card */
-    }
+  .card {
+    max-width: calc(50% - 40px); /* Set the maximum width for each card */
+  }
+  
 }
 
 /* Desktop */
 @media screen and (min-width: 1024px) {
-    nav {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    nav a {
-        display: inline-block;
-        font-size: 23px;
-        padding: 10px;
-    }
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav a {
+    display: inline-block;
+    font-size: 23px;
+    padding: 10px;
+  }
+
+  .hamburger {
+    display: none; /* Hide the hamburger menu in desktop view */
+  }
+
+  nav a {
+    font-size: 23px;
+    padding: 10px;
+  }
 }
