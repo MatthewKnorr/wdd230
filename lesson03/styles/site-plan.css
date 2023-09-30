@@ -81,7 +81,8 @@
     margin: 10px;
     padding: 20px;
     box-sizing: border-box;
-  }
+    max-width: 45%;
+}
   
   .top-section-container section p {
     color: var(--primary-color);
