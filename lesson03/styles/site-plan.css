@@ -1,3 +1,11 @@
+:root {
+    --primary-color: #92140C; /* Used for headings */
+    --secondary-color: #111D4A; /* Used for accent text */
+    --accent-color-one: #FFF8F0; /* Used for accents */
+    --accent-color-two: #FFCF99; /* Used for accents */
+    --accent-color-three: #1E1E24; /* Used for accents */
+  }
+
 body,
 h1,
 h2,
@@ -9,13 +17,13 @@ ul {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: var(--accent-color-three);
   font-family: "Roboto", sans-serif;
 }
 
 header {
-  background-color: #a92b2e;
-  color: white;
+  background-color: var(--primary-color);
+  color: var(--accent-color-one);
   padding: 20px;
   text-align: center;
 }
@@ -25,7 +33,7 @@ header h1 {
 }
 
 h2 {
-  color: #000000;
+  color:var(--secondary-color);
   font-size: 24px; /* Adjust the font size as needed */
   margin-bottom: 10px;
 }
@@ -50,8 +58,8 @@ li {
 section {
   margin: 20px;
   padding: 20px;
-  background-color: #ececec69;
-  border: 3px solid #f0f0f0f0;
+  background-color: var(--accent-color-one);
+  border: 3px solid var(--accent-color-three);
   box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -61,8 +69,9 @@ section {
   text-align: center;
   padding: 20px;
   box-sizing: border-box;
-  border: rgba(0, 0, 0, 0.1) solid 3px;
-  margin-top: 10px;
+  border: var(--accent-color-two) double 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .top-section-container section {
@@ -75,7 +84,7 @@ section {
 }
 
 .top-section-container section p {
-  color: #a92b2e;
+  color: var(--primary-color);
   font-size: 20px;
   font-weight: bold;
 }
@@ -86,7 +95,7 @@ section {
   display: flex;
   justify-content: center;
   width: 85%;
-  border: rgba(0, 0, 0, 0.1) solid 3px;
+  border: var(--accent-color-two) double 10px;
 }
 
 .mid-section-container section {
@@ -100,24 +109,37 @@ section {
 .secondary,
 .accent {
   max-width: 50%;
-  border: 1px solid black;
+  border: 1px solid var(--accent-color-three);
   padding: 5px;
 }
 
 .mid-section-container .primary {
-  color: #a92b2e;
+  color: var(--primary-color);
 }
 
 .mid-section-container .secondary {
-  color: #ffffff;
-  background-color: black;
+  color: var(--secondary-color);
   max-width: 50%;
 }
 
-.mid-section-container .accent {
-  color: black;
-  background-color: #ececec69;
+.mid-section-container .accent-one {
+  color: var(--accent-color-one);
+  background-color: black;
+  max-width: 51.8%
 }
+
+.mid-section-container .accent-two {
+    color: var(--accent-color-two);
+    background-color: black;
+    max-width: 51.8%
+  }
+  
+  .mid-section-container .accent-three {
+    color: var(--accent-color-three);
+    border: 1px solid var(--accent-color-three);
+    max-width: 51.6%;
+  }
+  
 
 .mid-section-container .roboto {
   font-family: "Roboto", sans-serif;
@@ -150,36 +172,41 @@ section {
 
 .bottom-section-container {
   width: 90%;
-  margin: 20px auto; /* Add margin for spacing */
+  margin: 20px auto; 
   text-align: center;
   padding: 20px;
   box-sizing: border-box;
-  background-color: #ececec69;
-  box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.1);
 }
 
 .bottom-section-container img {
   max-width: 100%;
   height: auto;
   margin: 0 10px;
-  border: 3px solid #ececec69;
+  border: 3px solid var(--accent-color-three);
   padding: 10px;
   box-sizing: border-box;
+  background-color: var(--accent-color-three);
+  border-radius: 5px;
   box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Create a card effect for the images */
 .bottom-section-container img:hover {
   transform: scale(1.35);
   transition: transform 0.5s ease-in;
+}
+
+.bottom-section-container section {
+  max-width: 50%;
+  margin: 0 auto;
+  box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, .5);
 }
 
 footer {
   font-size: 20px;
   text-align: center;
   padding: 20px 0;
-  background-color: #a92b2e;
-  color: white;
+  background-color: var(--primary-color);
+  color: var(--accent-color-one);
 }
 
 footer p:first-child {
