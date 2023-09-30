@@ -41,10 +41,6 @@ nav a {
     padding: 10px;
 }
 
-nav a:hover {
-    background-color: #1d4d72;
-}
-
 main h2 {
     text-align: center;
     margin: 0;
