@@ -1,18 +1,12 @@
-// Get the current year
 const currentYear = new Date().getFullYear();
-
-// Get the last modified date of the document
 const lastModified = new Date(document.lastModified);
-
-// Get references to the elements in the footer
 const currentYearElement = document.getElementById('currentYear');
 const lastModifiedElement = document.getElementById('lastModified');
 
-// Update the footer content
 if (currentYearElement) {
     currentYearElement.textContent = currentYear;
 }
 
 if (lastModifiedElement) {
-    lastModifiedElement.textContent = "Last modified: " + lastModified.toDateString();
+    lastModifiedElement.textContent = `Last Modification: ${(lastModified.getMonth() + 1).toString().padStart(2, '0')}/${lastModified.getDate().toString().padStart(2, '0')}/${lastModified.getFullYear()} ${(lastModified.getHours().toString().padStart(2, '0'))}:${(lastModified.getMinutes().toString().padStart(2, '0'))}:${(lastModified.getSeconds().toString().padStart(2, '0'))}`;
 }
