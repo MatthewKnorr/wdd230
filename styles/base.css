@@ -36,10 +36,35 @@ nav a {
     background-color: black;
     color: white;
     text-decoration: none;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, border-top 0.3s ease; 
     font-size: 23px;
     padding: 10px;
+    position: relative; 
 }
+
+nav a:hover {
+    background-color: #1d4d72; 
+    border-top: 2px solid white; 
+}
+
+nav a::before { 
+    content: '';
+    position: absolute;
+    width: calc(100% + 4px) ;
+    height: 1px; 
+    background-color: white;
+    top: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+nav a:hover::before {
+    transform: scaleX(1);
+}
+
+
 
 main h2 {
     text-align: center;
