@@ -1,10 +1,16 @@
+:root {
+    --primary-color: ;
+    --secondary-color: #1d4d72;
+    --darkness: #000000;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0 auto;
 }
 
 header {
-    background-color: #1d4d72;
+    background-color: var(--secondary-color);
     color: white;
     text-align: center;
     padding: 20px;
@@ -28,12 +34,12 @@ header h1 {
 }
 nav {
     text-align: center;
-    background-color: black;
+    background-color: var(--darkness);
 }
 
 nav a {
     display: block;
-    background-color: black;
+    background-color: var(--darkness);
     color: white;
     text-decoration: none;
     transition: background-color 0.3s ease, border-top 0.3s ease; 
@@ -43,7 +49,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #1d4d72; 
+    background-color: var(--secondary-color); 
     border-top: 2px solid white; 
 }
 
@@ -75,7 +81,7 @@ main h2 {
 
 .mobile-menu {
     display: none;
-    background-color: black;
+    background-color: var(--darkness);
     width: 100%;
     text-align: center;
     
@@ -123,7 +129,7 @@ main h2::before {
     transform: translateX(-50%);
     width: 95%;
     height: 1px;
-    background-color: black;
+    background-color: var(--darkness);
 }
 
 .card-container {
@@ -134,7 +140,7 @@ main h2::before {
 .card {
     background-color: white;
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid var(--darkness);
     border-radius: 10px;
     box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.5);
     margin: 25px auto;
@@ -145,13 +151,23 @@ main h2::before {
     width: 60%;
 }
 
+.card a {
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.card-one a:hover {
+    background-color: var(--secondary-color);
+    transition: .25s ease-in;
+}
+
 .card-two {
     width: 30%;
     align-items: center;
 }
 
 .card h3 {
-    background-color: #1d4d72;
+    background-color: var(--secondary-color);
     color: white;
     padding: 10px;
     border-top-left-radius: 9px;
@@ -170,7 +186,7 @@ main h2::before {
 }
 
 .card li a {
-    color: black;
+    color: var(--darkness);
     text-decoration: none;
 }
 
@@ -195,7 +211,7 @@ footer {
     font-size: 20px;
     text-align: center;
     padding: 20px 0;
-    background-color: #1d4d72;
+    background-color: var(--secondary-color);
     color: white;
 }
 
