@@ -10,36 +10,61 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #181A1B;
     color: white;
 }
 
 header {
-    background-color: var(--primary-color);
-    color: #fff;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    padding: 20px;
+    background-color: var(--primary-color);
 }
 
-.social-links a {
-    text-decoration: none;
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
 }
 
+.logo img {
+    max-height: 120px;
+}
 
-.social-links a {
-    text-decoration: none;
-    margin-right: 20px;
+.logo-text {
+    margin-left: 10px;
+    font-size: 12px;
+    width: 200px;
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links img {
+    height: calc(48px * 1.1);
+    width: calc(48px * 1.1);
+    margin: 0px 15px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
 }
 
 .links {
     display: flex;
-    align-items: center;
+    justify-content: flex-end;
 }
 
 .link {
-    margin: 0 15px;
+    margin: 0px 20px;
 }
+
 .link a {
     text-decoration: none;
     color: var(--accent-color-one-);
@@ -49,94 +74,109 @@ header {
     border-radius: 5px;
 }
 
-
 .join button {
     background-color: var(--accent-color-three);
     color: #fff;
     font-size: 20px;
     text-decoration: none;
-    box-shadow: 1px 1px 10px 5px rgb(0, 0, 0.2) ;
+    box-shadow: 1px 1px 10px 5px rgb(0, 0, 0.2);
     cursor: pointer;
-    position: absolute; 
-    left: 50px; 
+    position: absolute;
+    left: 50px;
     z-index: 1;
     padding: 10px 20px;
     margin-top: 50px;
     border: none;
-    border-radius: 5px;   
+    border-radius: 5px;
 }
 
 .banner {
-    position: relative;
-    z-index: 0;
+    max-width: calc(100% - 40px);
     width: 100%;
-    height: 400px;   
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .events-weather-container {
     display: flex;
-    background-color: var(--accent-color-three); /* Adjust the background color as needed */
     justify-content: space-between;
-    margin-top: 20px;
-}
-
-.events {
-    flex: 1;
-    padding: 20px; /* Add padding to give some spacing */
-}
-
-/* .events {
-    margin-top: 20px;
-} */
-
-.events h2 p, 
-.weather .left {
+    margin: 20px;
     font-family: 'Open Sans', sans-serif;
 }
 
-.weather {
-    flex: 1;
-    padding: 20px; /* Add padding to give some spacing */
+.events {
+    margin-right: 10px;
+    background-color: var(--accent-color-three);
+    width: calc(65% - 10px);
+    padding: 30px;
+    border-radius: 15px;
 }
+
+.weather {
+    background-color: var(--accent-color-three);
+    width: calc(35% - 10px);
+    padding: 30px;
+    border-radius: 15px;
+}
+
 .weather .left img {
     width: 100px;
 }
 
-
-/* .weather {
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-} */
-
-.events h1, .weather h1 {
-    font-size: 24px;
-}
-
-
 .spotlights {
     display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
+    background-color: var(--accent-color-three);
+    max-width: calc(100% - 40px);
+    margin: 0 auto; 
+    align-items: center;
+    border-radius: 15px;
+    margin-bottom: 30px;
 }
-
 .card-one,
 .card-two,
 .card-three {
-    flex: 1;
-    margin: 0 10px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    text-align: center;
+    width: 33%;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 2px var(--primary-color);
+    border-radius: 15px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.contacts .link {
+    text-decoration: underline;
 }
 
 footer {
     background-color: var(--primary-color);
-    color: #fff;
+    color: var(--accent-color-one);
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
+}
+
+footer .left {
+    font-size: 12px;
+}
+
+
+footer .pin img {
+    width: 18px;
+    background-color: var(--secondary-color);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+footer .left  h1, footer .left  h2{
+    font-size: 13px;
 }
 
 footer img {
-    width: 100px;
-}
+    width: 80px;
+}   
+
