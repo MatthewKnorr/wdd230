@@ -7,8 +7,9 @@
     --accent-color-three: #1E1E24;
 }
 
-@media (max-width: 756px) {
+@media screen and (max-width: 767px) {
     
+/* Styles for mobile mode */
     header {
         padding: 10px;
     }
@@ -21,15 +22,20 @@
         width: 70px;
     }
 
-    .social-links img{
-        height:  40px;
+    .social-links img {
+        height: 40px;
         width: 40px;
         padding: 0;
         margin: 0;
     }
 
+    nav {
+        display: none;
+    }
+
     #hamburger-menu {
         background-color: var(--primary-color);
+        display: block;
         color: white;
         border: none;
         font-size: 20px;
@@ -38,16 +44,16 @@
     .mobile-menu {
         display: none;
         position: absolute;
-        top: 60px; /* Adjust the distance from the header as needed */
+        top: 60px;
         left: 0;
         width: 100%;
-        background-color: var(--primary-color); /* Background color of the mobile menu */
+        background-color: var(--primary-color);
         text-align: center;
-        transition: top 0.3s; /* Smooth transition for the top property */
+        transition: top 0.3s;
     }
-    
+
     .mobile-menu.show-menu {
-        top: 100%; /* Move the menu below the header when it's shown */
+        display: block;
     }
 
     .link {
@@ -80,25 +86,24 @@
 
     .events-weather-container {
         flex-direction: column;
-        margin: 0 auto; /* Horizontally center the container */
-        text-align: center; /* Center-align the contents within the container */
+        text-align: center;
         margin-top: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 
     .events {
-        width: 80%;
+        width: 90%;
         padding: 20px;
         border-radius: 15px;
-        margin: 0 auto; /* Horizontally center the events element */
+        margin: 0 auto;
         margin-bottom: 10px;
     }
 
     .weather {
-        width: 80%;
+        width: 90%;
         padding: 20px;
         border-radius: 15px;
-        margin: 0 auto; /* Horizontally center the weather element */
+        margin: 0 auto;
     }
 
     .spotlights {
@@ -130,4 +135,18 @@
     footer img {
         width: 60px;
     }
+}
+
+
+/* Tablet Media queries */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+}
+
+/* Desktop Media queries */
+@media screen and (min-width: 1024px) {
+  .mobile-menu {
+    display: none;
+  }  
+
 }
