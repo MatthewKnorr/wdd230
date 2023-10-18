@@ -1,6 +1,16 @@
+
+
 @media screen and (max-width: 767px) {
   nav {
     display: none; /* Hide the full navigation in mobile view */
+  }
+
+  header img {
+    max-width: 40px;
+  }
+
+  header h1{
+    font-size: 16px;
   }
 
   main h2 {
