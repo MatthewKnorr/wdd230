@@ -35,7 +35,7 @@
     }
 
     .push-down {
-        margin-top: 180px; /* Adjust the value as needed */
+        margin-top: 180px; 
       }
       
     .links {
@@ -80,7 +80,7 @@
         background-color: var(--primary-color);
         text-align: center;
         transition: top 0.3s;
-        height: 22%;
+        height: 12%;
     }
 
     .mobile-menu.show-menu {
