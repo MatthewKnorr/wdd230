@@ -1,5 +1,5 @@
 :root {
-    --primary-color: ;
+    --primary-color: white;
     --secondary-color: #1d4d72;
     --darkness: #000000;
 }
@@ -79,6 +79,16 @@ main h2 {
     position: relative;
 }
 
+#darkModeButton {
+    background-color: var(--secondary-color);
+    border: none;
+}
+
+.dark-mode {
+    color: var(--primary-color);
+    background-color: #1E1E24;
+}
+
 .mobile-menu {
     display: none;
     background-color: var(--darkness);
@@ -101,7 +111,7 @@ main h2 {
 
 .hamburger {
     cursor: pointer;
-    font-size: 25px;
+    font-size: 26px;
     padding: 15px;
     position: absolute;
     top: 20px;
@@ -135,6 +145,7 @@ main h2::before {
 .card-container {
     display: flex;
     justify-content: space-between;
+    color: black;
 }
 
 .card {

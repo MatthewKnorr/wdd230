@@ -11,6 +11,7 @@ body {
     padding: 0;
     font-family: 'Roboto', sans-serif;
     color: white;
+    background-color: var(--accent-color-three);
 }
 
 header {
@@ -107,18 +108,27 @@ nav {
     justify-content: space-between;
     margin: 20px;
     font-family: 'Open Sans', sans-serif;
+    color: var(--accent-color-three);
+}
+
+.events-weather-container h1 {
+    color: var(--secondary-color);
+}
+
+.events-weather-container h2 {
+    color: var(--primary-color);
 }
 
 .events {
     margin-right: 10px;
-    background-color: var(--accent-color-three);
+    background-color: var(--accent-color-one);
     width: calc(65% - 10px);
     padding: 30px;
     border-radius: 15px;
 }
 
 .weather {
-    background-color: var(--accent-color-three);
+    background-color: var(--accent-color-one);
     width: calc(35% - 10px);
     padding: 30px;
     border-radius: 15px;
@@ -130,23 +140,34 @@ nav {
 
 .spotlights {
     display: flex;
-    background-color: var(--accent-color-three);
+    background-color: var(--accent-color-one);
+    color: var(--accent-color-three);
     max-width: calc(100% - 40px);
     margin: 0 auto; 
     align-items: center;
     border-radius: 15px;
     margin-bottom: 30px;
 }
+
 .card-one,
 .card-two,
 .card-three {
     text-align: center;
     width: 33%;
     padding: 20px;
-    box-shadow: 0px 0px 5px 2px var(--primary-color);
-    border-radius: 15px;
-    margin-left: 3px;
-    margin-right: 3px;
+    box-shadow: 0px 0px 5px 2px var(--secondary-color);
+}
+
+.card-one h1,
+.card-two h1,
+.card-three h1 {
+   color: var(--secondary-color);
+}
+
+.card-one h2,
+.card-two h2,
+.card-three h2 {
+    color: var(--primary-color);
 }
 
 .contacts .link {
