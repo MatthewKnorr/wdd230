@@ -35,7 +35,7 @@ header {
 .logo-text {
     margin-left: 10px;
     font-size: 12px;
-    width: 200px;
+    width: 270px;
     text-align: center;
 }
 
@@ -54,7 +54,7 @@ header {
 nav {
     display: flex;
     align-items: center;
-    margin-right: 100px;
+    right: 100px;
 }
 
 .links {
@@ -283,7 +283,13 @@ footer .footer-text {
         .logo img {
             width: 70px;
         }
-    
+        
+        .logo-text {
+        font-size: 10px;
+        width: 200px;
+        margin: 0 auto;
+        }
+
         .social-links img {
             height: 40px;
             width: 40px;
@@ -344,15 +350,11 @@ footer .footer-text {
             height: 23%;
         }
 
-
         .mobile-menu.show-menu {
             display: block;
             margin-top: 30px;
-
         }
-    
-    
-    
+        
         .join button {
             font-size: 18px;
             padding: 10px 15px;
@@ -424,11 +426,78 @@ footer .footer-text {
     
     /* Tablet Media queries */
     @media screen and (min-width: 768px) and (max-width: 1023px){
+
+        .logo {
+            margin-left: 0px;
+        }
+        
+        .logo img {
+            max-height: 80px;
+        }
+    
+        .link {
+            margin: 5px;
+        }
+        
+        .link a {
+            margin: 0px;
+            padding: 8px;
+        }
+
+        #hamburger-menu {
+            background-color: var(--primary-color);
+            display: block;
+            color: white;
+            border: none;
+            font-size: 2.25rem;
+        }
+    
+        .mobile-menu {
+            display: none;
+            position: absolute;
+            top: 12.5%;
+            right: 2%;
+            text-align: center;
+            height: 0%;
+        }
+
+        .mobile-menu.show-menu {
+            display: block;
+            margin-top: 30px;
+        }
+
+        nav {
+            display: none;
+        }
+    }
+
+    /* Smaller Dekstop Media queries */
+    @media screen and (min-width: 1023px) and (max-width: 1279px){
+        .logo {
+            margin-left: 0px;
+        }
+        
+        .logo img {
+            max-height: 80px;
+        }
+    
+        .link {
+            margin: 0px;
+            margin-top: 0px;
+        }
+        
+        .link a {
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .mobile-menu {
+            display: none;
+        }
     
     }
-    
-    /* Desktop Media queries */
-    @media screen and (min-width: 1024px) {
+    /* Large Desktop Media queries */
+    @media screen and (min-width: 1270px) {
       .mobile-menu {
         display: none;
       }  
