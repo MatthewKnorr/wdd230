@@ -273,6 +273,7 @@ footer .footer-text {
     /* Styles for mobile mode */
         header {
             padding: 10px;
+            max-height: 100px;
         }
     
         .logo {
@@ -335,18 +336,19 @@ footer .footer-text {
         .mobile-menu {
             display: none;
             position: absolute;
-            top: 60px;
+            top: 9%;
             left: 0;
             width: 100%;
-            background-color: var(--primary-color);
+            background-color: var(--accent-color-three);
             text-align: center;
-            transition: top 0.3s;
-            height: 12%;
+            height: 23%;
         }
-    
+
+
         .mobile-menu.show-menu {
             display: block;
             margin-top: 30px;
+
         }
     
     
