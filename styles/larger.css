@@ -52,6 +52,21 @@
     margin: 0 auto;
     margin: 20px auto;
   }
+
+  .hero-text {
+    top: 30%;
+    left: 30%;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  .hero img{
+    height: 12.5rem;
+}
+
+
 }
 /* Tablet */
 @media screen and (min-width: 768px) and (max-width: 1023px) {

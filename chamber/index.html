@@ -9,7 +9,6 @@
         <title>American Fork Chamber of Commerce</title>
         <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-        <!-- Social Media Meta Settings -->
         <meta property="title" content="Chamber of Commerce">
         <meta property="type" content="website">
         <meta property="image"
@@ -39,11 +38,7 @@
                     <img src="../chamber/images/linkedin.webp" alt="Linkedin icon">
                 </a>
             </div>
-
-            <button id="hamburger-menu">☰</button>
-
-            
-
+           <button id="hamburger-menu">☰</button>          
             <div id="mobile-menu" class="mobile-menu">
                 <div class="links">
                     <div class="link">
@@ -76,7 +71,10 @@
                         <a href="../chamber/join.html">Join</a>
                     </div>
                 </div>
-            </nav>            
+            </nav>   
+            <button id="darkModeButton">
+                🌙
+            </button>         
         </header>
         
         
@@ -167,8 +165,7 @@
         </main>
 
         <footer>
-            
-                <div class="top">
+                <!-- <div class="top">
                     <div class="left">
                         <img src="../chamber/images/americanfork.webp"
                             alt="American Fork Logo">
@@ -184,7 +181,6 @@
                         <div class="pin"><img src="../chamber/images/pin.webp" alt=""></div>
                         <div class="pin-text">Local Map</div>
                     </div>
-
                 </div>
                 <div class="bottom">
                     &#169;
@@ -193,12 +189,22 @@
                     <span id="country">United States of America</span>
                     WDD 230 Project
                 
-                <p id="lastModified"></p>
-            </div>
+                <p id="lastModified"></p>                    
+            </div> -->
+
+            <p><img src="../chamber/images/americanfork.webp" alt="American Fork Logo">
+                <h1>American Fork</h1>
+                <h2>Chamber of Commerce</h2>
+                <p>700 E 90 S <br> AMERICAN FORK UT <br> 84003</p></p>
+                
+            <p>&copy;<span id="currentYear"></span>| Matthew T. Knorr | Utah</p>
+            <p>Last Modified: <span id='lastModified'></span></p>
+
         </footer>
 
         <script src="../scripts/getdates.js"></script>
         <script src="../chamber/scripts/hamburger.js"></script>
+        <script src="../scripts/darkmode.js"></script>
     </body>
 
 </html>
