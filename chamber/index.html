@@ -44,6 +44,9 @@
                         alt="Linkedin icon">
                 </a>
             </div>
+            <button id="darkModeButton">
+                🌑
+            </button>
             <button id="hamburger-menu">☰</button>
             <div id="mobile-menu" class="mobile-menu">
                 <div class="links">
@@ -78,9 +81,6 @@
                     </div>
                 </div>
             </nav>
-            <button id="darkModeButton">
-                🌙
-            </button>
         </header>
 
         <main>
@@ -109,27 +109,31 @@
                 </section>
 
                 <section class="weather">
-                    <h2>Weather</h2>
-                    <div class="left">
-                        <img src="../chamber/images/light-rain.webp"
-                            alt="weather logo">
-                        <p>
-                            Wind Speed: <span id="windspeed"></span>
-                            <br>
-
-                            <br>
-                            Wind Chill: <span id="windChill"></span>
-                        </p>
-
+                    <div class="weather-header">
+                        <h2>Weather</h2>
                     </div>
-                    <div class="right">
-                        <p class="stack">
-                            <span id="temperature">42</span>
-                            <span id="weatherDescription">Cloudy</span>
-                            <span id="humidity">60%</span>
-                        </p>
+                    <div class="weather-content">
+                        <div class="left">
+                            <img src="../chamber/images/light-rain.webp"
+                                alt="weather logo">
+                            <p>
+                                Humidity:<br>
+                                Wind Speed:<br>
+                                Wind Chill: <br>
+                            </p>
+                        </div>
+                        <div class="right">
+                            <p class="stack">
+                                <span id="temperature"></span><br><br>
+                                <span id="weatherDescription"></span><br><br>
+                                <span id="humidity"></span><br>
+                                <span id="windspeed"></span><br>
+                                <span id="windChill"></span>
+                            </p>
+                        </div>
                     </div>
                 </section>
+
             </div>
 
             <section class="spotlights">
@@ -142,7 +146,7 @@
                         <br>
                         +1(555) 123-4567
                         <div class="link">
-                            rapidtransithub.cpm
+                            rapidtransithub.com
                         </div>
                     </div>
 
@@ -190,10 +194,10 @@
             <p>
                 <img src="../chamber/images/americanfork.webp"
                     alt="American Fork Logo">
-                
+
                 <h2>American Fork
-                <br>
-                Chamber of Commerce</h2>
+                    <br>
+                    Chamber of Commerce</h2>
 
                 700 E 90 S <br> AMERICAN FORK, UT <br> 84003</p>
             <p>&copy; <span id="currentYear"></span> | Matthew T. Knorr | Utah |
