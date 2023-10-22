@@ -86,7 +86,8 @@
         <main>
             <section class="join">
                 <a href="/chamber/join.html"><button>Join the Chamber</button></a>
-                <img src="../chamber/images/american-fork.webp" srcset="../chamber/images/american-fork.webp 1x, ../chamber/images/american-fork-2x.webp 2x, ../chamber/images/american-fork-3x.webp 3x"
+                <img src="../chamber/images/american-fork.webp"
+                    srcset="../chamber/images/american-fork.webp 1x, ../chamber/images/american-fork-2x.webp 2x, ../chamber/images/american-fork-3x.webp 3x"
                     alt="Landscape of American Fork" class="banner">
 
             </section>
@@ -112,16 +113,20 @@
                     <div class="left">
                         <img src="../chamber/images/light-rain.webp"
                             alt="weather logo">
-                        <p>Humidity: <br>
-                            Wind Chill:</p>
+                        <p>
+                            Wind Speed: <span id="windspeed"></span>
+                            <br>
+
+                            <br>
+                            Wind Chill: <span id="windChill"></span>
+                        </p>
 
                     </div>
                     <div class="right">
                         <p class="stack">
-                            33&#176;c
-                            <strong>Partly Cloudy</strong>
-                            20%
-                            N/A
+                            <span id="temperature">42</span>
+                            <span id="weatherDescription">Cloudy</span>
+                            <span id="humidity">60%</span>
                         </p>
                     </div>
                 </section>
@@ -173,44 +178,30 @@
         </main>
 
         <footer>
-            <!-- <div class="top">
-                    <div class="left">
-                        <img src="../chamber/images/americanfork.webp"
-                            alt="American Fork Logo">
-                        <h2>American Fork</h2>
-                        <h2>Chamber of Commerce</h2>
-                        <p>700 E 90 S <br> AMERICAN FORK UT <br> 84003</p>
-                    </div>
-                    <div class="right">
-                        <p>
+            <!--
+                        700 E 90 S <br> AMERICAN FORK UT <br> 84003</p>
+                   
                             info@americanfork.org <br>
                             +(123) 456-7890 
-                        </p>
                         <div class="pin"><img src="../chamber/images/pin.webp" alt=""></div>
-                        <div class="pin-text">Local Map</div>
-                    </div>
-                </div>
-                <div class="bottom">
                     &#169;
-                    <span id="currentYear"></span>
-                    Matthew Knorr
-                    <span id="country">United States of America</span>
-                    WDD 230 Project
-                
-                <p id="lastModified"></p>                    
-            </div> -->
+                -->
 
-            <p><img src="../chamber/images/americanfork.webp"
+            <p>
+                <img src="../chamber/images/americanfork.webp"
                     alt="American Fork Logo">
-                <h2>American Fork</h2>
-                <h3>Chamber of Commerce</h3>
-                <p>700 E 90 S <br> AMERICAN FORK UT <br> 84003</p></p>
+                
+                <h2>American Fork
+                <br>
+                Chamber of Commerce</h2>
 
-            <p>&copy;<span id="currentYear"></span>| Matthew T. Knorr | Utah</p>
-            <p>Last Modified: <span id='lastModified'></span></p>
+                700 E 90 S <br> AMERICAN FORK, UT <br> 84003</p>
+            <p>&copy; <span id="currentYear"></span> | Matthew T. Knorr | Utah |
+                <span id='lastModified'></span></p>
 
         </footer>
 
+        <script src="../chamber/chamber/scripts/windchill.js"></script>
         <script src="../scripts/getdates.js"></script>
         <script src="../chamber/scripts/hamburger.js"></script>
         <script src="../scripts/darkmode.js"></script>
