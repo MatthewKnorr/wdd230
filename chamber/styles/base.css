@@ -228,17 +228,19 @@ nav {
     text-decoration: underline;
 }
 
-
-
 footer {
     background-color: var(--primary-color);
     color: var(--accent-color-one);
     text-align: center;
     padding: 10px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
+
+.footer-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 /* Styles for mobile mode */
