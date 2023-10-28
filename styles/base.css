@@ -15,7 +15,6 @@ body {
 header {
     background-color: var(--secondary-color);
     color: white;
-    text-align: center;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -28,6 +27,7 @@ header img {
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
     align-self: flex-start;
     margin-right: 10px;
+    margin-left: 225px;
 }
 
 header h1 {
@@ -35,6 +35,8 @@ header h1 {
     font-size: 35px;
     margin-right: 10%;
 }
+
+
 nav {
     text-align: center;
     background-color: var(--darkness);
@@ -220,6 +222,10 @@ main h2::before {
 .card-two {
     width: 30%;
     align-items: center;
+}
+
+#weather-info {
+    line-height: 2.5; /* Adjust the value to control the amount of space between lines */
 }
 
 .card h3 {

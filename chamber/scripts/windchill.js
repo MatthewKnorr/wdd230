@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     const apiKey = '2bf7f61f22e3a3bdf0c96cff27a40e7c';
-    const city = 'American Fork , us';
+    const city = 'American Fork, us';
 
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${apiKey}`)
         .then(response => response.json())
