@@ -6,7 +6,10 @@
     --accent-color-three: #1e1e24;
 }
 
+/*/////////////////*/
 /* Header/ NAV Css */
+/*/////////////////*/
+
 body {
     margin: 0;
     padding: 0;
@@ -95,9 +98,9 @@ nav {
     font-size: 20px;
     display: none;
 }
-
+/*///////////*/
 /* Home Page */
-
+/*///////////*/
 
 .join button {
     background-color: var(--accent-color-three);
@@ -232,18 +235,66 @@ nav {
     text-decoration: underline;
 }
 
-
-/* Discovery Page */
-
-
-.placeholder-header {
-    font-size: 25px;
-    text-align: center;
+/*////////////////*/
+/* Discover  Page */
+/*////////////////*/
+.grid-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 20px;
+    padding: 20px;
 }
 
+.sidebar {
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-gap: 20px;
+    max-width: 200px;
+}
 
+.sidebar h2 {
+    margin-bottom: 10px;
+}
 
+.sidebar img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.image-gallery img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Lazy Loading */
+.image-gallery img[data-src] {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.image-gallery img[data-src].in-viewport {
+    opacity: 1;
+}
+
+/*////////*/
 /* Footer */
+/*////////*/
 
 footer {
     background-color: var(--primary-color);
@@ -261,15 +312,6 @@ footer {
 .footer-section .logo img{
     width: 50px;
 }
-
-
-
-
-
-
-
-
-
 
 /* Styles for mobile mode */
 @media screen and (max-width: 767px) {

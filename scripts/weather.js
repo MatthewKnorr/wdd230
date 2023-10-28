@@ -19,7 +19,7 @@ async function fetchWeatherData(location) {
             const emoji = getWeatherEmoji(weatherDescription);
 
             const weatherInfoElement = document.getElementById("weather-info");
-            weatherInfoElement.innerHTML = `${cityName}, ${state}<br>${temperature}°F - ${weatherDescription} ${emoji}`;
+            weatherInfoElement.innerHTML = `${cityName}, ${state}<br> ${emoji}${temperature}°F - ${weatherDescription}`;
         } else {
             console.error("Network response was not ok");
         }

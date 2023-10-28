@@ -83,10 +83,22 @@
             </nav>
         </header>
 
-        <main>
-        <div class="placeholder-header">
-            <h2>DISCOVERY PAGE</h2>
-        </div>
+        <main class="grid-container">
+            <div class="sidebar">
+                <h2>Sidebar Title</h2>
+                <img src="../test.png" alt="Test Image 1" loading="lazy">
+                <img src="../test.png" alt="Test Image 2" loading="lazy">
+                <img src="../test.png" alt="Test Image 3" loading="lazy">
+            </div>
+            <div class="image-gallery">
+                <img data-src="../test.png" alt="Image 1" data-caption="Caption 1">
+                <img data-src="../test.png" alt="Image 2" data-caption="Caption 2">
+                <img data-src="../test.png" alt="Image 3" data-caption="Caption 3">
+                <img data-src="../test.png" alt="Image 4" data-caption="Caption 4">
+                <img data-src="../test.png" alt="Image 5" data-caption="Caption 5">
+                <img data-src="../test.png" alt="Image 6" data-caption="Caption 6">
+
+            </div>
         </main>
 
         <footer>
@@ -118,9 +130,8 @@
 
         </footer>
 
-        <script src="../chamber/scripts/windchill.js"></script>
-        <!-- <script src="/chamber/scripts/windchill.js"></script> -->
         <script src="../scripts/getdates.js"></script>
+        <script src="/chamber/scripts/lazyloading.js"></script>
         <script src="../chamber/scripts/hamburger.js"></script>
         <script src="../scripts/darkmode.js"></script>
     </body>
