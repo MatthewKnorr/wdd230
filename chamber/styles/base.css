@@ -417,12 +417,12 @@ footer {
         width: 100%;
         background-color: var(--accent-color-three);
         text-align: center;
-        height: 23%;
+        height: 18%;
     }
 
     .mobile-menu.show-menu {
         display: block;
-        margin-top: 30px;
+        /* margin-top: 30px; */
     }
 
     .join button {
