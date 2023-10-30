@@ -330,6 +330,13 @@ footer {
     padding: 10px 0;
 }
 
+.footer-section .right {
+    line-height: 3;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    
+}
+
 .footer-section {
     display: flex;
     align-items: center;
@@ -340,7 +347,9 @@ footer {
     width: 50px;
 }
 
+/*////////////////////////*/
 /* Styles for mobile mode */
+/*////////////////////////*/
 @media screen and (max-width: 767px) {
     header {
         padding: 10px;
@@ -422,7 +431,6 @@ footer {
 
     .mobile-menu.show-menu {
         display: block;
-        /* margin-top: 30px; */
     }
 
     .join button {
@@ -507,7 +515,9 @@ footer {
     }
 }
 
+/*//////////////////////*/
 /* Tablet Media queries */
+/*//////////////////////*/
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .logo {
         margin-left: 0px;
@@ -575,7 +585,9 @@ footer {
     
 }
 
+/*///////////////////////////////*/
 /* Smaller Dekstop Media queries */
+/*///////////////////////////////*/
 @media screen and (min-width: 1023px) and (max-width: 1279px) {
     .logo {
         margin-left: 0px;
@@ -606,7 +618,9 @@ footer {
 
 }
 
+/*/////////////////////////////*/
 /* Large Desktop Media queries */
+/*/////////////////////////////*/
 @media screen and (min-width: 1270px) {
     .mobile-menu {
         display: none;
