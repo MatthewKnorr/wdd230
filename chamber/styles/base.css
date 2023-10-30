@@ -247,28 +247,21 @@ nav {
 
 
 .message, .visit {
-    background-color: purple;
     margin: 0px;
     padding: 0px;
 }
 
 .visit {
-    margin-top: -100px;
+    margin-top: -50px;
 }
 
 
-
-/* #last-visited-time, #welcome-message {
-    display: ;
-    margin: 0px;
-    padding: 0px;
-} */
 .sidebar {
     padding: 20px;
     display: grid;
     align-items: center;
     text-align: center;
-    max-height: calc(75% + 15%);
+    max-height: calc(85% + 15%);
     grid-template-rows: auto 1fr;
     grid-gap: 40px;
     max-width: 200px;
@@ -312,6 +305,8 @@ nav {
     border-radius: 5px;
     margin-left: 125px;
 }
+
+.image-gallery img:hover {box-shadow: 0 0 50px white;}
 
 /* Lazy Loading */
 .image-gallery img[data-src] {
