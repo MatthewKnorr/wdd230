@@ -479,6 +479,21 @@ footer {
         text-decoration: underline;
     }
 
+    .image-gallery {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        max-width: 80%;
+        
+    }
+
+    .image-gallery img {
+        max-width:100%; 
+        margin-left: 10px;
+    }
+
+
+
     footer {
         padding: 10px 0;
     }
@@ -536,6 +551,28 @@ footer {
     nav {
         display: none;
     }
+
+    
+
+    .image-gallery {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        max-width: 80%;
+        margin-left: 0;
+    }
+
+    .image-gallery img {
+        max-width:80%; 
+     
+    }
+
+    
+    .event-box {
+        margin-bottom: 100px;
+    }
+    
+    
 }
 
 /* Smaller Dekstop Media queries */
@@ -561,6 +598,12 @@ footer {
     .mobile-menu {
         display: none;
     }
+
+    .image-gallery img {
+        margin-left: 50px;
+    }
+    
+
 }
 
 /* Large Desktop Media queries */
