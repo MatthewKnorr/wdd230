@@ -84,19 +84,87 @@
         </header>
 
         <main class="grid-container">
+
             <div class="sidebar">
-                <h2>Sidebar Title</h2>
-                <img src="../test.png" alt="Test Image 1" loading="lazy">
-                <img src="../test.png" alt="Test Image 2" loading="lazy">
-                <img src="../test.png" alt="Test Image 3" loading="lazy">
+                <div class="message">
+                    <p id="welcome-message">Loading...</p>
+                </div>
+
+                <div class="visit">
+                    <p id="last-visited-time"></p>
+                </div>
+
+                <div class="event-box">
+                    <h3>Trick-or-Treat</h3>
+                    <img
+                        src="https://chamberorganizer.com/afchamber/photos/alpine_main_street_trick_or_treat-01_09052023134707.JPG"
+                        alt="Trick or Treat Banner" loading="lazy">
+                    <p>
+                        Join us on October 30, 2023, from 4:00 PM to 6:00 PM on
+                        Main Street for a spooktacular evening of
+                        trick-or-treating!
+                    </p>
+                </div>
+                <div class="event-box">
+                    <h3>Halloween on Main</h3>
+                    <img
+                        src="https://chamberorganizer.com/afchamber/photos/American_Fork_Halloween_on_Main_2023-01_09052023134743.JPG"
+                        alt="Halloween Event Banner" loading="lazy">
+                    <p>
+                        10-31-2023 <br>
+
+                        4:00PM - 6:00PM <br>
+
+                        Main Street
+                    </p>
+                </div>
+                <div class="event-box">
+                    <h3>Annual Bowling</h3>
+                    <img
+                        src="https://chamberorganizer.com/afchamber/photos/november_bowling_and_lunch_2023-01_10052023145649.JPG"
+                        alt="Bowling and Networking Luncheon Banner "
+                        loading="lazy">
+                    <p>
+                        11-1-2023 <br>
+
+                        11:30AM - 1:00PM <br>
+
+                        Jack&Jill's Lanes
+                    </p>
+                </div>
+
             </div>
             <div class="image-gallery">
-                <img data-src="../test.png" alt="Image 1" data-caption="Caption 1">
-                <img data-src="../test.png" alt="Image 2" data-caption="Caption 2">
-                <img data-src="../test.png" alt="Image 3" data-caption="Caption 3">
-                <img data-src="../test.png" alt="Image 4" data-caption="Caption 4">
-                <img data-src="../test.png" alt="Image 5" data-caption="Caption 5">
-                <img data-src="../test.png" alt="Image 6" data-caption="Caption 6">
+                <img
+                    src="https://www.foxhollowutah.com/images/slideshows/banner_1.jpg"
+                    alt="Fox Hollow"
+                    loading="lazy"
+                    data-caption="Scenic view of Fox Hollow">
+                <img
+                    src="https://freeplay.imgix.net/gym-images-dev/backgrounds/f2c8aba253a2009c98e85b53fa0435af.jpg?auto=compress%2C%20enhance%2C%20format&h=1000&w=1600&ixlib=js-2.2.1"
+                    alt="Recreation Center"
+                    loading="lazy"
+                    data-caption="Exterior of the Recreation Center">
+                <img
+                    src="https://phataxeutah.com/wp-content/uploads/2022/04/bullseye2.jpg"
+                    alt="Phat Axe Throwing"
+                    loading="lazy"
+                    data-caption="Bullseye at Phat Axe Throwing">
+                <img
+                    src="https://media.timeout.com/images/105871324/750/422/image.jpg"
+                    alt="Cuddles Cat Lounge"
+                    loading="lazy"
+                    data-caption="Relaxing at Cuddles Cat Lounge">
+                <img
+                    src="https://scontent.fslc3-2.fna.fbcdn.net/v/t39.30808-6/277744548_5065554613490149_5435996197206263745_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=uT3zZrX2DNEAX-qws1T&_nc_ht=scontent.fslc3-2.fna&oh=00_AfAHVtPGRTFfOm-vP9oiS7quDXZbWaMwZflDl8lAcn6WqA&oe=65445C4D"
+                    alt="The Towne Hub"
+                    loading="lazy"
+                    data-caption="The Towne Hub: A Hub Cinema's">
+                <img
+                    src="https://lehimills.com/cdn/shop/articles/Mill_Over_a_Century.png?v=1661887543&width=2000"
+                    alt="Lehi Roller Mills"
+                    loading="lazy"
+                    data-caption="Lehi Roller Mills: A Century of Tradition">
 
             </div>
         </main>
@@ -130,6 +198,7 @@
 
         </footer>
 
+        <script src="/chamber/scripts/visitmessage.js"></script>
         <script src="../scripts/getdates.js"></script>
         <script src="/chamber/scripts/lazyloading.js"></script>
         <script src="../chamber/scripts/hamburger.js"></script>
