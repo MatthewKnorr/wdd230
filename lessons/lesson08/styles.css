@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+  --background-color: #121212;
+  --text-color: #ffffff;
+  --form-background-color: #1e1e1e;
+  --form-border-radius: 10px;
+  --form-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  --montserrat: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: var(--montserrat)
+}
+
+.form-container {
+  background-color: var(--form-background-color);
+  border-radius: var(--form-border-radius);
+  box-shadow: var(--form-box-shadow);
+  padding: 20px;
+  width: 400px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="range"],
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  background: #007acc;
+  border: 1px solid #007acc;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 6px;
+  cursor: pointer;
+  background: #444;
+}
+
+p {
+  color: #ff6347;
+  margin: 0;
+}
+
+#passwordMismatch p {
+  display: none;
+  color: red;
+}
+
+output {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.confirmation {
+  text-align: center;
+  background-color: var(--form-background-color);
+  padding: 50px;
+  border-radius: 15px;
+}
+
+.confirmation p {
+  color: red;
+  text-decoration: overline;
+}
