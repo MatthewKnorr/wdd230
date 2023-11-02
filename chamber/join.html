@@ -1,59 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Matthew Knorr">
-    <meta name="description" content="Connecting Businesses and Communities">
-    <title>American Fork Chamber of Commerce</title>
-    <link rel="icon" href="favicon.ico" type=" image/x-icon">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Matthew Knorr">
+        <meta name="description" content="Connecting Businesses and Communities">
+        <title>American Fork Chamber of Commerce</title>
+        <link rel="icon" href="favicon.ico" type=" image/x-icon">
 
-    <!-- Social Media Meta Settings -->
-    <meta property="title" content="Chamber of Commerce">
-    <meta property="type" content="website">
-    <meta property="image" content="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/oky3qpcy0dsevuehoi3v/american-fork">
-    <meta property="og:url" content="https://matthewknorr.github.io/wdd230/chamber/">
+        <meta property="title" content="Chamber of Commerce">
+        <meta property="type" content="website">
+        <meta property="image"
+            content="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/oky3qpcy0dsevuehoi3v/american-fork">
+        <meta property="og:url"
+            content="https://matthewknorr.github.io/wdd230/chamber/">
 
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/medium.css">
-    <link rel="stylesheet" href="styles/larger.css">
-</head>
-<body>
-    <header>
-        <div class="logo">
-            <img src="../chamber/images/americanfork.png" alt="American Fork Logo">
-            <div class="logo-text"> 
-                <h1>American Fork</h1>
-                <h2>Chamber of Commerce</h2>
-            </div>
-        </div>
-        <div class="social-links">
-            <a href="https://www.facebook.com/afchamber/" class="facebook">
-                <img src="../chamber/images/facebook.png" alt="Facebook icon">
-            </a>
-            <a href="https://www.linkedin.com/company/american-fork-chamber-of-commerce/" class="linkedin">
-                <img src="../chamber/images/linkedin.png" alt="Linkedin icon">
-            </a>
-        </div>
-        <nav>
-            <div class="links">
-                <div class="link">
-                    <a href="../chamber/index.html">Home</a>
-                </div>
-                <div class="link">
-                    <a href="../chamber/discover.html">Discover</a>
-                </div>
-                <div class="link">
-                    <a href="../chamber/directory.html">Directory</a>
-                </div>
-                <div class="link">
-                    <a href="../chamber/join.html">Join</a>
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/larger.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="../chamber/images/americanfork.png"
+                    alt="American Fork Logo">
+                <div class="logo-text">
+                    <h1>American Fork</h1>
+                    <h2>Chamber of Commerce</h2>
                 </div>
             </div>
-        </nav>
-    </header>
-    
-    <h1>Directory</h1>
-    <p>This page provides a list of local businesses and other organizations that belong to the chamber of commerce.</p>
-</body>
+            <div class="social-links">
+                <a href="https://www.facebook.com/afchamber/" class="facebook">
+                    <img src="../chamber/images/facebook.png"
+                        alt="Facebook icon">
+                </a>
+                <a
+                    href="https://www.linkedin.com/company/american-fork-chamber-of-commerce/"
+                    class="linkedin">
+                    <img src="../chamber/images/linkedin.png"
+                        alt="Linkedin icon">
+                </a>
+            </div>
+            <nav>
+                <div class="links">
+                    <div class="link">
+                        <a href="../chamber/index.html">Home</a>
+                    </div>
+                    <div class="link">
+                        <a href="../chamber/discover.html">Discover</a>
+                    </div>
+                    <div class="link">
+                        <a href="../chamber/directory.html">Directory</a>
+                    </div>
+                    <div class="link">
+                        <a href="../chamber/join.html">Join</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="form">
+            <div class="form-container">
+                <form method="get" action="thankyou.html">
+                    <label for="firstName">Applicant's First Name:</label>
+                    <input type="text" id="firstName" name="firstName" required
+                        placeholder="First Name">
+
+                    <label for="lastName">Applicant's Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" required
+                        placeholder="Last Name">
+
+                    <label for="position">Applicant's Title/Position (Alpha
+                        characters, hyphens, spaces, minimum 7
+                        characters):</label>
+                    <input type="text" id="position" name="position"
+                        pattern="[a-zA-Z\s\-]{7,}" required
+                        placeholder="Marketing Director">
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required
+                        placeholder="example@example.com">
+
+                    <label for="phone">Mobile Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required
+                        placeholder="(123) 456-7890">
+
+                    <label for="organization">Business/Organization Name:</label>
+                    <input type="text" id="organization" name="organization"
+                        required placeholder="XYZ Corporation">
+
+                    <label for="membershipLevel">Membership Level:</label>
+                    <select id="membershipLevel" name="membershipLevel">
+                        <option value="NP">NP Membership (No Fee)</option>
+                        <option value="Bronze">Bronze Membership</option>
+                        <option value="Silver">Silver Membership</option>
+                        <option value="Gold">Gold Membership</option>
+                    </select>
+
+                    <label for="description">Business/Organization Description:</label>
+                    <textarea id="description" name="description"
+                        placeholder="Provide a Brief Description"></textarea>
+
+                    <input type="hidden" id="timestamp" name="timestamp">
+
+                    <button type="submit">Submit</button>
+                </form>
+
+                <div class="membership-benefits">
+                    <h3>Membership Benefits:</h3>
+                    <ul>
+                        <li>NP Membership is for non-profit organizations and is
+                            free.</li>
+                        <li>Bronze Membership - Increased benefits.</li>
+                        <li>Silver Membership - More benefits.</li>
+                        <li>Gold Membership - Highest level with the most
+                            benefits.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <div class="footer-section">
+                <div class="left">
+                    <div class="logo">
+                        <img src="../chamber/images/americanfork.webp"
+                            alt="American Fork Logo">
+                    </div>
+                    <h2>American Fork <br>
+                        Chamber of Commerce</h2>
+                    700 E 90 S <br>
+                    American Fork, UT <br>
+                    84003
+                </div>
+                <div class="right">
+                    info@americanfork.org <br>
+                    +(123) 456-7890 <br>
+                    <a href="https://maps.app.goo.gl/ETjJHsPp3xqqfCmRA">📍</a>
+                    Local Map
+                </div>
+            </div>
+            <p>
+                &copy;
+                <span id="currentYear"></span>
+                | Matthew T. Knorr | Utah |
+                <span id='lastModified'></span>
+            </p>
+
+        </footer>
+        <script src="../scripts/getdates.js"></script>
+        <script src="../chamber/scripts/hamburger.js"></script>
+        <script src="../scripts/darkmode.js"></script>
+
+    </body>
 </html>

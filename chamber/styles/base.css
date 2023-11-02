@@ -116,6 +116,7 @@ nav {
     margin-top: 50px;
     border: none;
     border-radius: 5px;
+    width: 250px;
 }
 
 .banner {
@@ -154,8 +155,8 @@ nav {
     border-radius: 15px;
 }
 .weather {
-    display: flex; /* Make it a flex container */
-    flex-direction: column; /* Stack the children vertically */
+    display: flex; 
+    flex-direction: column;
     background-color: var(--accent-color-one);
     width: calc(35% - 10px);
     padding: 30px;
@@ -318,6 +319,108 @@ nav {
 .image-gallery img[data-src]:in-viewport {
     opacity: 1;
 }
+
+
+/*//////*/
+/* Join */
+/*//////*/
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+
+
+.form-container {
+    background-color: var(--secondary-color);
+    border-radius: 5px ;
+    box-shadow: var(--accent-color-three);
+    padding: 100px;
+    width: 400px;
+    margin: 50px;
+ }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="range"],
+  input[type="tel"],
+  textarea,
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+  }
+  
+  input[type="range"] {
+    -webkit-appearance: none;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 16px;
+    height: 16px;
+    background: #007acc;
+    border: 1px solid #007acc;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  input[type="range"]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 6px;
+    cursor: pointer;
+    background: #444;
+  }
+  
+  .thankyou-container  p {
+    color: #ff6347;
+    margin: 0;
+  }
+
+  output {
+    display: block;
+    text-align: center;
+  }
+  
+  .membership-benefits {
+    margin-top: 20px;
+  }
+  
+  .membership-benefits h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .membership-benefits ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+
+  .thankyou-container {
+    text-align: center;
+    background-color: var(--form-background-color);
+    padding: 50px;
+    border-radius: 15px;
+    margin-top: 100px;
+  }
+  
+  .thankyou-container p {
+    color: red;
+    text-decoration: overline;
+  }
 
 /*////////*/
 /* Footer */
@@ -497,7 +600,7 @@ footer {
 
     .image-gallery img {
         max-width:100%; 
-        margin-left: 10px;
+        margin-left: 90px;
     }
 
 
