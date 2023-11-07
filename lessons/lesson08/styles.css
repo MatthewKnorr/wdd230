@@ -38,7 +38,7 @@ input[type="password"],
 input[type="email"],
 input[type="range"],
 button {
-  width: 100%;
+  width: 95%;
   padding: 10px;
   margin-bottom: 15px;
   background-color: #333;
@@ -53,7 +53,7 @@ input[type="range"] {
 
 input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
-  width: 16px;
+  /* width: 16px; */
   height: 16px;
   background: #007acc;
   border: 1px solid #007acc;
@@ -66,6 +66,12 @@ input[type="range"]::-webkit-slider-runnable-track {
   height: 6px;
   cursor: pointer;
   background: #444;
+}
+
+.submit-button {
+  text-align: center;
+  align-items: center;
+  width: 100%;
 }
 
 p {
