@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+/* CSS for the card layout */
+#cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    /* Start with 1 column for mobile */
+    gap: 20px;
+}
+
+/* Center the last card in a row for larger screens */
+#cards>section:last-child:nth-child(4n + 4) {
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: auto / span 4;
+}
+
+/* Additional CSS for card styling (you can customize this part) */
+section {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media query to adjust layout for larger screens */
+@media (min-width: 769px) {
+    #cards {
+        grid-template-columns: repeat(4, 1fr);
+        /* Change to 4 columns for larger screens */
+    }
+}
