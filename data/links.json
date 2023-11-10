@@ -1,0 +1,71 @@
+{
+    "lessons": [
+      {
+        "lesson": "01",
+        "links": [
+          {
+            "url": "../wdd230/lesson01/holygrail.html",
+            "title": "Holy Layout"
+          }
+        ]
+      },
+      {
+        "lesson": "02",
+        "links": [
+          {
+            "url": "../wdd230/lesson02/design-principles.html",
+            "title": "Design Principles"
+          }
+        ]
+      },
+      {
+        "lesson": "03",
+        "links": [
+          {
+            "url": "../wdd230/lesson03/images/CSS-Combinators.PNG",
+            "title": "CSS Combinators"
+          },
+          {
+            "url": "https://codepen.io/MatthewKnorr/pen/XWoEBqp",
+            "title": "Pseudo-Element CodePen"
+          },
+          {
+            "url": "https://codepen.io/MatthewKnorr/pen/PoXRdWw",
+            "title": "Responsive 'Hamburger' Menu"
+          },
+          {
+            "url": "../wdd230/lesson03/chamber-site-plan.html",
+            "title": "Chamber of Commerce Site Plan"
+          }
+        ]
+      },
+      {
+        "lesson": "05",
+        "links": [
+          {
+            "url": "../wdd230/lesson05/bom.html",
+            "title": "Favorite Book of Mormon Chapter"
+          }
+        ]
+      },
+      {
+        "lesson": "08",
+        "links": [
+          {
+            "url": "../wdd230/form.html",
+            "title": "Form Page"
+          }
+        ]
+      },
+      {
+        "lesson": "09",
+        "links": [
+          {
+            "url": "../wdd230/lesson09/prophets.html",
+            "title": "Prophets Fetch API"
+          }
+        ]
+      }
+    ]
+  }
+  
