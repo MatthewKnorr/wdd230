@@ -5,7 +5,7 @@
             "address": "123 Main Street, Tech City, Digital Country",
             "phone": "555-123-4567",
             "website": "https://www.techinnovators.com",
-            "image": "techinnovators.jpg",
+            "image": "../test.png", 
             "membershipLevel": "Platinum",
             "otherInfo": "Leading the way in cutting-edge technology solutions."
         },
@@ -14,7 +14,7 @@
             "address": "456 Green Avenue, Sustainable Town, Earth",
             "phone": "987-654-3210",
             "website": "https://www.ecoharmony.com",
-            "image": "ecoharmony.jpg",
+            "image": "../test.png", 
             "membershipLevel": "Gold",
             "otherInfo": "Dedicated to creating a greener and cleaner future."
         },
@@ -23,7 +23,7 @@
             "address": "789 Culinary Lane, Flavorful Village, Gastronomy",
             "phone": "111-222-3333",
             "website": "https://www.gourmetdelights.com",
-            "image": "gourmetdelights.jpg",
+            "image": "../test.png", 
             "membershipLevel": "Silver",
             "otherInfo": "Bringing the world's finest flavors to your doorstep."
         },
@@ -32,7 +32,7 @@
             "address": "101 Artistic Street, Creative City, Imagination",
             "phone": "999-888-7777",
             "website": "https://www.infinitecreations.com",
-            "image": "infinitecreations.jpg",
+            "image": "../test.png", 
             "membershipLevel": "Bronze",
             "otherInfo": "Where imagination knows no bounds – Crafting dreams into reality."
         },
@@ -41,7 +41,7 @@
             "address": "789 Style Avenue, Trendy Town, Vogue",
             "phone": "444-555-6666",
             "website": "https://www.fashionfusion.com",
-            "image": "fashionfusion.jpg",
+            "image": "../test.png", 
             "membershipLevel": "Gold",
             "otherInfo": "Setting trends and redefining fashion with every stitch."
         },
@@ -50,7 +50,7 @@
             "address": "456 Heights Lane, Adventurous Village, Exploration",
             "phone": "777-999-0000",
             "website": "https://www.skylineadventures.com",
-            "image": "skylineadventures.jpg",
+            "image": "../test.png", 
             "membershipLevel": "Silver",
             "otherInfo": "Embark on thrilling journeys with us and discover the extraordinary."
         },
@@ -59,7 +59,7 @@
             "address": "321 Wellness Street, Healthy City, Vitality",
             "phone": "123-456-7890",
             "website": "https://www.harmonyhealth.com",
-            "image": "harmonyhealth.jpg",
+            "image": "../test.png", 
             "membershipLevel": "Bronze",
             "otherInfo": "Promoting well-being and harmony for a healthier lifestyle."
         }

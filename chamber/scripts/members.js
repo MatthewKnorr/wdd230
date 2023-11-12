@@ -1,5 +1,5 @@
 // Update the const variable named "url" with the URL string of the new JSON resource.
-const membersUrl = 'https://path-to-your-json-file/members.json';
+const membersUrl = 'https://raw.githubusercontent.com/MatthewKnorr/wdd230/main/chamber/data/members.json';
 
 // Update the const variable named "members" to select the HTML div element from the document with an id value of "members".
 const membersSection = document.querySelector('#members');
