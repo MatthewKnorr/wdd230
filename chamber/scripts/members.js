@@ -3,22 +3,36 @@ const membersUrl = 'https://raw.githubusercontent.com/MatthewKnorr/wdd230/main/c
 
 // Update the const variable named "membersSection" to select the HTML div element from the document with an id value of "members".
 const membersSection = document.querySelector('#members');
+const toggleViewButton = document.querySelector('#toggleView');
 
-// Create an async defined function named "getMembersData" to fetch data from the new JSON source url.
+// Set the initial view mode
+let isGridView = true;
+
+// Event listener for the toggleViewButton
+toggleViewButton.addEventListener('click', () => {
+    isGridView = !isGridView; // Toggle the view mode
+    updateView();
+});
+
+// Function to update the view based on the current mode
+const updateView = () => {
+    // Toggle the class based on the view mode
+    membersSection.classList.toggle('list-view', !isGridView);
+
+    // Display an emoji based on the view mode
+    toggleViewButton.textContent = isGridView ? '📷 Grid View' : '📝 List View';
+};
+
+// Async function to fetch and display members
 async function getMembersData() {
     try {
         const response = await fetch(membersUrl);
         const data = await response.json();
-        // Uncomment the following line to check the data in the console.
-        // console.table(data.members);
-        displayMembers(data.members); // Call the displayMembers function with the members data.
+        displayMembers(data.members);
     } catch (error) {
         console.error('Error fetching members data:', error);
     }
 }
-
-// Call the getMembersData function to start fetching and processing the member data.
-getMembersData();
 
 // Define a function expression named "displayMembers" that processes and displays member information as cards.
 const displayMembers = (members) => {
@@ -65,4 +79,10 @@ const displayMembers = (members) => {
         // Append the memberCard to the #members section
         membersSection.appendChild(memberCard);
     });
+
+    // Call updateView to set the initial view mode
+    updateView();
 }
+
+// Call the getMembersData function to start fetching and processing the member data.
+getMembersData();
