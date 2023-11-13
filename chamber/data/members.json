@@ -2,66 +2,66 @@
     "members": [
         {
             "name": "Crave Cookies",
-            "address": "76 N 100 E Ste 8",
-            "phone": "801-636-2300",
-            "website": "https://chamberorganizer.com/afchamber/mp_afcravecookies",
+            "address": "123 Crave Lane, Cookie City, Delightful Country",
+            "phone": "555-123-4567",
+            "website": "https://cravecookies.com/",
             "image": "https://docuteam.b-cdn.net/img.php?store=88915&type=logo", 
             "membershipLevel": "Platinum",
-            "otherInfo": "Seeking a truly satisfying cookie? An irresistible dessert that haunts your dreams with anticipation? Welcome to your latest obsession!"
+            "otherInfo": "Satisfy your cravings at Crave Cookies with cutting-edge technology solutions."
         },
         {
-            "name": "Eco Harmony Solutions",
-            "address": "456 Green Avenue, Sustainable Town, Earth",
+            "name": "BBQ Pit Stop",
+            "address": "456 Pit Lane, BBQ Town, Smoky Earth",
             "phone": "987-654-3210",
-            "website": "https://www.ecoharmony.com",
-            "image": "../test.png", 
+            "website": "https://www.bbqpitstop.com/",
+            "image": "https://docuteam.b-cdn.net/img.php?store=19813&type=logo", 
             "membershipLevel": "Gold",
-            "otherInfo": "Dedicated to creating a greener and cleaner future."
+            "otherInfo": "Dedicated to creating a greener and cleaner future at BBQ Pit Stop."
         },
         {
-            "name": "Global Gourmet Delights",
+            "name": "Chubby's Cafe",
             "address": "789 Culinary Lane, Flavorful Village, Gastronomy",
             "phone": "111-222-3333",
-            "website": "https://www.gourmetdelights.com",
-            "image": "../test.png", 
+            "website": "https://chubbyscafe.com/",
+            "image": "https://docuteam.b-cdn.net/img.php?store=52315&type=logo", 
             "membershipLevel": "Silver",
-            "otherInfo": "Bringing the world's finest flavors to your doorstep."
+            "otherInfo": "Explore the finest flavors at Chubby's Cafe, bringing global cuisines to your doorstep."
         },
         {
-            "name": "Infinite Creations Studios",
+            "name": "Costa Vida",
             "address": "101 Artistic Street, Creative City, Imagination",
             "phone": "999-888-7777",
-            "website": "https://www.infinitecreations.com",
-            "image": "../test.png", 
+            "website": "https://www.costavida.com/",
+            "image": "https://docuteam.b-cdn.net/img.php?store=13766&type=logo", 
             "membershipLevel": "Bronze",
-            "otherInfo": "Where imagination knows no bounds – Crafting dreams into reality."
+            "otherInfo": "Where imagination knows no bounds – Crafting dreams into reality at Costa Vida."
         },
         {
-            "name": "Fashion Fusion Couture",
+            "name": "Texas Roadhouse",
             "address": "789 Style Avenue, Trendy Town, Vogue",
             "phone": "444-555-6666",
-            "website": "https://www.fashionfusion.com",
-            "image": "../test.png", 
+            "website": "https://www.texasroadhouse.com/",
+            "image": "https://docuteam.b-cdn.net/img.php?store=12982&type=logo", 
             "membershipLevel": "Gold",
-            "otherInfo": "Setting trends and redefining fashion with every stitch."
+            "otherInfo": "Setting trends and redefining fashion with every dish at Texas Roadhouse."
         },
         {
-            "name": "Skyline Adventure Tours",
+            "name": "Maven Cinemas",
             "address": "456 Heights Lane, Adventurous Village, Exploration",
             "phone": "777-999-0000",
-            "website": "https://www.skylineadventures.com",
-            "image": "../test.png", 
+            "website": "https://www.mavencinemas.com/",
+            "image": "https://www.chamberorganizer.com/afchamber/photos/MP11082942309132111P.PNG", 
             "membershipLevel": "Silver",
-            "otherInfo": "Embark on thrilling journeys with us and discover the extraordinary."
+            "otherInfo": "Embark on thrilling cinematic journeys with Maven Cinemas and discover the extraordinary."
         },
         {
-            "name": "Harmony Health Solutions",
-            "address": "321 Wellness Street, Healthy City, Vitality",
+            "name": "Olive Garden",
+            "address": "321 Olive Street, Garden City, Freshness",
             "phone": "123-456-7890",
-            "website": "https://www.harmonyhealth.com",
-            "image": "../test.png", 
+            "website": "https://www.olivegarden.com/home",
+            "image": "https://docuteam.b-cdn.net/img.php?store=10251&type=logo", 
             "membershipLevel": "Bronze",
-            "otherInfo": "Promoting well-being and harmony for a healthier lifestyle."
+            "otherInfo": "Promoting well-being and harmony for a healthier lifestyle at Olive Garden."
         }
     ]
 }
