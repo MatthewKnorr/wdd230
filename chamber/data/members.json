@@ -1,13 +1,13 @@
 {
     "members": [
         {
-            "name": "Tech Innovators Ltd",
-            "address": "123 Main Street, Tech City, Digital Country",
-            "phone": "555-123-4567",
-            "website": "https://www.techinnovators.com",
-            "image": "../test.png", 
+            "name": "Crave Cookies",
+            "address": "76 N 100 E Ste 8",
+            "phone": "801-636-2300",
+            "website": "https://chamberorganizer.com/afchamber/mp_afcravecookies",
+            "image": "https://docuteam.b-cdn.net/img.php?store=88915&type=logo", 
             "membershipLevel": "Platinum",
-            "otherInfo": "Leading the way in cutting-edge technology solutions."
+            "otherInfo": "Seeking a truly satisfying cookie? An irresistible dessert that haunts your dreams with anticipation? Welcome to your latest obsession!"
         },
         {
             "name": "Eco Harmony Solutions",

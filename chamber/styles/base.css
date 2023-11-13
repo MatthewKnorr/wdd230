@@ -155,8 +155,9 @@ nav {
     padding: 30px;
     border-radius: 15px;
 }
+
 .weather {
-    display: flex; 
+    display: flex;
     flex-direction: column;
     background-color: var(--accent-color-one);
     width: calc(35% - 10px);
@@ -167,12 +168,12 @@ nav {
 
 .weather-header {
     font-size: initial;
-    text-align: left; 
-    margin-bottom: 10px; 
+    text-align: left;
+    margin-bottom: 10px;
 }
 
 .weather-content {
-    display: flex; 
+    display: flex;
     justify-content: space-between;
 }
 
@@ -182,7 +183,7 @@ nav {
 
 .weather .left {
     flex: 1;
-    text-align: right; 
+    text-align: right;
 }
 
 .weather .right {
@@ -196,7 +197,7 @@ nav {
 
 .weather .right p {
     margin-bottom: 10px;
-    margin-right: 50px ; 
+    margin-right: 50px;
     text-align: center;
 }
 
@@ -276,31 +277,31 @@ nav {
 }
 
 .sidebar img {
-    max-width: 100%; 
+    max-width: 100%;
     height: auto;
     border-radius: 5px;
     margin-bottom: 5px;
 }
 
 .event-box {
-    
+
     background-color: var(--accent-color-three);
     padding: 15px;
     border-radius: 5px;
 }
 
-.event-box img{
+.event-box img {
     max-width: 75%;
 }
 
 .image-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px; 
+    grid-gap: 20px;
 }
 
 .image-gallery img {
-    max-width: 75%; 
+    max-width: 75%;
     height: auto;
     display: block;
     border: 3px solid var(--secondary-color);
@@ -308,7 +309,9 @@ nav {
     margin-left: 125px;
 }
 
-.image-gallery img:hover {box-shadow: 0 0 50px white;}
+.image-gallery img:hover {
+    box-shadow: 0 0 50px white;
+}
 
 /* Lazy Loading */
 .image-gallery img[data-src] {
@@ -337,25 +340,25 @@ nav {
 
 .form-container {
     background-color: var(--secondary-color);
-    border-radius: 5px ;
+    border-radius: 5px;
     box-shadow: var(--accent-color-three);
     padding: 100px;
     width: 400px;
     margin: 50px;
- }
-  
-  label {
+}
+
+label {
     display: block;
     margin-bottom: 5px;
-  }
-  
-  input[type="text"],
-  input[type="password"],
-  input[type="email"],
-  input[type="range"],
-  input[type="tel"],
-  textarea,
-  button {
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="range"],
+input[type="tel"],
+textarea,
+button {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
@@ -363,13 +366,13 @@ nav {
     border: none;
     border-radius: 5px;
     color: #ffffff;
-  }
-  
-  input[type="range"] {
+}
+
+input[type="range"] {
     -webkit-appearance: none;
-  }
-  
-  input[type="range"]::-webkit-slider-thumb {
+}
+
+input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
     width: 16px;
     height: 16px;
@@ -377,51 +380,51 @@ nav {
     border: 1px solid #007acc;
     border-radius: 50%;
     cursor: pointer;
-  }
-  
-  input[type="range"]::-webkit-slider-runnable-track {
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
     width: 100%;
     height: 6px;
     cursor: pointer;
     background: #444;
-  }
-  
-  .thankyou-container  p {
+}
+
+.thankyou-container p {
     color: #ff6347;
     margin: 0;
-  }
+}
 
-  output {
+output {
     display: block;
     text-align: center;
-  }
-  
-  .membership-benefits {
+}
+
+.membership-benefits {
     margin-top: 20px;
-  }
-  
-  .membership-benefits h3 {
+}
+
+.membership-benefits h3 {
     font-size: 18px;
     margin-bottom: 10px;
-  }
-  
-  .membership-benefits ul {
+}
+
+.membership-benefits ul {
     list-style-type: disc;
     margin-left: 20px;
-  }
+}
 
-  .thankyou-container {
+.thankyou-container {
     text-align: center;
     background-color: var(--form-background-color);
     padding: 50px;
     border-radius: 15px;
     margin-top: 100px;
-  }
-  
-  .thankyou-container p {
+}
+
+.thankyou-container p {
     color: red;
     text-decoration: overline;
-  }
+}
 
 /*////////*/
 /* Footer */
@@ -438,7 +441,7 @@ footer {
     line-height: 3;
     margin-top: 50px;
     margin-bottom: 10px;
-    
+
 }
 
 .footer-section {
@@ -447,7 +450,7 @@ footer {
     justify-content: center;
 }
 
-.footer-section .logo img{
+.footer-section .logo img {
     width: 50px;
 }
 
@@ -594,38 +597,76 @@ footer {
     .image-gallery {
         display: flex;
         flex-direction: column;
-        align-items: center; 
+        align-items: center;
         max-width: 80%;
-        
+
     }
 
     .image-gallery img {
-        max-width:100%; 
+        max-width: 100%;
         margin-left: 90px;
     }
 
-/*///////////*/
-/* Directory */
-/*///////////*/
+    /*///////////*/
+    /* Directory */
+    /*///////////*/
 
-#members {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    text-align: center;
-    gap: 20px;
-}
+    #members {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        gap: 20px;
+    }
+    
+    #members>section:last-child:nth-child(4n + 4) {
+        margin-left: auto;
+        margin-right: auto;
+        grid-column: auto / span 4;
+    }
+    
+    
 
-#members>section {
-    /* Add styling for member cards */
-    text-align: center;
-    border: 1px solid #ccc;
-    padding: 10px;
-    background-color: #f4f4f4;
-}
+    .js-section {
+        text-align: center;
+        border: 1px solid red;
+        padding: 10px;
+        background-color: #f4f4f4;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        max-width: 300px;
+        margin: 0 auto;
+        color: #333;
+    }
+    
+    .js-h2 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    
+    .js-img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 10px;
+    }
+    
+    .js-section p {
+        margin: 8px 0;
+    }
+    
+    .js-section a {
+        color: #007BFF;
+        text-decoration: none;
+    }
+    
+    .js-section a:hover {
+        text-decoration: underline;
+    }
 
-/*////////*/
-/* Footer */
-
+    /*////////*/
+    /* Footer */
+    /*////////*/
     footer {
         padding: 10px 0;
     }
@@ -638,6 +679,14 @@ footer {
         width: 60px;
     }
 }
+
+@media (min-width: 769px) {
+    #members {
+        grid-template-columns: repeat(4, 1fr);
+        /* Change to 4 columns for larger screens */
+    }
+}
+
 
 /*//////////////////////*/
 /* Tablet Media queries */
@@ -686,27 +735,26 @@ footer {
         display: none;
     }
 
-    
+
 
     .image-gallery {
         display: flex;
-        flex-direction: column; 
-        align-items: center; 
+        flex-direction: column;
+        align-items: center;
         max-width: 80%;
         margin-left: 0;
     }
 
     .image-gallery img {
-        max-width:80%; 
-     
+        max-width: 80%;
+
     }
 
-    
+
     .event-box {
         margin-bottom: 100px;
     }
-    
-    
+
 }
 
 /*///////////////////////////////*/
@@ -738,7 +786,7 @@ footer {
     .image-gallery img {
         margin-left: 50px;
     }
-    
+
 
 }
 
