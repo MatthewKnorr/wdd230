@@ -66,6 +66,16 @@
             "title": "Prophets Fetch API"
           }
         ]
+      },
+      {
+        "lesson": "10",
+        "links": [
+
+          {
+            "url": "../wdd230/lesson10/weather.html",
+            "title": "Weather Fetch API"
+          }
+        ]
       }
     ]
   }
