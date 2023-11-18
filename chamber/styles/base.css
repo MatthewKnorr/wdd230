@@ -341,7 +341,7 @@ nav {
 .form-container {
     background-color: var(--secondary-color);
     border-radius: 5px;
-    box-shadow: #1e1e24;
+    box-shadow: 1px 1px #1e1e24;
     padding: 100px;
     width: 400px;
     margin: 50px;
