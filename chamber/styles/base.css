@@ -320,7 +320,7 @@ nav {
     display: none;
 }
 
-.image-gallery img[data-src]:in-viewport {
+.image-gallery img[data-src] {
     opacity: 1;
 }
 
