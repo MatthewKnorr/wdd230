@@ -341,7 +341,7 @@ nav {
 .form-container {
     background-color: var(--secondary-color);
     border-radius: 5px;
-    box-shadow: var(--accent-color-three);
+    box-shadow: #1e1e24;
     padding: 100px;
     width: 400px;
     margin: 50px;
@@ -618,7 +618,9 @@ footer {
         right: 0;
         margin: 0 auto;
         margin-top: 80px;
+        text-decoration: none;
     }
+
 
     .banner {
         height: 200px;
