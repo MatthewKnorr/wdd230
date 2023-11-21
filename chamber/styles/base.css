@@ -2,7 +2,7 @@
     --primary-color: #92140c;
     --secondary-color: #111d4a;
     --accent-color-one: #fff8f0;
-    --accent-color-two: #ffcf99;
+    --accent-color-two: #c99152;
     --accent-color-three: #1e1e24;
 }
 
@@ -15,6 +15,7 @@ body {
     padding: 0;
     font-family: "Roboto", sans-serif;
     color: white;
+    background-color:var(--secondary-color);
 }
 
 header {
@@ -120,6 +121,11 @@ nav {
     width: 250px;
 }
 
+.join button a {
+    color: var(--accent-color-one);
+    text-decoration: none;
+}
+
 .banner {
     max-width: calc(100% - 40px);
     width: 100%;
@@ -140,6 +146,10 @@ nav {
     color: var(--accent-color-three);
 }
 
+.events-weather-container p {
+    color: var(--secondary-color);
+}
+
 .events-weather-container h1 {
     color: var(--secondary-color);
 }
@@ -150,7 +160,7 @@ nav {
 
 .events {
     margin-right: 10px;
-    background-color: var(--accent-color-one);
+    background-color: var(--accent-color-two);
     width: calc(65% - 10px);
     padding: 30px;
     border-radius: 15px;
@@ -159,7 +169,7 @@ nav {
 .weather {
     display: flex;
     flex-direction: column;
-    background-color: var(--accent-color-one);
+    background-color: var(--accent-color-two);
     width: calc(35% - 10px);
     padding: 30px;
     border-radius: 15px;
@@ -204,7 +214,7 @@ nav {
 
 .spotlights {
     display: flex;
-    background-color: var(--accent-color-one);
+    background-color: var(--accent-color-two);
     color: var(--accent-color-three);
     max-width: calc(100% - 40px);
     margin: 0 auto;
@@ -219,7 +229,7 @@ nav {
     text-align: center;
     width: 33%;
     padding: 20px;
-    box-shadow: 5px 5px 10px 10px var(--primary-color);
+    box-shadow: 5px 5px 10px 10px var(--secondary-color);
 }
 
 .card-one h1,
@@ -268,7 +278,7 @@ nav {
     grid-template-rows: auto 1fr;
     grid-gap: 40px;
     max-width: 200px;
-    background-color: var(--secondary-color);
+    background-color: var(--accent-color-two);
     border-radius: 30px;
 }
 
@@ -304,13 +314,12 @@ nav {
     max-width: 75%;
     height: auto;
     display: block;
-    border: 3px solid var(--secondary-color);
     border-radius: 5px;
     margin-left: 125px;
 }
 
 .image-gallery img:hover {
-    box-shadow: 0 0 50px white;
+    box-shadow: 0 0 50px var(--primary-color);
 }
 
 /* Lazy Loading */
@@ -339,7 +348,7 @@ nav {
 
 
 .form-container {
-    background-color: var(--secondary-color);
+    background-color: var(--accent-color-three);
     border-radius: 5px;
     box-shadow: 1px 1px #1e1e24;
     padding: 100px;
@@ -454,12 +463,12 @@ output {
     text-align: center;
     border: 1px solid red;
     padding: 10px;
-    background-color: #f4f4f4;
+    background-color: var(--accent-color-three);
     box-sizing: border-box;
     margin-bottom: 20px;
     max-width: 300px;
     margin: 0 auto;
-    color: #333;
+    color: var(--accent-color-one-);
 }
 
 .js-h2 {
@@ -488,6 +497,34 @@ output {
     text-decoration: underline;
 }
 
+/*///////////*/
+/* Thank You */
+/*///////////*/
+
+.thankyou-body {
+    background-color: var(--accent-color-three);
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    
+}
+.thankyou-container {
+    background-color: var(--secondary-color);
+    /* margin: 20px; */
+    text-align: center;
+    margin: 0;
+}
+
+.thankyou-container h2 {
+    font-size: 30px;
+}
+
+.thankyou-container p {
+    color: var(--accent-color-two);
+    font-size: 20px;
+}
 
 /*////////*/
 /* Footer */
