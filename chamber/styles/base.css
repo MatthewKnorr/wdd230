@@ -70,7 +70,7 @@ nav {
     margin: 0px 20px;
 }
 
-.link a {
+.links .link a {
     text-decoration: none;
     color: var(--accent-color-one-);
     border: var(--accent-color-three) 1px solid;
@@ -214,22 +214,34 @@ nav {
 
 .spotlights {
     display: flex;
-    background-color: var(--accent-color-two);
+    /* background-color: var(--accent-color-two); */
     color: var(--accent-color-three);
     max-width: calc(100% - 40px);
     margin: 0 auto;
     align-items: center;
     border-radius: 15px;
     margin-bottom: 30px;
+    gap: 20px;
 }
+
+.spotlight-banner img{
+    width: 80%;
+}
+
+.spotlights :hover {
+    /* background-color: ; */
+    transition: .5s;
+}
+
 
 .card-one,
 .card-two,
 .card-three {
     text-align: center;
+    background-color: var(--accent-color-two);
     width: 33%;
     padding: 20px;
-    box-shadow: 5px 5px 10px 10px var(--secondary-color);
+    box-shadow: 1px 1px 10px 2px #666;
 }
 
 .card-one h1,
@@ -244,8 +256,26 @@ nav {
     color: var(--primary-color);
 }
 
+.card-one img,
+.card-two img,
+.card-three img {
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px 3px var(--accent-color-three);
+}
+
 .contacts .link {
-    text-decoration: underline;
+    padding: 12px 12px;
+}
+
+.contacts .link a {
+    text-decoration: none;
+    color: #007BFF;
+    padding: 0 auto;
+    background-color:var(--accent-color-three);
+    /* background-color: blue; */
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
 }
 
 /*////////////////*/
@@ -308,6 +338,7 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
+    
 }
 
 .image-gallery img {
@@ -316,10 +347,14 @@ nav {
     display: block;
     border-radius: 5px;
     margin-left: 125px;
+    box-shadow: 1px 1px 10px 2px #666;
 }
 
 .image-gallery img:hover {
-    box-shadow: 0 0 50px var(--primary-color);
+    max-width: 80%;
+    height: calc(auto + 20px);
+    transition: .4s;
+    box-shadow: 1px 1px 10px 5px var(--primary-color);
 }
 
 /* Lazy Loading */
@@ -535,24 +570,17 @@ footer {
     color: var(--accent-color-one);
     text-align: center;
     padding: 10px 0;
+    /* position: fixed; */
+    /* bottom: 0; */
+    width: 100%;
 }
 
-.footer-section .right {
-    line-height: 3;
-    margin-top: 50px;
-    margin-bottom: 10px;
 
-}
 
-.footer-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+/*///////////////*/
+/* Custom Styles */
+/*///////////////*/
 
-.footer-section .logo img {
-    width: 50px;
-}
 
 @media (min-width: 769px) {
     #members {
