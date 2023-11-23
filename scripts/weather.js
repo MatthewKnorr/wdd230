@@ -3,7 +3,7 @@ const apiKey = "2bf7f61f22e3a3bdf0c96cff27a40e7c";
 // // // // // // //
 //  Set Location  //
 // // // // // // //
-const defaultLocation = "Rexburg,US"; 
+const defaultLocation = "Gilbert ,US"; 
 
 async function fetchWeatherData(location) {
     try {
