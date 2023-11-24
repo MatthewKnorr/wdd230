@@ -270,7 +270,7 @@ nav {
 .contacts .link a {
     text-decoration: none;
     color: #007BFF;
-    padding: 0 auto;
+    margin: 0 auto;
     background-color:var(--accent-color-three);
     /* background-color: blue; */
     border: none;
@@ -352,7 +352,7 @@ nav {
 
 .image-gallery img:hover {
     max-width: 80%;
-    height: calc(auto + 20px);
+    height: auto;
     transition: .4s;
     box-shadow: 1px 1px 10px 5px var(--primary-color);
 }
