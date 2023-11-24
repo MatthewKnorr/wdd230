@@ -104,7 +104,7 @@ nav {
 /* Home Page */
 /*///////////*/
 
-.join button {
+.join .button {
     background-color: var(--accent-color-three);
     color: #fff;
     font-size: 20px;
@@ -119,9 +119,10 @@ nav {
     border: none;
     border-radius: 5px;
     width: 250px;
+    text-align: center;
 }
 
-.join button a {
+.join .button a {
     color: var(--accent-color-one);
     text-decoration: none;
 }
