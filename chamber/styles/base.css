@@ -15,7 +15,7 @@ body {
     padding: 0;
     font-family: "Roboto", sans-serif;
     color: white;
-    background-color:var(--secondary-color);
+    background-color:#000724;
 }
 
 header {
@@ -385,15 +385,15 @@ nav {
 .form-container {
     background-color: var(--accent-color-three);
     border-radius: 5px;
-    box-shadow: 1px 1px #1e1e24;
+    box-shadow: 1px 1px 5px 5px #636363;
     padding: 100px;
-    width: 400px;
-    margin: 50px;
+    margin: 75px
 }
 
 label {
     display: block;
     margin-bottom: 5px;
+    padding: 20px;
 }
 
 input[type="text"],
@@ -455,19 +455,70 @@ output {
 .membership-benefits ul {
     list-style-type: disc;
     margin-left: 20px;
+
 }
 
-.thankyou-container {
-    text-align: center;
-    background-color: var(--form-background-color);
-    padding: 50px;
-    border-radius: 15px;
-    margin-top: 100px;
+.memberships {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
 }
 
-.thankyou-container p {
-    color: red;
-    text-decoration: overline;
+.free,
+.bronze,
+.silver,
+.gold {
+    width: 100%;
+    max-width: calc(60% - 20px); /* Adjust as needed for your layout */
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border-top-right-radius: 8rem;
+    border-bottom-left-radius: 8rem;
+}
+
+.free {
+    background-color: #9ed56b; /* Pastel Green for Free Membership */
+    color: #333; /* Dark gray text on pastel green background */
+}
+
+.bronze {
+    background-color: #d08c5c; /* Pastel Orange for Bronze Membership */
+    color: #333; /* Dark gray text on pastel orange background */
+}
+
+.silver {
+    background-color: #b1b1b1; /* Pastel Gray for Silver Membership */
+    color: #333; /* Dark gray text on pastel gray background */
+}
+
+.gold {
+    background-color: #e3cd5e; /* Pastel Yellow for Gold Membership */
+    color: #333; /* Dark gray text on pastel yellow background */
+}
+
+.membership-header,
+.membership-description,
+.membership-rewards {
+    margin-bottom: 10px;
+}
+
+.membership-header {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+}
+
+
+.membership-rewards-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.membership-rewards-list li {
+    margin-bottom: 5px;
 }
 
 /*///////////*/
@@ -536,6 +587,20 @@ output {
 /* Thank You */
 /*///////////*/
 
+.thankyou-container {
+    text-align: center;
+    /* background-color: var(--form-background-color); */
+    padding: 50px;
+    border-radius: 15px;
+    margin-top: 100px;
+}
+
+.thankyou-container p {
+    /* color: red; */
+    text-decoration: overline;
+}
+
+
 .thankyou-body {
     background-color: var(--accent-color-three);
     display: flex;
@@ -547,7 +612,7 @@ output {
 }
 .thankyou-container {
     background-color: var(--secondary-color);
-    /* margin: 20px; */
+
     text-align: center;
     margin: 0;
 }
