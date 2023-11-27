@@ -399,7 +399,7 @@ nav {
 .image-gallery img:hover {
     max-width: 80%;
     height: auto;
-    transition: .4s;
+    transition: .5s;
     box-shadow: 1px 1px 10px 5px var(--primary-color);
 }
 
