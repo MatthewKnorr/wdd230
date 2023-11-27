@@ -719,12 +719,7 @@ footer {
         margin: 0 auto;
     }
 
-    .social-links img {
-        height: 40px;
-        width: 40px;
-        padding: 0;
-        margin: 0;
-    }
+    
 
     nav {
         display: none;
@@ -780,10 +775,18 @@ footer {
 
     .social-links {
         display: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .social-links a {
+        display: none;
     }
 
     .mobile-menu.show-menu {
         display: block;
+        height: 200px;
+        margin-top: 50px;
     }
 
     .join button {
