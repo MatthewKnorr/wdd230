@@ -207,7 +207,6 @@ nav {
 }
 
 .weather .right p {
-    margin-bottom: 10px;
     margin-right: 50px;
     text-align: center;
 }
@@ -318,11 +317,11 @@ nav {
 }
 
 #weatherEmoji {
-    font-size: 3em; /* Adjust the size as needed */
+    font-size: 1em; 
 }
 
 #time {
-    font-size: 1.5em; /* Adjust the size as needed */
+    font-size: 1.5em; 
 }
 
 /*////////////////*/
@@ -777,6 +776,10 @@ footer {
         background-color: var(--accent-color-three);
         text-align: center;
         height: 18%;
+    }
+
+    .social-links {
+        display: none;
     }
 
     .mobile-menu.show-menu {
