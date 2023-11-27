@@ -6,9 +6,9 @@
     --accent-color-three: #1e1e24;
 }
 
-/*/////////////////*/
-/* Header/ NAV Css */
-/*/////////////////*/
+/*/////////////*/
+/* Header/ NAV */
+/*/////////////*/
 
 body {
     margin: 0;
@@ -317,6 +317,14 @@ nav {
     transition: .4;
 }
 
+#weatherEmoji {
+    font-size: 3em; /* Adjust the size as needed */
+}
+
+#time {
+    font-size: 1.5em; /* Adjust the size as needed */
+}
+
 /*////////////////*/
 /* Discover  Page */
 /*////////////////*/
@@ -509,7 +517,7 @@ output {
 .silver,
 .gold {
     width: 100%;
-    max-width: calc(60% - 20px); /* Adjust as needed for your layout */
+    max-width: calc(60% - 20px); 
     margin-bottom: 20px;
     padding: 20px;
     box-sizing: border-box;
@@ -519,23 +527,23 @@ output {
 }
 
 .free {
-    background-color: #9ed56b; /* Pastel Green for Free Membership */
-    color: #333; /* Dark gray text on pastel green background */
+    background-color: #9ed56b;
+    color: #333; 
 }
 
 .bronze {
-    background-color: #d08c5c; /* Pastel Orange for Bronze Membership */
-    color: #333; /* Dark gray text on pastel orange background */
+    background-color: #d08c5c;
+    color: #333; 
 }
 
 .silver {
-    background-color: #b1b1b1; /* Pastel Gray for Silver Membership */
-    color: #333; /* Dark gray text on pastel gray background */
+    background-color: #b1b1b1;
+    color: #333; 
 }
 
 .gold {
-    background-color: #e3cd5e; /* Pastel Yellow for Gold Membership */
-    color: #333; /* Dark gray text on pastel yellow background */
+    background-color: #e3cd5e;
+    color: #333; 
 }
 
 .membership-header,
@@ -628,14 +636,12 @@ output {
 
 .thankyou-container {
     text-align: center;
-    /* background-color: var(--form-background-color); */
     padding: 50px;
     border-radius: 15px;
     margin-top: 100px;
 }
 
 .thankyou-container p {
-    /* color: red; */
     text-decoration: overline;
 }
 
@@ -674,8 +680,6 @@ footer {
     color: var(--accent-color-one);
     text-align: center;
     padding: 10px 0;
-    /* position: fixed; */
-    /* bottom: 0; */
     width: 100%;
 }
 

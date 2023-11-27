@@ -9,7 +9,7 @@ function displayBanner() {
     const popupBanner = document.getElementById("popupBanner");
 
     if (isMeetingDay()) {
-        popupSection.style.display = "flex";  // Change to "flex" for proper alignment
+        popupSection.style.display = "flex"; 
     } else {
         popupSection.style.display = "none";
         return;

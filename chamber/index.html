@@ -114,10 +114,14 @@
                 <div class="weather-header">
                     <h2>Weather</h2>
                 </div>
+
+
+                <!--  Merge these two classes into a single javascript file that still displays and desired. Modify the weather.js in chamber/scripts/ -->
                 <div class="weather-content">
                     <div class="left">
-                        <img src="../chamber/images/light-rain.webp" alt="weather logo">
+                        <h3> Time: <span id="time"></span></h3>
                         <p>
+                            Weather Emoji: <span id="weatherEmoji"></span> <br><br>
                             Humidity:<br>
                             Wind Speed:<br>
                             Wind Chill: <br>
@@ -126,7 +130,7 @@
                     <div class="right">
                         <p class="stack">
                             <span id="temperature"></span><br><br>
-                            <span id="weatherDescription"></span><br><br><br>
+                            <span id="weatherDescription"></span><br><br>
                             <span id="humidity"></span><br>
                             <span id="windspeed"></span><br>
                             <span id="windChill"></span>
@@ -213,11 +217,14 @@
         </p>
     </footer>
 
-    <script src="../chamber/scripts/windchill.js"></script>
     <script src="../scripts/getdates.js"></script>
     <script src="../chamber/scripts/hamburger.js"></script>
     <script src="../scripts/darkmode.js"></script>
     <script src="../chamber/scripts/popup.js"></script>
+    <script src="../chamber/scripts/weather.js"></script>
+    <!-- <script src="../chamber/scripts/windchill.js "></script> -->
+    <script src="scripts/weather.js"></script>
+    <!-- <script src="scripts/windchill.js"></script> -->
 </body>
 
 </html>
