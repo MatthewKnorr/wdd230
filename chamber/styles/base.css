@@ -313,7 +313,7 @@ nav {
 
 #closeButton:hover {
     background-color: #333;
-    transition: .4;
+    transition: .5s;
 }
 
 #weatherEmoji {
