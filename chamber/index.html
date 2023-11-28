@@ -1,220 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Matthew Knorr">
-        <meta name="description" content="Connecting Businesses and Communities">
-        <title>American Fork Chamber of Commerce</title>
-        <meta property="og:title" content="Chamber of Commerce">
-        <meta property="og:type" content="website">
-        <meta property="og:image"
-            content="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/oky3qpcy0dsevuehoi3v/american-fork">
-        <meta property="og:url"
-            content="https://matthewknorr.github.io/wdd230/chamber/">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Matthew Knorr">
+    <meta name="description" content="Connecting Businesses and Communities">
+    <title>American Fork Chamber of Commerce</title>
+    <meta property="og:title" content="Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/oky3qpcy0dsevuehoi3v/american-fork">
+    <meta property="og:url" content="https://matthewknorr.github.io/wdd230/chamber/">
 
-        <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-        <link rel="stylesheet" href="styles/base.css">
-        <link rel="stylesheet" href="styles/medium.css">
-        <link rel="stylesheet" href="styles/larger.css">
-        <link rel="stylesheet" href="styles/normalize.css">
-    </head>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+</head>
 
-    <body>
-        <header>
-            <div class="logo">
-                <img src="../chamber/images/americanfork.webp"
-                    alt="American Fork Logo">
-                <div class="logo-text">
-                    <h1>American Fork <br> Chamber of Commerce </h1>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../chamber/images/americanfork.webp" alt="American Fork Logo">
+            <div class="logo-text">
+                <h1>American Fork <br> Chamber of Commerce </h1>
 
+            </div>
+        </div>
+        <div class="social-links">
+            <a href="https://www.facebook.com/afchamber/" class="facebook">
+                <img src="../chamber/images/facebook.webp" alt="Facebook icon">
+            </a>
+            <a href="https://www.linkedin.com/company/american-fork-chamber-of-commerce/" class="linkedin">
+                <img src="../chamber/images/linkedin.webp" alt="Linkedin icon">
+            </a>
+        </div>
+        <button id="darkModeButton">
+            🌑
+        </button>
+        <button id="hamburger-menu">☰</button>
+        <div id="mobile-menu" class="mobile-menu">
+            <div class="links">
+                <div class="link">
+                    <a href="../chamber/index.html">Home</a>
+                </div>
+                <div class="link">
+                    <a href="../chamber/discover.html">Discover</a>
+                </div>
+                <div class="link">
+                    <a href="../chamber/directory.html">Directory</a>
+                </div>
+                <div class="link">
+                    <a href="../chamber/join.html">Join</a>
                 </div>
             </div>
-            <div class="social-links">
-                <a href="https://www.facebook.com/afchamber/" class="facebook">
-                    <img src="../chamber/images/facebook.webp"
-                        alt="Facebook icon">
-                </a>
-                <a
-                    href="https://www.linkedin.com/company/american-fork-chamber-of-commerce/"
-                    class="linkedin">
-                    <img src="../chamber/images/linkedin.webp"
-                        alt="Linkedin icon">
-                </a>
-            </div>
-            <button id="darkModeButton">
-                🌑
-            </button>
-            <button id="hamburger-menu">☰</button>
-            <div id="mobile-menu" class="mobile-menu">
-                <div class="links">
-                    <div class="link">
-                        <a href="../chamber/index.html">Home</a>
-                    </div>
-                    <div class="link">
-                        <a href="../chamber/discover.html">Discover</a>
-                    </div>
-                    <div class="link">
-                        <a href="../chamber/directory.html">Directory</a>
-                    </div>
-                    <div class="link">
-                        <a href="../chamber/join.html">Join</a>
-                    </div>
+        </div>
+
+        <nav>
+            <div class="links">
+                <div class="link">
+                    <a href="../chamber/index.html">Home</a>
+                </div>
+                <div class="link">
+                    <a href="../chamber/discover.html">Discover</a>
+                </div>
+                <div class="link">
+                    <a href="../chamber/directory.html">Directory</a>
+                </div>
+                <div class="link">
+                    <a href="../chamber/join.html">Join</a>
                 </div>
             </div>
+        </nav>
+    </header>
 
-            <nav>
-                <div class="links">
-                    <div class="link">
-                        <a href="../chamber/index.html">Home</a>
-                    </div>
-                    <div class="link">
-                        <a href="../chamber/discover.html">Discover</a>
-                    </div>
-                    <div class="link">
-                        <a href="../chamber/directory.html">Directory</a>
-                    </div>
-                    <div class="link">
-                        <a href="../chamber/join.html">Join</a>
-                    </div>
-                </div>
-            </nav>
-        </header>
+    <main>
+        <section class="join">
+            <a href="../chamber/join.html" class="button">Join the Chamber</a>
+            <img src="../chamber/images/american-fork.webp"
+                srcset="../chamber/images/american-fork.webp 1x, ../chamber/images/american-fork-2x.webp 2x, ../chamber/images/american-fork-3x.webp 3x"
+                alt="Landscape of American Fork" class="banner">
 
-        <main>
-            <section class="join">
-                <a href="../chamber/join.html" class="button">Join the Chamber</a>
-                <img src="../chamber/images/american-fork.webp"
-                    srcset="../chamber/images/american-fork.webp 1x, ../chamber/images/american-fork-2x.webp 2x, ../chamber/images/american-fork-3x.webp 3x"
-                    alt="Landscape of American Fork" class="banner">
+        </section>
+        <section id="popupSection">
+            <div id="popupBanner">
+                <img src="../chamber/images/CommerceBanner.webp" alt="Pop Up Banner">
+                <h4 id="popupText"></h4>
+                <a href="#" id="closeButton" onclick="closePopup()">Close</a>
+            </div>
+        </section>
 
+        <div class="events-weather-container">
+
+            <section class="events">
+                <h2>Events</h2>
+                <h3>Sweet Dream Scoops</h3>
+                <p>Celebrate the grand opening of "Sweet Dream Scoops"
+                    with a scoop of pure delight! Join us on Saturday, June
+                    25th, from 1:00 PM to 5:00 PM at 123 Main Street.
+                    Experience a tempting array of artisanal ice cream
+                    flavors, from classic Vanilla Bean to unique specials
+                    like "Mystical Mango Madness" and "Starlight Mint" Be
+                    one
+                    of the first 50 guests to savor these sweet treats and
+                    receive a free Sweet Dream Scoops T-shirt. Don't
+                    miss this tasty adventure! </p>
             </section>
-            <div class="events-weather-container">
 
-                <section class="events">
-                    <h2>Events</h2>
-                    <h3>Sweet Dream Scoops</h3>
-                    <p>Celebrate the grand opening of "Sweet Dream Scoops"
-                        with a scoop of pure delight! Join us on Saturday, June
-                        25th, from 1:00 PM to 5:00 PM at 123 Main Street.
-                        Experience a tempting array of artisanal ice cream
-                        flavors, from classic Vanilla Bean to unique specials
-                        like "Mystical Mango Madness" and "Starlight Mint" Be
-                        one
-                        of the first 50 guests to savor these sweet treats and
-                        receive a free Sweet Dream Scoops T-shirt. Don't
-                        miss this tasty adventure! </p>
-                </section>
+            <section class="weather">
+                <div class="weather-header">
+                    <h2>Weather</h2>
+                </div>
+                <div class="weather-content">
+                    <div class="left">
+                        <img src="../chamber/images/light-rain.webp" alt="weather logo">
+                        <p>
+                            Humidity:<br>
+                            Wind Speed:<br>
+                            Wind Chill: <br>
+                        </p>
+                    </div>
+                    <div class="right">
+                        <p class="stack">
+                            <span id="temperature"></span><br><br>
+                            <span id="weatherDescription"></span><br><br><br>
+                            <span id="humidity"></span><br>
+                            <span id="windspeed"></span><br>
+                            <span id="windChill"></span>
+                        </p>
+                    </div>
+                </div>
+            </section>
 
-                <section class="weather">
-                    <div class="weather-header">
-                        <h2>Weather</h2>
+        </div>
+
+        <section class="spotlights">
+            <div class="card-one">
+                <h2>RapidTransit</h2>
+
+                <h3>Rides Every 15 Minutes!</h3>
+                <div class="contacts">
+                    info@rapidtransit.com
+                    <br>
+                    +1(555) 123-4567
+                    <div class="link">
+                        <a href=" rapidtransithub.com">rapidtransithub.com</a>
                     </div>
-                    <div class="weather-content">
-                        <div class="left">
-                            <img src="../chamber/images/light-rain.webp"
-                                alt="weather logo">
-                            <p>
-                                Humidity:<br>
-                                Wind Speed:<br>
-                                Wind Chill: <br>
-                            </p>
-                        </div>
-                        <div class="right">
-                            <p class="stack">
-                                <span id="temperature"></span><br><br>
-                                <span id="weatherDescription"></span><br><br><br>
-                                <span id="humidity"></span><br>
-                                <span id="windspeed"></span><br>
-                                <span id="windChill"></span>
-                            </p>
-                        </div>
+                    <div class="spotlight-banner">
+                        <img src="../chamber/images/rapidtransit.webp" alt="">
                     </div>
-                </section>
+                </div>
 
             </div>
+            <div class="card-two">
+                <h2>Code Panthers</h2>
 
-            <section class="spotlights">
-                <div class="card-one">
-                    <h2>RapidTransit</h2>
-
-                    <h3>Rides Every 15 Minutes!</h3>
-                    <div class="contacts">
-                        info@rapidtransit.com
-                        <br>
-                        +1(555) 123-4567
-                        <div class="link">
-                           <a href=" rapidtransithub.com">rapidtransithub.com</a>
-                        </div>
-                        <div class="spotlight-banner">
-                            <img src="../chamber/images/rapidtransit.webp" alt="">
-                        </div>
-                    </div>
-
-                </div>
-                <div class="card-two">
-                    <h2>Code Panthers</h2>
-
-                    <h3>Unleash the Digital Roar</h3>
-                    <div class="contacts">
-                        info@codepanthers-event.com
-                        <br>
-                        +1(123) 456-7890
-                        <div class="link">
+                <h3>Unleash the Digital Roar</h3>
+                <div class="contacts">
+                    info@codepanthers-event.com
+                    <br>
+                    +1(123) 456-7890
+                    <div class="link">
                         <a href="codepantherscentral.com">codepantherscentral.com</a>
-                        </div>
-                        <div class="spotlight-banner">
-                            <img src="../chamber/images/codepanthers.webp" alt="">
-                        </div>
                     </div>
-
-                </div>
-                <div class="card-three">
-                    <h2>Dream Home Builders</h2>
-
-                    <h3>Building Dreams</h3>
-                    <div class="contacts">
-                        info@dreamhomebuilders.com
-                        <br>
-                        +1(555) 123-4567
-                        <div class="link">
-                            <a href="dreamhomebuilders.com">dreamhomebuilders.com</a>
-                        </div>
-                        <div class="spotlight-banner">
-                            <img src="../chamber/images/dreamhomes.webp" alt="">
-                        </div>
+                    <div class="spotlight-banner">
+                        <img src="../chamber/images/codepanthers.webp" alt="">
                     </div>
                 </div>
-            </section>
-        </main>
 
-        <footer>
-            <div class="footer-section">
+            </div>
+            <div class="card-three">
+                <h2>Dream Home Builders</h2>
 
-                <div class="content">
-                    <h2>American Fork <br>
-                        Chamber of Commerce</h2>
-                    700 E 90 S 
-                    American Fork, UT
-                    84003
+                <h3>Building Dreams</h3>
+                <div class="contacts">
+                    info@dreamhomebuilders.com
+                    <br>
+                    +1(555) 123-4567
+                    <div class="link">
+                        <a href="dreamhomebuilders.com">dreamhomebuilders.com</a>
+                    </div>
+                    <div class="spotlight-banner">
+                        <img src="../chamber/images/dreamhomes.webp" alt="">
+                    </div>
                 </div>
+            </div>
+        </section>
+    </main>
 
-                info@americanfork.org <br>
-                +(123) 456-7890 </div>
-            <p>
-                &copy;
-                <span id="currentYear"></span>
-                | Matthew T. Knorr | Utah |
-                <span id='lastModified'></span>
-            </p>
-        </footer>
+    <footer>
+        <div class="footer-section">
 
-        <script src="../chamber/scripts/windchill.js"></script>
-        <script src="../scripts/getdates.js"></script>
-        <script src="../chamber/scripts/hamburger.js"></script>
-        <script src="../scripts/darkmode.js"></script>
-    </body>
+            <div class="content">
+                <h2>American Fork <br>
+                    Chamber of Commerce</h2>
+                700 E 90 S
+                American Fork, UT
+                84003
+            </div>
+
+            info@americanfork.org <br>
+            +(123) 456-7890
+        </div>
+        <p>
+            &copy;
+            <span id="currentYear"></span>
+            | Matthew T. Knorr | Utah |
+            <span id='lastModified'></span>
+        </p>
+    </footer>
+
+    <script src="../chamber/scripts/windchill.js"></script>
+    <script src="../scripts/getdates.js"></script>
+    <script src="../chamber/scripts/hamburger.js"></script>
+    <script src="../scripts/darkmode.js"></script>
+    <script src="/chamber/scripts/popup.js"></script>
+</body>
 
 </html>
