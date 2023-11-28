@@ -1,0 +1,312 @@
+/*////////////////////////*/
+/* Styles for mobile mode */
+/*////////////////////////*/
+@media screen and (max-width: 767px) {
+    header {
+        padding: 10px;
+        max-height: 100px;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .logo img {
+        width: 70px;
+    }
+
+    .logo-text {
+        font-size: 10px;
+        width: 200px;
+        margin: 0 auto;
+    }
+
+
+
+    nav {
+        display: none;
+        margin: 0;
+    }
+
+    .push-down {
+        margin-top: 180px;
+    }
+
+    .links {
+        display: block;
+    }
+
+    .link {
+        margin: 0 10px;
+        margin-top: 30px;
+    }
+
+    .link a:hover {
+        transition: 0.75s ease;
+        background-color: var(--secondary-color);
+        border: 1px solid var(--secondary-color);
+    }
+
+    .link a {
+        text-decoration: none;
+        color: var(--accent-color-one);
+        border: var(--accent-color-three) 1px solid;
+        background-color: var(--accent-color-three);
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+    #hamburger-menu {
+        background-color: var(--primary-color);
+        display: block;
+        color: white;
+        border: none;
+        font-size: 1.8rem;
+    }
+
+    .mobile-menu {
+        display: none;
+        position: absolute;
+        top: 9%;
+        left: 0;
+        width: 100%;
+        background-color: var(--accent-color-three);
+        text-align: center;
+        height: 18%;
+    }
+
+    .social-links {
+        display: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .social-links a {
+        display: none;
+    }
+
+    .mobile-menu.show-menu {
+        display: block;
+        height: 220px;
+        margin-top: 50px;
+    }
+
+    .join button {
+        font-size: 18px;
+        padding: 10px 15px;
+        border-radius: 5px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        margin-top: 80px;
+        text-decoration: none;
+    }
+
+
+    .banner {
+        height: 200px;
+        max-width: 100%;
+    }
+
+    .events-weather-container {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .events {
+        width: 90%;
+        padding: 20px;
+        border-radius: 15px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .weather {
+        width: 90%;
+        padding: 20px;
+        border-radius: 15px;
+        margin: 0 auto;
+    }
+
+    .spotlights {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .card-one,
+    .card-two,
+    .card-three {
+        width: 93%;
+        padding: 15px;
+    }
+
+    .contacts .link {
+        text-decoration: underline;
+    }
+
+    .image-gallery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 80%;
+
+    }
+
+    .image-gallery img {
+        max-width: 100%;
+        margin-left: 90px;
+    }
+
+    .free,
+    .bronze,
+    .silver,
+    .gold {
+        display: none;
+    }
+
+    .thankyou-container h2 {
+        font-size: 20px;
+    }
+
+    .thankyou-container p {
+        color: var(--accent-color-two);
+        font-size: 20px;
+    }
+
+    .thankyou-container p {
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+    .grid-container {
+        grid-gap: 5px;
+        padding: 10px;
+    }
+
+    .grid-container .message {
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .grid-container .visit p {
+        font-size: 12px;
+        margin-top: 25px;
+    }
+
+    .sidebar {
+        grid-gap: 10px;
+    }
+
+    .event-box {
+        width: 100px;
+        max-width: 100%;
+        margin: 0 auto;
+        font-size: 13px;
+        padding: 5px;
+    }
+
+    .event-box img {
+        width: 50px;
+    }
+
+    .image-gallery {
+        width: 250px;
+    }
+
+    .image-gallery img {
+        margin-left: 0px;
+    }
+
+    footer {
+        padding: 10px 0;
+    }
+
+    footer .left h1 {
+        font-size: 12px;
+    }
+
+    footer img {
+        width: 60px;
+    }
+}
+
+/*//////////////////////*/
+/* Tablet Media queries */
+/*//////////////////////*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .logo {
+        margin-left: 0px;
+    }
+
+    .logo img {
+        max-height: 80px;
+    }
+
+    .link {
+        margin: 5px;
+    }
+
+    .link a {
+        margin: 0px;
+        padding: 8px;
+    }
+
+    #hamburger-menu {
+        background-color: var(--primary-color);
+        display: block;
+        color: white;
+        border: none;
+        font-size: 2.25rem;
+    }
+
+    .mobile-menu {
+        display: none;
+        position: absolute;
+        top: 12.5%;
+        right: 2%;
+        text-align: center;
+        height: 0%;
+    }
+
+    .mobile-menu.show-menu {
+        display: block;
+        margin-top: 30px;
+    }
+
+    nav {
+        display: none;
+    }
+
+
+
+    .image-gallery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 80%;
+        margin-left: 0;
+    }
+
+    .image-gallery img {
+        max-width: 80%;
+
+    }
+
+
+    .event-box {
+        margin-bottom: 100px;
+    }
+
+
+    .free,
+    .bronze,
+    .silver,
+    .gold {
+        max-width: 80%;
+        font-size: 13px;
+    }
+
+}
