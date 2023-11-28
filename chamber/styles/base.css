@@ -15,7 +15,7 @@ body {
     padding: 0;
     font-family: "Roboto", sans-serif;
     color: white;
-    background-color:#000724;
+    background-color: #000724;
 }
 
 header {
@@ -223,7 +223,7 @@ nav {
     gap: 20px;
 }
 
-.spotlight-banner img{
+.spotlight-banner img {
     width: 80%;
 }
 
@@ -269,7 +269,7 @@ nav {
     text-decoration: none;
     color: #007BFF;
     margin: 0 auto;
-    background-color:var(--accent-color-three);
+    background-color: var(--accent-color-three);
     border: none;
     padding: 8px;
     border-radius: 5px;
@@ -317,11 +317,11 @@ nav {
 }
 
 #weatherEmoji {
-    font-size: 1em; 
+    font-size: 1em;
 }
 
 #time {
-    font-size: 1.5em; 
+    font-size: 1.5em;
 }
 
 /*////////////////*/
@@ -384,7 +384,7 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
-    
+
 }
 
 .image-gallery img {
@@ -516,7 +516,7 @@ output {
 .silver,
 .gold {
     width: 100%;
-    max-width: calc(60% - 20px); 
+    max-width: calc(60% - 20px);
     margin-bottom: 20px;
     padding: 20px;
     box-sizing: border-box;
@@ -527,22 +527,22 @@ output {
 
 .free {
     background-color: #9ed56b;
-    color: #333; 
+    color: #333;
 }
 
 .bronze {
     background-color: #d08c5c;
-    color: #333; 
+    color: #333;
 }
 
 .silver {
     background-color: #b1b1b1;
-    color: #333; 
+    color: #333;
 }
 
 .gold {
     background-color: #e3cd5e;
-    color: #333; 
+    color: #333;
 }
 
 .membership-header,
@@ -573,10 +573,12 @@ output {
 #cards {
     margin-top: 20px;
 }
+
 #members.list-view {
-    grid-template-columns: 1fr; 
-    gap: 10px; 
+    grid-template-columns: 1fr;
+    gap: 10px;
 }
+
 #members {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -648,12 +650,13 @@ output {
 .thankyou-body {
     background-color: var(--accent-color-three);
     display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      margin: 0;
-    
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+
 }
+
 .thankyou-container {
     background-color: var(--secondary-color);
 
@@ -692,7 +695,7 @@ footer {
 @media (min-width: 769px) {
     #members {
         grid-template-columns: repeat(4, 1fr);
-        
+
     }
 }
 
@@ -719,7 +722,7 @@ footer {
         margin: 0 auto;
     }
 
-    
+
 
     nav {
         display: none;
@@ -858,6 +861,16 @@ footer {
         margin-left: 90px;
     }
 
+    .free,
+    .bronze,
+    .silver,
+    .gold {
+       display: none;
+    }
+
+
+
+
     footer {
         padding: 10px 0;
     }
@@ -936,6 +949,15 @@ footer {
 
     .event-box {
         margin-bottom: 100px;
+    }
+
+
+    .free,
+    .bronze,
+    .silver,
+    .gold {
+       max-width: 80%;
+        font-size: 13px;
     }
 
 }
