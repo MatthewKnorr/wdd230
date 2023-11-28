@@ -868,6 +868,19 @@ footer {
        display: none;
     }
 
+    .thankyou-container h2 {
+        font-size: 20px;
+    }
+
+    .thankyou-container p {
+    color: var(--accent-color-two);
+    font-size: 20px;
+}
+
+.thankyou-container p {
+    font-size: 15px;
+    text-decoration:none ;
+}
 
 
 
