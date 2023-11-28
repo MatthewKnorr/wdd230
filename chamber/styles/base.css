@@ -788,7 +788,7 @@ footer {
 
     .mobile-menu.show-menu {
         display: block;
-        height: 200px;
+        height: 220px;
         margin-top: 50px;
     }
 
@@ -882,7 +882,43 @@ footer {
     text-decoration:none ;
 }
 
+.grid-container {
+    grid-gap: 5px;
+    padding: 10px;
+}
 
+.grid-container .message {
+    font-size: 15px;
+    padding: 5px;
+}
+
+.grid-container .visit p{
+    font-size: 12px;
+    margin-top: 25px;
+}
+
+.sidebar {
+    grid-gap: 10px;
+}
+
+.event-box {
+    width: 100px;
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 13px;
+    padding: 5px;
+}  
+
+.event-box img {
+    width: 50px;
+}
+.image-gallery {
+    width: 250px;
+}
+
+.image-gallery img{
+    margin-left: 0px;
+}
 
     footer {
         padding: 10px 0;
