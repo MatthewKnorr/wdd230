@@ -370,7 +370,6 @@ nav {
 }
 
 .event-box {
-
     background-color: var(--accent-color-three);
     padding: 15px;
     border-radius: 5px;
@@ -865,7 +864,7 @@ footer {
     .bronze,
     .silver,
     .gold {
-       display: none;
+        display: none;
     }
 
     .thankyou-container h2 {
@@ -873,52 +872,53 @@ footer {
     }
 
     .thankyou-container p {
-    color: var(--accent-color-two);
-    font-size: 20px;
-}
+        color: var(--accent-color-two);
+        font-size: 20px;
+    }
 
-.thankyou-container p {
-    font-size: 15px;
-    text-decoration:none ;
-}
+    .thankyou-container p {
+        font-size: 15px;
+        text-decoration: none;
+    }
 
-.grid-container {
-    grid-gap: 5px;
-    padding: 10px;
-}
+    .grid-container {
+        grid-gap: 5px;
+        padding: 10px;
+    }
 
-.grid-container .message {
-    font-size: 15px;
-    padding: 5px;
-}
+    .grid-container .message {
+        font-size: 15px;
+        padding: 5px;
+    }
 
-.grid-container .visit p{
-    font-size: 12px;
-    margin-top: 25px;
-}
+    .grid-container .visit p {
+        font-size: 12px;
+        margin-top: 25px;
+    }
 
-.sidebar {
-    grid-gap: 10px;
-}
+    .sidebar {
+        grid-gap: 10px;
+    }
 
-.event-box {
-    width: 100px;
-    max-width: 100%;
-    margin: 0 auto;
-    font-size: 13px;
-    padding: 5px;
-}  
+    .event-box {
+        width: 100px;
+        max-width: 100%;
+        margin: 0 auto;
+        font-size: 13px;
+        padding: 5px;
+    }
 
-.event-box img {
-    width: 50px;
-}
-.image-gallery {
-    width: 250px;
-}
+    .event-box img {
+        width: 50px;
+    }
 
-.image-gallery img{
-    margin-left: 0px;
-}
+    .image-gallery {
+        width: 250px;
+    }
+
+    .image-gallery img {
+        margin-left: 0px;
+    }
 
     footer {
         padding: 10px 0;
@@ -1005,7 +1005,7 @@ footer {
     .bronze,
     .silver,
     .gold {
-       max-width: 80%;
+        max-width: 80%;
         font-size: 13px;
     }
 

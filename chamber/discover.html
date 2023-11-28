@@ -1,194 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Matthew Knorr">
-        <meta name="description" content="Explore insights, events, and growth opportunities on the Chamber's Discover Page.">
-        <title>American Fork Chamber of Commerce | Discover Page</title>
-        <meta property="og:title" content="Discover Chanber of Commerce">
-        <meta property="og:type" content="website">
-        <meta property="og:image"
-            content="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/oky3qpcy0dsevuehoi3v/american-fork">
-        <meta property="og:url"
-            content="https://matthewknorr.github.io/wdd230/chamber/">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Matthew Knorr">
+    <meta name="description"
+        content="Explore insights, events, and growth opportunities on the Chamber's Discover Page.">
+    <title>American Fork Chamber of Commerce | Discover Page</title>
+    <meta property="og:title" content="Discover Chanber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/oky3qpcy0dsevuehoi3v/american-fork">
+    <meta property="og:url" content="https://matthewknorr.github.io/wdd230/chamber/">
 
-        <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-        <link rel="stylesheet" href="styles/base.css">
-        <link rel="stylesheet" href="styles/medium.css">
-        <link rel="stylesheet" href="styles/larger.css">
-        <link rel="stylesheet" href="styles/normalize.css">
-    </head>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+</head>
 
-    <body>
-        <header>
-            <div class="logo">
-                <img src="../chamber/images/americanfork.webp"
-                    alt="American Fork Logo">
-                <div class="logo-text">
-                    <h1>American Fork <br> Chamber of Commerce </h1>
-
-                </div>
-            </div>
-            <div class="social-links">
-                <a href="https://www.facebook.com/afchamber/" class="facebook">
-                    <img src="../chamber/images/facebook.webp"
-                        alt="Facebook icon">
-                </a>
-                <a
-                    href="https://www.linkedin.com/company/american-fork-chamber-of-commerce/"
-                    class="linkedin">
-                    <img src="../chamber/images/linkedin.webp"
-                        alt="Linkedin icon">
-                </a>
-            </div>
-            <button id="darkModeButton">
-                🌑
-            </button>
-            <button id="hamburger-menu">☰</button>
-            <div id="mobile-menu" class="mobile-menu">
-                <div class="links">
-                    <div class="link">
-                        <a href="../chamber/index.html">Home</a>
-                    </div>
-                    <div class="link">
-                        <a href="../chamber/discover.html">Discover</a>
-                    </div>
-                    <div class="link">
-                        <a href="../chamber/directory.html">Directory</a>
-                    </div>
-                    <div class="link">
-                        <a href="../chamber/join.html">Join</a>
-                    </div>
-                </div>
-            </div>
-
-            <nav>
-                <div class="links">
-                    <div class="link">
-                        <a href="../chamber/index.html">Home</a>
-                    </div>
-                    <div class="link">
-                        <a href="../chamber/discover.html">Discover</a>
-                    </div>
-                    <div class="link">
-                        <a href="../chamber/directory.html">Directory</a>
-                    </div>
-                    <div class="link">
-                        <a href="../chamber/join.html">Join</a>
-                    </div>
-                </div>
-            </nav>
-        </header>
-
-        <main class="grid-container">
-
-            <div class="sidebar">
-                <div class="message">
-                    <p id="welcome-message">Loading...</p>
-                </div>
-
-                <div class="visit">
-                    <p id="last-visited-time"></p>
-                </div>
-
-                <div class="event-box">
-                    <h3>Trick-or-Treat</h3>
-                    <img
-                        src="https://chamberorganizer.com/afchamber/photos/alpine_main_street_trick_or_treat-01_09052023134707.JPG"
-                        alt="Trick or Treat Banner" loading="lazy">
-                    <p>
-                        Join us on October 30, 2023, from 4:00 PM to 6:00 PM on
-                        Main Street for a spooktacular evening of
-                        trick-or-treating!
-                    </p>
-                </div>
-                <div class="event-box">
-                    <h3>Halloween on Main</h3>
-                    <img
-                        src="https://chamberorganizer.com/afchamber/photos/American_Fork_Halloween_on_Main_2023-01_09052023134743.JPG"
-                        alt="Halloween Event Banner" loading="lazy">
-                    <p>
-                        Join us on October 31, 2023, from 4:00 PM to 6:00 PM on Main Street for a spooktacular Halloween celebration.
-                    </p>
-                </div>
-                <div class="event-box">
-                    <h3>Annual Bowling</h3>
-                    <img
-                        src="https://chamberorganizer.com/afchamber/photos/november_bowling_and_lunch_2023-01_10052023145649.JPG"
-                        alt="Bowling and Networking Luncheon Banner "
-                        loading="lazy">
-                    <p>
-                        Join us on November 1, 2023, at Jack&Jill's Lanes from 11:30 AM to 1:00 PM for a fun-filled Annual Bowling and Networking Luncheon.
-                    </p>
-                </div>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../chamber/images/americanfork.webp" alt="American Fork Logo">
+            <div class="logo-text">
+                <h1>American Fork <br> Chamber of Commerce </h1>
 
             </div>
-            <div class="image-gallery">
-                <img
-                    src="https://freeplay.imgix.net/gym-images-dev/backgrounds/f2c8aba253a2009c98e85b53fa0435af.jpg?auto=compress%2C%20enhance%2C%20format&h=1000&w=1600&ixlib=js-2.2.1"
-                    alt="Recreation Center"
-                    loading="lazy"
-                    data-caption="Exterior of the Recreation Center">
-                
-                <img
-                    src="https://www.foxhollowutah.com/images/slideshows/banner_1.jpg"
-                    alt="Fox Hollow"
-                    loading="lazy"
-                    data-caption="Scenic view of Fox Hollow">
-                
-                <img
-                    src="https://phataxeutah.com/wp-content/uploads/2022/04/bullseye2.jpg"
-                    alt="Phat Axe Throwing"
-                    loading="lazy"
-                    data-caption="Bullseye at Phat Axe Throwing">
-                    <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Lehi_Roller_Mills_-_Flickr_-_brewbooks.jpg/1920px-Lehi_Roller_Mills_-_Flickr_-_brewbooks.jpg"
-                    alt="Lehi Roller Mills"
-                    loading="lazy"
-                    data-caption="Lehi Roller Mills: A Century of Tradition">
-                <img
-                    src="https://media.timeout.com/images/105871324/750/422/image.jpg"
-                    alt="Cuddles Cat Lounge"
-                    loading="lazy"
-                    data-caption="Relaxing at Cuddles Cat Lounge">                
-                <img
-                    src="https://scontent.fslc3-2.fna.fbcdn.net/v/t39.30808-6/293039540_542670577644604_3732601039780624896_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=25LjRU0AehYAX_T6Knb&_nc_ht=scontent.fslc3-2.fna&oh=00_AfBr67KXWTn0rcfPsHE038wNqBdWc0PZ9myVnULNmwHvRA&oe=656191DC"
-                    alt="The Towne Hub"
-                    loading="lazy"
-                    data-caption="The Towne Hub: A Hub Cinema's">
-
-            </div>
-        </main>
-
-        <footer>
-            <div class="footer-section">
-
-                <div class="content">
-                    <h2>American Fork <br>
-                        Chamber of Commerce</h2>
-                    700 E 90 S 
-                    American Fork, UT
-                    84003
-                </div>
-
-                info@americanfork.org <br>
-                +(123) 456-7890 </div>
-            <p>
-                &copy;
-                <span id="currentYear"></span>
-                | Matthew T. Knorr | Utah |
-                <span id='lastModified'></span>
-            </p>
         </div>
-        </footer>
+        <div class="social-links">
+            <a href="https://www.facebook.com/afchamber/" class="facebook">
+                <img src="../chamber/images/facebook.webp" alt="Facebook icon">
+            </a>
+            <a href="https://www.linkedin.com/company/american-fork-chamber-of-commerce/" class="linkedin">
+                <img src="../chamber/images/linkedin.webp" alt="Linkedin icon">
+            </a>
+        </div>
+        <button id="darkModeButton">
+            🌑
+        </button>
+        <button id="hamburger-menu">☰</button>
+        <div id="mobile-menu" class="mobile-menu">
+            <div class="links">
+                <div class="link">
+                    <a href="../chamber/index.html">Home</a>
+                </div>
+                <div class="link">
+                    <a href="../chamber/discover.html">Discover</a>
+                </div>
+                <div class="link">
+                    <a href="../chamber/directory.html">Directory</a>
+                </div>
+                <div class="link">
+                    <a href="../chamber/join.html">Join</a>
+                </div>
+            </div>
+        </div>
 
-        <script src="../chamber/scripts/visitmessage.js"></script>
-        <script src="../scripts/getdates.js"></script>
-        <script src="../chamber/scripts/hamburger.js"></script>
-        <script src="../scripts/darkmode.js"></script>
-    </body>
+        <nav>
+            <div class="links">
+                <div class="link">
+                    <a href="../chamber/index.html">Home</a>
+                </div>
+                <div class="link">
+                    <a href="../chamber/discover.html">Discover</a>
+                </div>
+                <div class="link">
+                    <a href="../chamber/directory.html">Directory</a>
+                </div>
+                <div class="link">
+                    <a href="../chamber/join.html">Join</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="grid-container">
+
+        <div class="sidebar">
+            <div class="message">
+                <p id="welcome-message">Loading...</p>
+            </div>
+
+            <div class="visit">
+                <p id="last-visited-time"></p>
+            </div>
+
+            <div class="event-box">
+                <h3>Trick-or-Treat</h3>
+                <img src="https://chamberorganizer.com/afchamber/photos/alpine_main_street_trick_or_treat-01_09052023134707.JPG"
+                    alt="Trick or Treat Banner" loading="lazy">
+                <p>
+                    Join us on October 30, 2023, from 4:00 PM to 6:00 PM on
+                    Main Street for a spooktacular evening of
+                    trick-or-treating!
+                </p>
+            </div>
+            <div class="event-box">
+                <h3>Halloween on Main</h3>
+                <img src="https://chamberorganizer.com/afchamber/photos/American_Fork_Halloween_on_Main_2023-01_09052023134743.JPG"
+                    alt="Halloween Event Banner" loading="lazy">
+                <p>
+                    Join us on October 31, 2023, from 4:00 PM to 6:00 PM on Main Street for a spooktacular Halloween
+                    celebration.
+                </p>
+            </div>
+            <div class="event-box">
+                <h3>Annual Bowling</h3>
+                <img src="https://chamberorganizer.com/afchamber/photos/november_bowling_and_lunch_2023-01_10052023145649.JPG"
+                    alt="Bowling and Networking Luncheon Banner " loading="lazy">
+                <p>
+                    Join us on November 1, 2023, at Jack&Jill's Lanes from 11:30 AM to 1:00 PM for a fun-filled Annual
+                    Bowling and Networking Luncheon.
+                </p>
+            </div>
+
+        </div>
+        <div class="image-gallery">
+            <img src="https://freeplay.imgix.net/gym-images-dev/backgrounds/f2c8aba253a2009c98e85b53fa0435af.jpg?auto=compress%2C%20enhance%2C%20format&h=1000&w=1600&ixlib=js-2.2.1"
+                alt="Recreation Center" loading="lazy" data-caption="Exterior of the Recreation Center">
+
+            <img src="https://www.foxhollowutah.com/images/slideshows/banner_1.jpg" alt="Fox Hollow" loading="lazy"
+                data-caption="Scenic view of Fox Hollow">
+
+            <img src="https://phataxeutah.com/wp-content/uploads/2022/04/bullseye2.jpg" alt="Phat Axe Throwing"
+                loading="lazy" data-caption="Bullseye at Phat Axe Throwing">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Lehi_Roller_Mills_-_Flickr_-_brewbooks.jpg/1920px-Lehi_Roller_Mills_-_Flickr_-_brewbooks.jpg"
+                alt="Lehi Roller Mills" loading="lazy" data-caption="Lehi Roller Mills: A Century of Tradition">
+            <img src="https://media.timeout.com/images/105871324/750/422/image.jpg" alt="Cuddles Cat Lounge"
+                loading="lazy" data-caption="Relaxing at Cuddles Cat Lounge">
+            <img src="https://scontent.fslc3-2.fna.fbcdn.net/v/t39.30808-6/293039540_542670577644604_3732601039780624896_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=25LjRU0AehYAX_T6Knb&_nc_ht=scontent.fslc3-2.fna&oh=00_AfBr67KXWTn0rcfPsHE038wNqBdWc0PZ9myVnULNmwHvRA&oe=656191DC"
+                alt="The Towne Hub" loading="lazy" data-caption="The Towne Hub: A Hub Cinema's">
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-section">
+
+            <div class="content">
+                <h2>American Fork <br>
+                    Chamber of Commerce</h2>
+                700 E 90 S
+                American Fork, UT
+                84003
+            </div>
+
+            info@americanfork.org <br>
+            +(123) 456-7890
+        </div>
+        <p>
+            &copy;
+            <span id="currentYear"></span>
+            | Matthew T. Knorr | Utah |
+            <span id='lastModified'></span>
+        </p>
+        </div>
+    </footer>
+
+    <script src="../chamber/scripts/visitmessage.js"></script>
+    <script src="../scripts/getdates.js"></script>
+    <script src="../chamber/scripts/hamburger.js"></script>
+    <script src="../scripts/darkmode.js"></script>
+</body>
 
 </html>
