@@ -76,6 +76,16 @@
             "title": "Weather Fetch API"
           }
         ]
+      }, 
+      {
+        "lesson": "13",
+        "links": [
+
+          {
+            "url": "../wdd230/final-project/index.html",
+            "title": "Final Project home page"
+          }
+        ]
       }
     ]
   }

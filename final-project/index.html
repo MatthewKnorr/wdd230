@@ -3,34 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Final WDD230 Page</title>
+    <title>Country Information</title>
 </head>
 <body>
-    <header>
-        <section>
-            <div class="header">
-                <h1>Hello World</h1>
-            </div>
-            <img src="logo" alt="Logo Image" class="logo">
-        </section>
-        <section class="links">
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-    </section>
-    </header>
-    <main>
-        <h3>Worlds Country's</h3>
-        <section>
-            Continent One
-        </section>
-        <section>
-            Continent One
-        </section>
-    </main>
-    <footer>
-        <p>Mathew Knorr</p>
-    </footer>
+    <label for="countryInput">Enter a country:</label>
+    <input type="text" id="countryInput">
+    <button onclick="searchCountry()">Search</button>
+
+    <div id="result"></div>
+
+
+    <script src="scripts/script.js"></script>
+    <script src="../final-project/scripts/script.js"></script>
 </body>
 </html>
