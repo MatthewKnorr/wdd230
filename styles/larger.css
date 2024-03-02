@@ -1,0 +1,53 @@
+@media screen and (min-width: 768px) {
+    nav {
+        text-align: center;
+        background-color: var(--darkness);
+        display: flex;
+        justify-content: center;
+    }
+
+    nav a {
+        display: inline-block;
+        background-color: var(--darkness);
+        color: white;
+        text-decoration: none;
+        transition: background-color 0.3s ease, border-top 0.3s ease; 
+        font-size: 23px;
+        padding: 10px 20px;
+        margin: 0 10px; 
+        position: relative; 
+    }
+
+    nav a:hover {
+        background-color: var(--secondary-color); 
+        border-top: 2px solid white; 
+    }
+
+    nav a::before { 
+        content: '';
+        position: absolute;
+        width: calc(100% + 4px) ;
+        height: 1px; 
+        background-color: white;
+        top: 0;
+        left: 0;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.3s ease;
+    }
+
+    nav a:hover::before {
+        transform: scaleX(1);
+    }
+
+    header img {
+        max-width: 100px; 
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+        margin-right: 10px; 
+    }
+
+    header span {
+        margin-left: 10px; 
+        font-size: 25px;
+    }
+}
