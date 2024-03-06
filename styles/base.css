@@ -50,16 +50,16 @@ header span {
     list-style: none;
     margin: 0 auto;
     max-width: 760px;
-    display: none; /* Hide the navigation by default */
+    display: none; 
 }
 
 .navigation.show {
-    display: block; /* Display the navigation when the .show class is applied */
+    display: block; 
 }
 
 .navigation li {
-    display: block; /* Display list items as block elements */
-    margin-bottom: 10px; /* Add some spacing between each list item */
+    display: block; 
+    margin-bottom: 10px; 
 }
 
 
