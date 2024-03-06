@@ -109,13 +109,12 @@ main {
 .large img, .small img {
     flex: 1;
     max-width: 50%;
-    transition: transform 0.6s ease, opacity 0.3s ease;
+    
 }
 
-.large img:hover,
-.small img:hover {
-    transform: scale(1.2); 
-    
+.large img,
+.small img {
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Add transition effect */
 }
 
 

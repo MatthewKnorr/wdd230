@@ -1,7 +1,8 @@
 :root {
-    --primary-color: white;
+    --primary-color: #fff;
     --secondary-color: #1d4d72;
     --darkness: #000000;
+
 }
 
 
@@ -69,11 +70,63 @@ nav a:hover::before {
     transform: scaleX(1);
 }
 
+main h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 26px;
+    font-weight: 500;
+}
+
 main h2 {
     text-align: center;
     margin: 0;
     font-weight: 400;
     position: relative;
+    background-color: var(--secondary-color);
+}
+
+.card {
+    background-color: var(--primary-color); 
+    border-radius: 10px; 
+    box-shadow: 5px 5px 10px black;
+    width: 90%; 
+    margin: 0 auto; 
+}
+
+.card h2 {
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card ul {
+    padding-bottom: 5px;
+}
+
+li {
+    margin-bottom: 10px; /* Adjust margin as needed for spacing between list items */
+}
+
+
+li a {
+    text-decoration: underline; 
+    transition: color 1s ease; 
+}
+
+li a:hover {
+    color: #800080 ; /* Change color on hover */
+}
+
+.info {
+    text-align: center;
+    margin: 40px; 
+}
+
+.weather {
+    font-size: 18px; 
+    line-height: 1.5;
+    padding-bottom: 40px;
 }
 
 footer {

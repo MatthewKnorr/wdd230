@@ -50,4 +50,15 @@
         margin-left: 10px; 
         font-size: 25px;
     }
+
+    .cards {
+        display: flex;
+        justify-content: space-between; /* Distribute cards evenly with gaps */
+        flex-wrap: wrap; /* Allow cards to wrap onto the next line */
+    }
+
+    .card {
+        flex-basis: calc(50% - 20px); /* Set the width of each card to 50% with a little gap */
+        margin-bottom: 20px; /* Add a little space between rows */
+    }
 }
