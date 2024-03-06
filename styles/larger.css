@@ -1,43 +1,34 @@
 @media screen and (min-width: 768px) {
     nav {
         text-align: center;
-        background-color: var(--darkness);
         display: flex;
         justify-content: center;
     }
 
     nav a {
         display: inline-block;
-        background-color: var(--darkness);
-        color: white;
         text-decoration: none;
-        transition: background-color 0.3s ease, border-top 0.3s ease; 
         font-size: 23px;
         padding: 10px 20px;
         margin: 0 10px; 
         position: relative; 
     }
+    
 
-    nav a:hover {
-        background-color: var(--secondary-color); 
-        border-top: 2px solid white; 
+
+    .navigation {
+        display: flex;
+        justify-content: center; 
     }
-
-    nav a::before { 
-        content: '';
-        position: absolute;
-        width: calc(100% + 4px) ;
-        height: 1px; 
-        background-color: white;
-        top: 0;
-        left: 0;
-        transform: scaleX(0);
-        transform-origin: left;
-        transition: transform 0.3s ease;
+    .navigation li {
+        display: inline-block;
+        margin-right: 20px;
     }
-
-    nav a:hover::before {
-        transform: scaleX(1);
+    .navigation a {
+        text-align: center;
+    }
+    #menu {
+        display: none;
     }
 
     header img {
@@ -53,12 +44,12 @@
 
     .cards {
         display: flex;
-        justify-content: space-between; /* Distribute cards evenly with gaps */
-        flex-wrap: wrap; /* Allow cards to wrap onto the next line */
+        justify-content: space-between; 
+        flex-wrap: wrap; 
     }
 
     .card {
-        flex-basis: calc(50% - 20px); /* Set the width of each card to 50% with a little gap */
-        margin-bottom: 20px; /* Add a little space between rows */
+        flex-basis: calc(50% - 20px); 
+        margin-bottom: 20px; 
     }
 }

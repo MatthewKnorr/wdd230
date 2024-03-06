@@ -32,9 +32,42 @@ header span {
     font-size: 25px;
 }
 
+#menu {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: .5rem .75rem;
+    color: #000;
+    text-align: right;
+}
+
+#menu::before {
+    content: "≡";
+}
+
+.navigation {
+    list-style: none;
+    margin: 0 auto;
+    max-width: 760px;
+    display: none; /* Hide the navigation by default */
+}
+
+.navigation.show {
+    display: block; /* Display the navigation when the .show class is applied */
+}
+
+.navigation li {
+    display: block; /* Display list items as block elements */
+    margin-bottom: 10px; /* Add some spacing between each list item */
+}
+
+
+
 nav {
     text-align: center;
     background-color: var(--darkness);
+    margin: 0 auto;
 }
 
 nav a {
@@ -50,25 +83,9 @@ nav a {
 
 nav a:hover {
     background-color: var(--secondary-color); 
-    border-top: 2px solid white; 
 }
 
-nav a::before { 
-    content: '';
-    position: absolute;
-    width: calc(100% + 4px) ;
-    height: 1px; 
-    background-color: white;
-    top: 0;
-    left: 0;
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 0.3s ease;
-}
 
-nav a:hover::before {
-    transform: scaleX(1);
-}
 
 main h1 {
     text-align: center;
@@ -104,17 +121,17 @@ main h2 {
     padding-bottom: 5px;
 }
 
-li {
+.card li {
     margin-bottom: 10px; /* Adjust margin as needed for spacing between list items */
 }
 
 
-li a {
+.card li a {
     text-decoration: underline; 
     transition: color 1s ease; 
 }
 
-li a:hover {
+.card li a:hover {
     color: #800080 ; /* Change color on hover */
 }
 
@@ -149,3 +166,5 @@ footer #lastModified {
     margin-top: 5px;
     color: #d2ec0b;
 }
+
+
