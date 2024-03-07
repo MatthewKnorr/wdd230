@@ -9,12 +9,8 @@
     <meta name="author" content="Matthew Knorrs">
 
     <link rel="stylesheet" href="..styles/normalize.css">
-    
     <link rel="stylesheet" href="../styles/base.css">
-    
     <link rel="stylesheet" href="../styles/larger.css">
-    
-
 </head>
 
 <body>
@@ -22,20 +18,20 @@
         <img src="images/profile.webp" alt="Matthew Knorr's profile image">
         <span>Matthew Knorr</span>
     </header>
-    
+
     <nav>
-        <ul class="navigation">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Chamber</a></li>
-        <li><a href="/week01/chamber-site-plan.html">Site Plan</a></li>
-        <li><a href="#">Form</a></li>
-    </ul>
+        <div class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="/week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="#">Form</a></li>
+        </div>
     </nav>
     <a id="menu" href="#"></a>
     <main>
         <h1>WDD 230: Web Frontend Development</h1>
         <div class="cards">
-            <hr style="width: 92%;">
+            <hr class="hr">
             <section class="card">
                 <h2>Learning Activities</h2>
                 <ul>
@@ -63,24 +59,22 @@
                 <h2>Information</h2>
                 <div class="info">
                     <div class="weather">
-                        
+
                         Utah, United States <br>
-                        🌞  ##F° - Current Weather <br>
+                        🌞 ##F° - Current Weather <br>
                         Page Visits: ##
-                         
+
                     </div>
                 </div>
-                
-                
-
             </section>
         </div>
     </main>
     <footer>
-        <p>&copy;Matthew Knorr United States of America </p>
-
+        <p id="footerInfo"></p>
     </footer>
 
     <script src="../scripts/hamurger.js"></script>
+    <script src="../scripts/getDates.js"></script>
 </body>
+
 </html>

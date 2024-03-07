@@ -1,6 +1,8 @@
 :root {
-    --primary-color: #fff;
-    --secondary-color: #1d4d72;
+    --primary-color: #606c38;
+    --secondary-color: #fff;
+    --accent-color: #0a5770;
+    --accent-two: #dda15e;
     --darkness: #000000;
 
 }
@@ -12,8 +14,8 @@ body {
 }
 
 header {
-    background-color: var(--secondary-color);
-    color: white;
+    background-color: var(--accent-two);
+    color: var(--secondary-color);
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -32,29 +34,24 @@ header span {
     font-size: 25px;
 }
 
-.hr {
-    width: 92%;
-}
-
 #menu {
     display: block;
     font-size: 2rem;
     font-weight: 700;
     text-decoration: none;
     padding: .5rem .75rem;
-    color: #000;
+    color: var(--darkness);
     text-align: right;
 }
 
 #menu::before {
     content: "≡";
 }
-
 .rotate {
     transform: rotate(90deg);
-    transform-origin: center center; 
     transition: transform 0.3s ease;
 }
+
 
 .navigation {
     list-style: none;
@@ -71,88 +68,24 @@ header span {
     display: block; 
 }
 
-
-
 nav {
     text-align: center;
-    background-color: var(--darkness);
+    background-color: var(--accent-color);
     margin: 0 auto;
 }
 
 nav a {
     display: block;
-    background-color: var(--darkness);
-    color: white;
+    color: var(--secondary-color);
     text-decoration: none;
     transition: background-color 0.3s ease, border-top 0.3s ease; 
-    font-size: 23px;
-    padding: 10px;
-    position: relative; 
+    font-size: 23px;  
+    line-height: 40px;
+    
 }
 
-nav a:hover {
-    background-color: var(--secondary-color); 
-}
-
-
-
-main h1 {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 26px;
-    font-weight: 500;
-}
-
-main h2 {
-    text-align: center;
-    margin: 0;
-    font-weight: 400;
-    position: relative;
-    background-color: var(--secondary-color);
-}
-
-.card {
+nav a:active {
     background-color: var(--primary-color); 
-    border-radius: 10px; 
-    box-shadow: 5px 5px 10px black;
-    width: 90%; 
-    margin: 0 auto; 
-}
-
-.card h2 {
-    color: #fff;
-    padding: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-.card ul {
-    padding-bottom: 5px;
-}
-
-.card li {
-    margin-bottom: 10px;
-}
-
-
-.card li a {
-    text-decoration: underline; 
-    transition: color 1s ease; 
-}
-
-.card li a:hover {
-    color: #800080 ;
-}
-
-.info {
-    text-align: center;
-    margin: 40px; 
-}
-
-.weather {
-    font-size: 18px; 
-    line-height: 1.5;
-    padding-bottom: 40px;
 }
 
 footer {
