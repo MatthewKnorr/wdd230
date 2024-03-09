@@ -61,6 +61,10 @@ header span {
     content: "≡";
 }
 
+#menu.open::before { 
+    content: "×"; 
+}
+
 .rotate {
     transform: rotate(90deg);
     transform-origin: center center; 
