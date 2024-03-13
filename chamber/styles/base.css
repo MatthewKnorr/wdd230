@@ -109,7 +109,7 @@ nav a:active {
 
 .cta-link {
     position: absolute;
-    top: calc(25% + 10px); /* Adjust to 1/4 from the top of the image */
+    top: calc(25% + 10px); 
     left: 50%;
     transform: translateX(-50%);
     padding: 10px 20px;
@@ -140,14 +140,14 @@ nav a:active {
 }
 
 .spotlights-container {
-    display: flex; /* Use flexbox to arrange companies in a row */
-    justify-content: space-between; /* Distribute space between companies */
+    display: flex; 
+    justify-content: space-between; 
 }
 
 .company {
-    width: calc(33.33% - 10px); /* Adjust width to fit three companies in a row */
+    width: calc(33.33% - 10px); 
     padding: 10px;
-    border: 1px solid #ccc; /* Add border or other styles */
+    border: 1px solid #ccc;
     box-sizing: border-box;
 }
 
@@ -155,21 +155,7 @@ footer {
     font-size: 20px;
     text-align: center;
     padding: 20px 0;
-    background-color: var(--secondary-color);
+    background-color: var(--darkness);
     color: white;
 }
-
-footer p:first-child {
-    margin: 0;
-}
-
-footer #country {
-    font-weight: bold;
-}
-
-footer #lastModified {
-    margin-top: 5px;
-    color: #d2ec0b;
-}
-
 

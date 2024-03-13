@@ -1,0 +1,33 @@
+/* Centering the content */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Styling the image container */
+.image-container {
+    text-align: center;
+}
+
+/* Styling the images */
+.image-container img {
+    display: block;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 600px;
+}
+
+/* Sticky footer */
+footer {
+    background-color: black;
+    padding: 10px 5%;
+    border-radius: 10px;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
