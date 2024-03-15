@@ -1,3 +1,25 @@
+// Function to get the current year
+function getCurrentYear() {
+    return new Date().getFullYear();
+}
+
+// Function to format the last modified date
+function formatLastModified() {
+    return document.lastModified;
+}
+
+// Function to update the footer with dynamic dates
+function updateFooterDates() {
+    // Get the element for the footer
+    var footerParagraph = document.getElementById('footerInfo');
+    
+    // Get the current year
+    var currentYear = getCurrentYear();
+    
+    // Update the content of the element with dynamic dates
+    footerParagraph.textContent = '© ' + currentYear + ' Matthew Knorr - Last Modified: ' + formatLastModified();
+}
+
 async function fetchWeatherData(town) {
     const apiKey = '2bf7f61f22e3a3bdf0c96cff27a40e7c'; 
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${town}&appid=${apiKey}&units=imperial`;
@@ -29,8 +51,6 @@ async function getWeather() {
     }
 }
 
-window.onload = getWeather;
-
 function getWeatherEmoji(weatherMain) {
     const emojiMap = {
         'Clear': '☀️',
@@ -52,3 +72,9 @@ function getWeatherEmoji(weatherMain) {
 
     return emojiMap[weatherMain] || '';
 }
+
+// Call the function to update footer dates when the page loads
+window.onload = function() {
+    updateFooterDates();
+    getWeather();
+};

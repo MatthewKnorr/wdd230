@@ -1,14 +1,21 @@
-const modeButton = document.querySelector("#mode");
-const main = document.querySelector("main");
+const darkModeButton = document.getElementById("darkModeButton");
+    const body = document.body;
 
-modeButton.addEventListener("click", () => {
-	if (modeButton.textContent.includes("🌒")) {
-		main.style.background = "#000";
-		main.style.color = "#fff";
-		modeButton.textContent = "🌔";
-	} else {
-		main.style.background = "#eee";
-		main.style.color = "#000";
-		modeButton.textContent = "🌒";
-	}
-});
+    const isDarkMode = localStorage.getItem("darkMode") === "true";
+    if (isDarkMode) {
+        body.classList.add("dark-mode");
+        darkModeButton.textContent = "🌑";
+    }
+
+    darkModeButton.addEventListener("click", () => {
+        body.classList.toggle("dark-mode");
+
+        // Toggle  emoji
+        if (body.classList.contains("dark-mode")) {
+            darkModeButton.textContent = "☀️";
+            localStorage.setItem("darkMode", "false"); // Save light mode 
+        } else {
+            darkModeButton.textContent = "🌑";
+            localStorage.setItem("darkMode", "true"); // Save dark mode 
+        }
+    });

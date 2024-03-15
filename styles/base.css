@@ -11,6 +11,12 @@ body {
     margin: 0 auto;
 }
 
+body.dark-mode {
+    background-color: #333333;
+    border: 1px solid black;
+}
+
+
 header {
     background-color: var(--secondary-color);
     color: white;
@@ -65,11 +71,15 @@ header span {
     content: "×"; 
 }
 
-.rotate {
-    transform: rotate(90deg);
-    transform-origin: center center; 
-    transition: transform 0.3s ease;
+#darkModeButton {
+    display: block;
+    text-decoration: none;
+    position: relative;
+    text-align: right;
+    padding: .5rem .75rem;
+    margin-top: -40px;
 }
+
 
 .navigation {
     list-style: none;
@@ -85,8 +95,6 @@ header span {
 .navigation li {
     display: block; 
 }
-
-
 
 nav {
     text-align: center;
@@ -109,7 +117,36 @@ nav a:hover {
     background-color: var(--secondary-color); 
 }
 
+.hero {
+    margin: 10px auto;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, .1);
+    height: 300px;
+}
 
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.herolabel {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background: radial-gradient(#fff, #4D5B97);
+    border: 1px solid rgba(0, 0, 0, .75);
+    padding: 1.5rem;
+    box-shadow: 0 0 3rem #fff;
+    opacity: 0.75;
+}
+
+.herolabel p {
+    margin: 0;
+    padding: .25rem;
+    font-size: 1.5rem;
+    font-family:Arial,sans-serif;
+}
 
 main h1 {
     text-align: center;
@@ -177,18 +214,4 @@ footer {
     background-color: var(--secondary-color);
     color: white;
 }
-
-footer p:first-child {
-    margin: 0;
-}
-
-footer #country {
-    font-weight: bold;
-}
-
-footer #lastModified {
-    margin-top: 5px;
-    color: #d2ec0b;
-}
-
 

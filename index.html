@@ -37,28 +37,38 @@
         </div>
     </nav>
     <a id="menu" href="#"></a>
-    <div id="mode"></div>
+    <a id="darkModeButton" href="#">🌑</a>
     <main>
         <h1>WDD 230: Web Frontend Development</h1>
-        <!-- <picture>
-            <source srcset="images/temple-small.webp" media="(max-width: 400px)" loading="lazy">
-            <source srcset="images/temple-large.webp" media="(max-width: 960px) and (orientation: landscape)" loading="lazy">
-            <img src="images/temple-medium.webp" alt="Temple Image" loading="lazy">
-          </picture> -->
-          
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-small.webp" media="(max-width: 400px)" loading="lazy">
+                <source srcset="images/hero-medium.webp" media="(max-width: 960px) and (orientation: landscape)"
+                    loading="lazy">
+                <img src="images/hero-large.webp" alt="Temple Image" loading="lazy">
+            </picture>
+            <div class="herolabel">
+                <p>Mount Timpanogos Utah</p>
+            </div>
+        </div>
+
         <div class="cards">
             <hr class="hr">
             <section class="card">
                 <h2>Learning Activities</h2>
                 <ul>
                     <li>
-                        <p>Week 1: <a href="/week01/holygrail.html"> Holy Grail</a> | <a href="/week01/media-query.html"> Media Queries</a></p>
+                        <p>Week 1: <a href="/week01/holygrail.html"> Holy Grail</a> | <a
+                                href="/week01/media-query.html"> Media Queries</a></p>
                     </li>
                     <li>
-                        <p>Week 2: <a href="/week02/bom.html">BOM Chapter</a> | <a href="/week02/design.html">Design Grid</a></p>
+                        <p>Week 2: <a href="/week02/bom.html">BOM Chapter</a> | <a href="/week02/design.html">Design
+                                Grid</a></p>
                     </li>
                     <li>
-                        <p>Week 3: <a href="/week03/lazyload.html">Lazy Loading</a> | <a href="/week03/responsive-images.html">Responsive Images</a> | <a href="/week03/bom.html">Web Storage</a></p>
+                        <p>Week 3: <a href="/week03/lazyload.html">Lazy Loading</a> | <a
+                                href="/week03/responsive-images.html">Responsive Images</a> | <a
+                                href="/week03/bom.html">Web Storage</a></p>
                     </li>
                     <li>
                         <p>Week 4: <a href="#">Learning Activity 4</a></p>
@@ -77,7 +87,11 @@
                     <div class="weather">
                         <div id="weather-info"></div>
 
+                        <div class="visit-counter">
+                            <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
+                        </div>
                     </div>
+
                 </div>
             </section>
         </div>
@@ -85,11 +99,13 @@
     <footer>
         <p id="footerInfo"></p>
     </footer>
+    
 
     <script src="scripts/hamurger.js"></script>
     <script src="scripts/darkMode.js"></script>
-    <script src="scripts/getDates.js"></script>
-    <script src="scripts/openWeather.js"></script>
+    <script src="scripts/pageCounter.js"></script>
+    <script src="scripts/weatherAndDates.js"></script>
+    
 </body>
 
 </html>
