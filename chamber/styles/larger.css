@@ -52,7 +52,25 @@
         font-size: 25px;
     }
 
-    
 
+
+
+    /* //////// */
+    /* DISCOVER */
+    /* //////// */
+    .main-content {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+
+    .image-container {
+        margin-right: 100px;
+        width: 450px; 
+    }
+
+    .image-container img {
+        border-radius: 20px;
+    }
     
 }

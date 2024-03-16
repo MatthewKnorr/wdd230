@@ -41,41 +41,39 @@
             <li><a href="#">Join</a></li>
         </div>
     </nav>
-    <a id="darkMode" href="#"></a>
+    <a id="darkModeButton" href="#">🌑</a>
     <a id="menu" href="#"></a>
     
-    <main>
-        <div class="sidebar">
-            <div class="events">
-                <div class="event">
-                    <p>Event One</p>
+        <main class="grid-container">
+            <aside class="sidebar">
+                <div>
+                    <h2>Sidebar Heading 1</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quaerat cum mollitia numquam veritatis quis facilis hic cumque, quae ut fugit delectus, voluptatum ducimus?</p>
                 </div>
-                <div class="event">
-                    <p>Event Two</p>
+                <div>
+                    <h2>Sidebar Heading 2</h2>
+                    <img src="https://picsum.photos/200" alt="Small Image" loading="lazy">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab saepe officiis, modi doloribus voluptas repellendus quibusdam voluptates molestias repellat a voluptatum, ipsa, eos pariatur sunt ex maiores expedita dicta impedit.</p>
                 </div>
+                <div>
+                    <h2>Calendar</h2>
+                    <!-- Calendar content goes here -->
+                </div>
+            </aside>
+            <div class="main-content">
+               <!-- Javascript is handling the display here -->
             </div>
-            <div class="calendar">
-                <p>The Calendar</p>
-            </div>
-        </div>
-        <div class="image-gallery">
-            <img src="" alt="Local Town Shop">
-            <img src="" alt="Local Town Shop">
-            <img src="" alt="Local Town Shop">
-            <img src="" alt="Local Town Shop">
-            <img src="" alt="Local Town Shop">
-            <img src="" alt="Local Town Shop">
-        </div>
+        </main>
         
-    </main>
+        
     <footer>
         <p id="footerInfo"></p>
     </footer>
 
     <script src="/chamber/scripts/hamurger.js"></script>
-    <script src="/chamber/scripts/getDates.js"></script>
-    <script src="/chamber/scripts/openWeather.js"></script>
+    <script src="/chamber/scripts/weatherAndDates.js"></script>
     <script src="/chamber/scripts/darkMode.js"></script>
+    <script src="/chamber/scripts/dynamicImage.js"></script>
 </body>
 
 </html>

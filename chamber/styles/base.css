@@ -104,6 +104,9 @@ nav a {
 nav a:active {
     background-color: var(--primary-color); 
 }
+/* //////// */
+/* Homepage */
+/* //////// */
 
 .hero {
     position: relative;
@@ -165,11 +168,74 @@ nav a:active {
     box-sizing: border-box;
 }
 
+/* //////// */
+/* DISCOVER */
+/* //////// */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% auto;
+    gap: 20px;
+    padding: 20px;
+}
+
+.sidebar {
+    background-color: var(--accent-two);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;    
+}
+
+.sidebar h2 {
+    margin-bottom: 5px;
+}
+
+.sidebar img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10%;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container {
+    width: 400px;
+    height: auto;
+    margin-bottom: 20px; 
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.image-container:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.image-container img {
+    max-width: 100%; 
+    height: auto; 
+    object-fit: cover;   
+}
+
+.image-container:hover img {
+    transform: scale(1.1);
+    transition: transform ease-in-out 0.3s;
+}
+
+/* ////// */
+/* FOOTER */
+/* ////// */
+
 footer {
     font-size: 20px;
     text-align: center;
     padding: 20px 0;
-    /* background-color: var(--primary-color); */
+    background-color: var(--primary-color);
     color: white;
 }
 
