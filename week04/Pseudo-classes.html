@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-class Fun</title>
+    <style>
+        :root {
+            --bord: 1px solid #777;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        main {
+            margin: 0;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            padding: 0.5rem;
+            width: 760px;
+            background-color: #eee;
+        }
+
+        a:link,
+        a:visited {
+            color: navy;
+        }
+
+        a:hover {
+            color: purple;
+        }
+
+        .datatable {
+            width: 200px;
+            margin-top: 2rem;
+            border: var(--bord);
+        }
+
+        .row {
+            display: grid;
+            grid-template-columns: 100px 100px;
+            align-items: center;
+            text-align: center;
+        }
+
+        .col {
+            padding: 10px;
+            border-top: var(--bord);
+            border-left: var(--bord);
+        }
+
+        .row:last-child .col {
+            border-bottom: var(--bord);
+        }
+
+        .row .col:last-child {
+            border-right: var(--bord);
+        }
+
+        .row:last-child {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h2>Pseudo-class Fun</h2>
+    <main>
+        <p>Anchor Tag: <a href="https://churchofjesuschrist.org" target="_blank">The Church of Jesus Christ of Latter-day Saints</a></p>
+        <div class="datatable">
+            <div class="row">
+                <div class="col">1-1</div>
+                <div class="col">1-2</div>
+            </div>
+            <div class="row">
+                <div class="col">2-1</div>
+                <div class="col">2-2</div>
+            </div>
+            <div class="row">
+                <div class="col">3-1</div>
+                <div class="col">3-2</div>
+            </div>
+        </div>
+        <p>The borders on this "table"'s cells (.col) should not double up on each other.</p>
+    </main>
+</body>
+</html>

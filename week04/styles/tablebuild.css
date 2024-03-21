@@ -1,0 +1,48 @@
+body {
+	font-family: "EB Garamond", Arial, serif;
+}
+
+table {
+	margin: 10px auto;
+	border: thin solid black;
+	border-collapse: collapse;
+}
+
+caption {
+  padding: 10px;
+  caption-side: bottom;
+	color: black;
+	font-size: .85rem;
+}
+
+tr:first-child th {
+    background-color: black;
+    color: white;
+}
+tr:nth-child(even) th:first-child{
+    background-color: black;
+}
+
+th, td {
+	padding: 7px 15px;
+}
+
+th {
+	background-color: #333333;
+    color: white;
+    border: 1px solid black;
+	font-size: larger;
+}
+
+td {
+	text-align: center;
+    border: 2px solid #EAEAEA;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: white;
+    color: black;
+}
+tbody tr:nth-child(even) {
+	background-color: #EEEEEE;
+}
