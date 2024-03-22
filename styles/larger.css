@@ -52,4 +52,11 @@
         flex-basis: calc(50% - 20px); 
         margin-bottom: 20px; 
     }
+
+    /* FORM */
+    .form {
+        width: 80%;
+        align-items: center;
+    }
+
 }

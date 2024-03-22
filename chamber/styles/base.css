@@ -68,6 +68,7 @@ header h1 {
     text-align: right;
     padding: .5rem .75rem;
     margin-top: -40px;
+    width: 50px;
 }
 
 .navigation {
