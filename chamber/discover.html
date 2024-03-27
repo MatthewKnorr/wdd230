@@ -46,9 +46,8 @@
     
         <main class="grid-container">
             <aside class="sidebar">
-                <div>
-                        <!-- ADD A VISIT COUNTER WITH   -->
-                        <!-- 1 of 3 possible) based upon the number of days between visits and uses the last visit date which is stored using localStorage. -->
+                <div id="visitCounter">
+                    <!-- VISIT COUNTER-->
                 </div>
                 <div>
                     <h2>Sidebar Heading 1</h2>
@@ -61,8 +60,23 @@
                 </div>
                 <div>
                     <h2>Calendar</h2>
-                    <!-- Calendar content goes here -->
-                    <!-- FINISH THE CALENDAR -->
+                    <div class="calendar">
+                        <div class="header">
+                            <button id="prevMonth">&lt;</button>
+                            <h3 id="currentMonthYear"></h3>
+                            <button id="nextMonth">&gt;</button>
+                        </div>
+                        <div class="days">
+                            <div class="day">Sun</div>
+                            <div class="day">Mon</div>
+                            <div class="day">Tue</div>
+                            <div class="day">Wed</div>
+                            <div class="day">Thu</div>
+                            <div class="day">Fri</div>
+                            <div class="day">Sat</div>
+                        </div>
+                        <div class="dates" id="dates"></div>
+                    </div>
                 </div>
             </aside>
             <div class="main-content">
@@ -93,8 +107,10 @@
     </footer>
 
     <script src="../chamber/scripts/hamurger.js"></script>
-    <script src="../chamber/scripts/weatherAndDates.js"></script>
+    <!-- <script src="../chamber/scripts/weatherAndDates.js"></script> -->
     <script src="../chamber/scripts/darkMode.js"></script>
+    <script src="/chamber/scripts/visit.js "></script>
+    <script src="/chamber/scripts/calendar.js "></script>
 </body>
 
 </html>

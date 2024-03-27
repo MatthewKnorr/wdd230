@@ -228,6 +228,79 @@ nav a:active {
     transition: transform ease-in-out 0.3s;
 }
 
+#visitCounter {
+    margin-bottom: 20px;
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.calendar {
+    max-width: 300px;
+    margin: 20px auto;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.calendar > .header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#prevMonth,
+#nextMonth {
+    background-color: transparent;
+    border: none;
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#prevMonth:hover,
+#nextMonth:hover {
+    color: var(--accent-color);
+}
+
+.days {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+    padding: 5px 0;
+}
+
+.day {
+    width: calc(100% / 7);
+    text-align: center;
+    padding: 5px;
+}
+
+.dates {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    padding: 5px;
+}
+
+.date-item {
+    text-align: center;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.today {
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+}
+
+
 /* //// */
 /* FORM */
 /* //// */
@@ -235,7 +308,7 @@ nav a:active {
 .form {
     max-width: 600px;
     margin: 2rem auto;
-    padding: 0 2rem;  /* Increased left padding */
+    padding: 0 2rem;  
 }
 
 .form fieldset {
@@ -254,7 +327,6 @@ nav a:active {
     padding-top: 1rem;
     color: #555;
     text-align: left;
-    padding-left: rem;  /* Added left padding */
 }
 
 .form input[type="text"],
