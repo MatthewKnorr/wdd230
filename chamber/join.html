@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Matthew Knorr">
     <meta name="description" content="Connecting Businesses and Communities">
-    <title>American Fork Chamber of Commerce</title>
+    <title>Join | American Fork Chamber of Commerce</title>
     <meta property="og:title" content="Chamber of Commerce">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://universe.byu.edu/wp-content/uploads/2019/01/1810-70-0014.jpg">
@@ -43,26 +43,57 @@
     </nav>
     <a id="darkModeButton" href="#">🌑</a>
     <a id="menu" href="#"></a>
-    <main>  
-        <form method="get" action="thanks.html" class="form">
+    <main>
+        <form method="get" action="thankyou.html" class="form">
             <fieldset>
-                <legend>Query Matthew</legend>
-                <label for="username">Username* <input type="text" id="username" name="username" required></label>
-                <label for="password">Password* <input type="password" id="password" name="password"
-                        pattern="[A-Za-z0-9]{8,}" title="Password must be at least 8 characters long and alphanumeric"
-                        required></label>
-                <label for="confirmPassword">Password repeated for confirmation* <input type="password"
-                        id="confirmPassword" name="confirmPassword" required></label>
-                <label for="email">Email* <input type="email" id="email" name="email"
-                        pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address"
-                        required></label>
-                <label for="rating">Page Rating <input type="range" id="rating" name="rating" min="1" max="10" value="5"
-                        oninput="ratingOutput.value = rating.value"></label>
-                <output id="ratingOutput">5</output>
-                <label for="description">Description* <textarea id="description" name="description" rows="4" cols="50"
-                        placeholder="Enter your Queries here" required></textarea></label>
+                <legend>Join the Chamber</legend>
+
+                <label for="firstName">Applicant's First Name* 
+                    <input type="text" id="firstName" name="firstName" required>
+                </label>
+
+                <label for="lastName">Applicant's Last Name* 
+                    <input type="text" id="lastName" name="lastName" required>
+                </label>
+
+                <label for="title">Applicant's Title/Position* 
+                    <input type="text" id="title" name="title" pattern="[a-zA-Z\s\-]{7,}" required>
+                </label>
+
+                <label for="email">Email* 
+                    <input type="email" id="email" name="email" placeholder="example@example.com" required>
+                </label>
+
+
+                <label for="mobile">Mobile Phone Number* 
+                    <input type="tel" id="mobile" name="mobile" required>
+                </label>
+
+
+                <label for="businessName">Business/Organization's Name* 
+                    <input type="text" id="businessName" name="businessName" required>
+                </label>
+
+                
+                <label for="membershipLevel">Membership Level*
+                    <select id="membershipLevel" name="membershipLevel" required>
+                        <option value="NP Membership">NP Membership</option>
+                        <option value="Bronze Membership">Bronze Membership</option>
+                        <option value="Silver Membership">Silver Membership</option>
+                        <option value="Gold Membership">Gold Membership</option>
+                    </select>
+                </label>
+
+                
+                <label for="description">Business/Organization's Description 
+                    <textarea id="description" name="description" rows="4" cols="50"></textarea>
+                </label>
+
+                
+                <input type="hidden" id="timestamp" name="timestamp" value="">
+
             </fieldset>
-            <input type="submit" value="Propose My Ideas!">
+            <input type="submit" value="Submit Application">
         </form>
     </main>
         <footer>
