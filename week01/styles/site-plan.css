@@ -1,9 +1,12 @@
 :root {
-    --primary-color: #606c38;
+    --primary-color: #92140c;
     --secondary-color: #fff;
     --accent-color: #0a5770;
     --accent-two: #dda15e;
+    --darkness: #000000;
+
 }
+
 
 body {
     font-family: "Montserrat", sans-serif;
@@ -15,8 +18,8 @@ body {
 h1 {
     text-align: center;
     margin: 0;
-    background-color: #606c38;
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     width: 100%;
     padding: 30px 0;
     box-sizing: border-box;
@@ -36,10 +39,10 @@ main {
 }
 
 .card {
-    background-color: #e0e0e0;
+    background-color: var(--secondary-color);
     border: 1px solid #666;
-    color: #283618;
-    box-shadow: 7px 7px 10px #111;
+    color: var(--darkness);
+    box-shadow: 7px 7px 10px var(--darkness);
     border-radius: 5px;
     padding: 20px;
     font-weight: 500;
@@ -47,7 +50,7 @@ main {
 
 .card h2 {
     font-weight: 600;
-    color: #0a5770;
+    color: var(--accent-color);
 }
 
 .card p {
@@ -113,8 +116,8 @@ main {
 }
 
 .large img,
-.small img {
-    transition: transform 0.3s ease, opacity 0.3s ease; /* Add transition effect */
+.small img{
+    transition: transform 0.3s ease, opacity 0.3s ease; 
 }
 
 
