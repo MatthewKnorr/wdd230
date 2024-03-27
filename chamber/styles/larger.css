@@ -58,6 +58,11 @@
     /* //////// */
     /* DISCOVER */
     /* //////// */
+    .grid-container {
+        grid-template-columns: 25% auto;
+    }
+
+
     .main-content {
         flex-direction: row;
         flex-wrap: wrap;

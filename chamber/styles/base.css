@@ -175,8 +175,8 @@ nav a:active {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 30% auto;
-    gap: 20px;
+    grid-template-columns: 45% auto;
+    gap: 15px;
     padding: 20px;
 }
 
@@ -204,7 +204,7 @@ nav a:active {
 }
 
 .image-container {
-    width: 400px;
+    width: 250px;
     height: auto;
     margin-bottom: 20px; 
     border-radius: 20px;
