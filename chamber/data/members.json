@@ -14,7 +14,7 @@
             "address": "2111 McDonald's Dr, Oak Brook, IL 60523",
             "phone": "1-800-244-6227",
             "website": "https://www.mcdonalds.com/us/en-us.html",
-            "image": "https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/favicon.ico",
+            "image": "https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/arches-logo_108x108.jpg",
             "membershipLevel": "Silver",
             "otherInfo": "Founded in 1955"
         },
@@ -41,7 +41,7 @@
             "address": "9876 Megaplex St, Salt Lake City, UT 84121",
             "phone": "1-801-304-4537",
             "website": "https://www.cinemark.com/",
-            "image": "https://www.cinemark.com/favicon-64.ico",
+            "image": "https://1000logos.net/wp-content/uploads/2022/11/Cinemark-Logo.png",
             "membershipLevel": "Gold",
             "otherInfo": "Founded in 1999"
         },
@@ -50,7 +50,7 @@
             "address": "345 Cookie Ln, Provo, UT 84606",
             "phone": "1-801-555-1212",
             "website": "https://cravecookies.com/",
-            "image": "https://cravecookies.com/cdn/shop/files/favicon-32x32_32x32.png?v=1688104786",
+            "image": "https://cravecookies.com/cdn/shop/files/Color_logo_-_no_background_2.png?v=1686501108&width=500",
             "membershipLevel": "Silver",
             "otherInfo": "Founded in 2004"
         },
@@ -59,7 +59,16 @@
             "address": "123 Software Ave, Pleasant Grove, UT 84062",
             "phone": "1-801-123-4567",
             "website": "https://www.testoutce.com",
-            "image": "https://testoutce.com/cdn/shop/t/12/assets/favicon.ico?v=14310557829765678371526942325",
+            "image": "https://testoutce.com/cdn/shop/t/12/assets/testout-website-logo-small.png?v=120223152666109596581624567206",
+            "membershipLevel": "Bronze",
+            "otherInfo": "Founded in 2008"
+        },
+        {
+            "name": "Danny’s Food Truck",
+            "address": "123 Software Ave, Pleasant Grove, UT 84062",
+            "phone": "1-801-123-4567",
+            "website": "https://www.facebook.com/p/Dannys-Food-Truck-100057798483779/",
+            "image": "https://scontent.fslc3-1.fna.fbcdn.net/v/t39.30808-6/252310788_4380178435411844_5323405015891193821_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=4y8jkI2QnqAAX-Qk6Xh&_nc_ht=scontent.fslc3-1.fna&oh=00_AfCLnGvQnJzJHvemPDU0jOQIq3eb3C8iICNb4xBxq3RXwA&oe=6609A629",
             "membershipLevel": "Bronze",
             "otherInfo": "Founded in 2008"
         }

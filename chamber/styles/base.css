@@ -380,30 +380,67 @@ nav a:active {
 /* ///////// */
 /* Directory */
 /* ///////// */
+.member-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
 .member-item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #eee;
+    text-align: center;
+    height: 100%; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;
+    margin-top: 20px; /* Space on the top */
+    margin-bottom: 20px; /* Space on the bottom */
+    
 }
 
 .member-item img {
-  width: 100px;
-  height: 100px;
-  margin-right: 20px;
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px #333;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
-.member-details {
-  flex-grow: 1;
+.member-details > * {
+    margin: 0.5rem 0;
+    background-color: ghostwhite;
 }
 
-.member-details h3 {
-  margin-top: 0;
+.list .member-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.member-details p {
-  margin: 5px 0;
+.list .member-item img {
+    display: none;
 }
 
+.list .member-details {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+.list .member-details p {
+    text-align: center;
+}
+
+.member-level {
+    font-weight: 700;
+}
 /* ////// */
 /* FOOTER */
 /* ////// */
