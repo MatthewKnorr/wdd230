@@ -4,8 +4,8 @@
         "name": "Chick-fil-a",
         "address": "123 Main St, CityA, StateA",
         "phone": "123-456-7890",
-        "website": "https://www.companya.com",
-        "image": "https://picsum.photos/200",
+        "website": "https://www.chick-fil-a.com/",
+        "image": "blob:https://www.chick-fil-a.com/77d10d6a-1a7b-470c-b049-cfe8b6b9ee21",
         "membershipLevel": "Gold",
         "otherInfo": "Founded in 2000"
       },
@@ -14,7 +14,7 @@
         "address": "456 Elm St, CityB, StateB",
         "phone": "987-654-3210",
         "website": "https://www.companyb.com",
-        "image": "https://picsum.photos/201",
+        "image": "https://www.cinemark.com/favicon-64.ico",
         "membershipLevel": "Silver",
         "otherInfo": "Founded in 2005"
       },
@@ -37,11 +37,11 @@
         "otherInfo": "Founded in 2015"
       },
       {
-        "name": "Megaplex Theatres",
+        "name": "Cinemark Theatres",
         "address": "202 Cedar St, CityE, StateE",
         "phone": "777-888-9999",
         "website": "https://www.companye.com",
-        "image": "https://picsum.photos/204",
+        "image": "https://www.cinemark.com/favicon-64.ico",
         "membershipLevel": "Gold",
         "otherInfo": "Founded in 2002"
       },
