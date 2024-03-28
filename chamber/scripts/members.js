@@ -2,7 +2,7 @@
 const baseURL = "https://matthewknorr.github.io/wdd230/chamber/";
 
 // Define membersURL
-const membersURL = "https://matthewknorr.github.io/wdd230/chamber/data/members.json";
+const membersURL = `${baseURL}data/members.json`;
 
 // Asynchronous function to get the members data
 async function getMembers() {
@@ -22,19 +22,21 @@ async function getMembers() {
 }
 
 // Function to display the member information
-function displayMembers(members) {
+async function displayMembers(members) {
   const membersList = document.getElementById("membersList");
   
   // Clear the existing content
   membersList.innerHTML = "";
   
   // Loop through each member
-  members.forEach(member => {
+  for (let i = 0; i < members.length; i++) {
+    const member = members[i];
     const memberItem = document.createElement("div");
     memberItem.className = "member-item";
     
+    // Create member image
     const memberImage = document.createElement("img");
-    memberImage.src = `${baseURL}images/${member.image}`;
+    memberImage.src = member.image;
     memberImage.alt = `${member.name} Logo`;
     memberItem.appendChild(memberImage);
     
@@ -71,7 +73,7 @@ function displayMembers(members) {
     memberItem.appendChild(memberDetails);
     
     membersList.appendChild(memberItem);
-  });
+  }
 }
 
 // Call the getMembers function to fetch and display the members

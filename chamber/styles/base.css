@@ -381,29 +381,28 @@ nav a:active {
 /* Directory */
 /* ///////// */
 .member-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  .member-item img {
-    width: 100px;
-    height: 100px;
-    margin-right: 20px;
-  }
-  
-  .member-details {
-    flex-grow: 1;
-  }
-  
-  .member-details h3 {
-    margin-top: 0;
-  }
-  
-  .member-details p {
-    margin: 5px 0;
-  }
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
 
+.member-item img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.member-details {
+  flex-grow: 1;
+}
+
+.member-details h3 {
+  margin-top: 0;
+}
+
+.member-details p {
+  margin: 5px 0;
+}
 
 /* ////// */
 /* FOOTER */

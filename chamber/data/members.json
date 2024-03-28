@@ -1,16 +1,16 @@
 {
     "members": [
       {
-        "name": "Chick Fil A",
+        "name": "Chick-fil-a",
         "address": "123 Main St, CityA, StateA",
         "phone": "123-456-7890",
         "website": "https://www.companya.com",
-        "image": "https://scontent.fslc3-1.fna.fbcdn.net/v/t39.30808-6/337256851_763450888673569_2182799878399714315_n.png?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=IfxpydJP3DwAX9JEIoZ&_nc_ht=scontent.fslc3-1.fna&oh=00_AfDgG6gdnF4h6f_Rd8pzS1iJEynhzBjdjQPLM_OHljheqA&oe=660967EE",
+        "image": "https://picsum.photos/200",
         "membershipLevel": "Gold",
         "otherInfo": "Founded in 2000"
       },
       {
-        "name": "Company B",
+        "name": "McDonald's",
         "address": "456 Elm St, CityB, StateB",
         "phone": "987-654-3210",
         "website": "https://www.companyb.com",
@@ -19,7 +19,7 @@
         "otherInfo": "Founded in 2005"
       },
       {
-        "name": "Company C",
+        "name": "Starbucks",
         "address": "789 Oak St, CityC, StateC",
         "phone": "111-222-3333",
         "website": "https://www.companyc.com",
@@ -28,7 +28,7 @@
         "otherInfo": "Founded in 2010"
       },
       {
-        "name": "Company D",
+        "name": "Teton Toys",
         "address": "101 Pine St, CityD, StateD",
         "phone": "444-555-6666",
         "website": "https://www.companyd.com",
@@ -37,7 +37,7 @@
         "otherInfo": "Founded in 2015"
       },
       {
-        "name": "Company E",
+        "name": "Megaplex Theatres",
         "address": "202 Cedar St, CityE, StateE",
         "phone": "777-888-9999",
         "website": "https://www.companye.com",
@@ -46,7 +46,7 @@
         "otherInfo": "Founded in 2002"
       },
       {
-        "name": "Company F",
+        "name": "Crave Cookies",
         "address": "303 Maple St, CityF, StateF",
         "phone": "000-111-2222",
         "website": "https://www.companyf.com",
@@ -55,7 +55,7 @@
         "otherInfo": "Founded in 2007"
       },
       {
-        "name": "Company G",
+        "name": "Test Out Ce",
         "address": "404 Birch St, CityG, StateG",
         "phone": "333-444-5555",
         "website": "https://www.companyg.com",
