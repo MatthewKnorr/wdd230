@@ -1,11 +1,11 @@
 {
     "members": [
       {
-        "name": "Company A",
+        "name": "Chick Fil A",
         "address": "123 Main St, CityA, StateA",
         "phone": "123-456-7890",
         "website": "https://www.companya.com",
-        "image": "https://picsum.photos/200",
+        "image": "https://scontent.fslc3-1.fna.fbcdn.net/v/t39.30808-6/337256851_763450888673569_2182799878399714315_n.png?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=IfxpydJP3DwAX9JEIoZ&_nc_ht=scontent.fslc3-1.fna&oh=00_AfDgG6gdnF4h6f_Rd8pzS1iJEynhzBjdjQPLM_OHljheqA&oe=660967EE",
         "membershipLevel": "Gold",
         "otherInfo": "Founded in 2000"
       },
