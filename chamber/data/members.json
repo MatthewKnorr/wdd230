@@ -1,0 +1,68 @@
+{
+    "members": [
+      {
+        "name": "Company A",
+        "address": "123 Main St, CityA, StateA",
+        "phone": "123-456-7890",
+        "website": "https://www.companya.com",
+        "image": "companyA.jpg",
+        "membershipLevel": "Gold",
+        "otherInfo": "Founded in 2000"
+      },
+      {
+        "name": "Company B",
+        "address": "456 Elm St, CityB, StateB",
+        "phone": "987-654-3210",
+        "website": "https://www.companyb.com",
+        "image": "companyB.jpg",
+        "membershipLevel": "Silver",
+        "otherInfo": "Founded in 2005"
+      },
+      {
+        "name": "Company C",
+        "address": "789 Oak St, CityC, StateC",
+        "phone": "111-222-3333",
+        "website": "https://www.companyc.com",
+        "image": "companyC.jpg",
+        "membershipLevel": "Bronze",
+        "otherInfo": "Founded in 2010"
+      },
+      {
+        "name": "Company D",
+        "address": "101 Pine St, CityD, StateD",
+        "phone": "444-555-6666",
+        "website": "https://www.companyd.com",
+        "image": "companyD.jpg",
+        "membershipLevel": "Platinum",
+        "otherInfo": "Founded in 2015"
+      },
+      {
+        "name": "Company E",
+        "address": "202 Cedar St, CityE, StateE",
+        "phone": "777-888-9999",
+        "website": "https://www.companye.com",
+        "image": "companyE.jpg",
+        "membershipLevel": "Gold",
+        "otherInfo": "Founded in 2002"
+      },
+      {
+        "name": "Company F",
+        "address": "303 Maple St, CityF, StateF",
+        "phone": "000-111-2222",
+        "website": "https://www.companyf.com",
+        "image": "companyF.jpg",
+        "membershipLevel": "Silver",
+        "otherInfo": "Founded in 2007"
+      },
+      {
+        "name": "Company G",
+        "address": "404 Birch St, CityG, StateG",
+        "phone": "333-444-5555",
+        "website": "https://www.companyg.com",
+        "image": "companyG.jpg",
+        "membershipLevel": "Bronze",
+        "otherInfo": "Founded in 2012"
+      }
+    ]
+  }
+  
