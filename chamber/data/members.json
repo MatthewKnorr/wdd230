@@ -1,68 +1,67 @@
 {
     "members": [
-      {
-        "name": "Chick-fil-a",
-        "address": "123 Main St, CityA, StateA",
-        "phone": "123-456-7890",
-        "website": "https://www.chick-fil-a.com/",
-        "image": "blob:https://www.chick-fil-a.com/77d10d6a-1a7b-470c-b049-cfe8b6b9ee21",
-        "membershipLevel": "Gold",
-        "otherInfo": "Founded in 2000"
-      },
-      {
-        "name": "McDonald's",
-        "address": "456 Elm St, CityB, StateB",
-        "phone": "987-654-3210",
-        "website": "https://www.companyb.com",
-        "image": "https://www.cinemark.com/favicon-64.ico",
-        "membershipLevel": "Silver",
-        "otherInfo": "Founded in 2005"
-      },
-      {
-        "name": "Starbucks",
-        "address": "789 Oak St, CityC, StateC",
-        "phone": "111-222-3333",
-        "website": "https://www.companyc.com",
-        "image": "https://picsum.photos/202",
-        "membershipLevel": "Bronze",
-        "otherInfo": "Founded in 2010"
-      },
-      {
-        "name": "Teton Toys",
-        "address": "101 Pine St, CityD, StateD",
-        "phone": "444-555-6666",
-        "website": "https://www.companyd.com",
-        "image": "https://picsum.photos/203",
-        "membershipLevel": "Platinum",
-        "otherInfo": "Founded in 2015"
-      },
-      {
-        "name": "Cinemark Theatres",
-        "address": "202 Cedar St, CityE, StateE",
-        "phone": "777-888-9999",
-        "website": "https://www.companye.com",
-        "image": "https://www.cinemark.com/favicon-64.ico",
-        "membershipLevel": "Gold",
-        "otherInfo": "Founded in 2002"
-      },
-      {
-        "name": "Crave Cookies",
-        "address": "303 Maple St, CityF, StateF",
-        "phone": "000-111-2222",
-        "website": "https://www.companyf.com",
-        "image": "https://picsum.photos/205",
-        "membershipLevel": "Silver",
-        "otherInfo": "Founded in 2007"
-      },
-      {
-        "name": "Test Out Ce",
-        "address": "404 Birch St, CityG, StateG",
-        "phone": "333-444-5555",
-        "website": "https://www.companyg.com",
-        "image": "https://picsum.photos/206",
-        "membershipLevel": "Bronze",
-        "otherInfo": "Founded in 2012"
-      }
+        {
+            "name": "Chick-fil-a",
+            "address": "520 Chick-fil-A Rd, Atlanta, GA 30349",
+            "phone": "1-866-232-2040",
+            "website": "https://www.chick-fil-a.com/",
+            "image": "https://www.chick-fil-a.com/Assets/Theming/apple-touch-icon.png",
+            "membershipLevel": "Gold",
+            "otherInfo": "Founded in 1946"
+        },
+        {
+            "name": "McDonald's",
+            "address": "2111 McDonald's Dr, Oak Brook, IL 60523",
+            "phone": "1-800-244-6227",
+            "website": "https://www.mcdonalds.com/us/en-us.html",
+            "image": "https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/favicon.ico",
+            "membershipLevel": "Silver",
+            "otherInfo": "Founded in 1955"
+        },
+        {
+            "name": "Starbucks",
+            "address": "2401 Utah Ave S, Seattle, WA 98134",
+            "phone": "1-800-782-7282",
+            "website": "https://www.starbucks.com/",
+            "image": "https://www.starbucks.com/next_static/icons/pwa-icon-192.png",
+            "membershipLevel": "Bronze",
+            "otherInfo": "Founded in 1971"
+        },
+        {
+            "name": "Teton Toys",
+            "address": "6201 Pacific St, Rocklin, CA 95677",
+            "phone": "1-800-876-8000",
+            "website": "https://tetontoys.com/",
+            "image": "https://tetontoys.com/wp-content/uploads/2023/07/cropped-Teton-Toys-Logo-192x192.png",
+            "membershipLevel": "Platinum",
+            "otherInfo": "Founded in 1985"
+        },
+        {
+            "name": "Megaplex Theatres",
+            "address": "9876 Megaplex St, Salt Lake City, UT 84121",
+            "phone": "1-801-304-4537",
+            "website": "https://www.cinemark.com/",
+            "image": "https://www.cinemark.com/favicon-64.ico",
+            "membershipLevel": "Gold",
+            "otherInfo": "Founded in 1999"
+        },
+        {
+            "name": "Crave Cookies",
+            "address": "345 Cookie Ln, Provo, UT 84606",
+            "phone": "1-801-555-1212",
+            "website": "https://cravecookies.com/",
+            "image": "https://cravecookies.com/cdn/shop/files/favicon-32x32_32x32.png?v=1688104786",
+            "membershipLevel": "Silver",
+            "otherInfo": "Founded in 2004"
+        },
+        {
+            "name": "Test Out Continuing Education",
+            "address": "123 Software Ave, Pleasant Grove, UT 84062",
+            "phone": "1-801-123-4567",
+            "website": "https://www.testoutce.com",
+            "image": "https://testoutce.com/cdn/shop/t/12/assets/favicon.ico?v=14310557829765678371526942325",
+            "membershipLevel": "Bronze",
+            "otherInfo": "Founded in 2008"
+        }
     ]
-  }
-  
+}
